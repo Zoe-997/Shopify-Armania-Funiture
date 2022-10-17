@@ -3080,11 +3080,36 @@
               "bg_button_hv": "#222222",
               "text_alignment_mobile": "center"
             }
+          },
+          "5dbf5082-e052-45c8-b4ff-54e305525d86": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2.png",
+              "bg_color_content": "#f5f5f5",
+              "box_align": "middle-center",
+              "text_alignment": "center",
+              "image_overlay_opacity": 0,
+              "text_animate": "none",
+              "text_time": 1.5,
+              "heading": "Mini Chair Timeless <br>Ultimate Design",
+              "cl_heading": "#000",
+              "heading_size": "h1",
+              "subheading": "Heirloom goods handcrafted high quality",
+              "cl_subheading": "#000",
+              "button_label": "SHOP IT NOW",
+              "link": "",
+              "cl_text_button": "#000000",
+              "bg_button": "#ffd800",
+              "cl_text_button_hv": "#fff",
+              "bg_button_hv": "#000",
+              "text_alignment_mobile": "center"
+            }
           }
         },
         "block_order": [
           "1664419913d0621eff-0",
-          "1664419913d0621eff-1"
+          "1664419913d0621eff-1",
+          "5dbf5082-e052-45c8-b4ff-54e305525d86"
         ],
         "settings": {
           "layout": "full_bleed",
