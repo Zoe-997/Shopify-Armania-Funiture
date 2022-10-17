@@ -2956,76 +2956,6 @@
           "mobile_pd_bottom": 0
         }
       },
-      "1635914317c69816e8": {
-        "type": "benefit",
-        "blocks": {
-          "3e07263e-ab99-4109-bd97-06ce0c5672c6": {
-            "type": "shipping",
-            "settings": {
-              "icon": "",
-              "title": "FREE DELIVERY",
-              "text": "sed dianm dolor sit amet amet of in"
-            }
-          },
-          "6b255205-5204-44a7-9386-e48fde8eb9df": {
-            "type": "shipping",
-            "settings": {
-              "icon": "",
-              "title": "MONEY-BACK",
-              "text": "sed dianm dolor sit amet amet of in"
-            }
-          },
-          "64cdb4a2-185c-45d2-86b0-10c6705e7828": {
-            "type": "shipping",
-            "settings": {
-              "icon": "icon-help-center",
-              "title": "GENTAL FIT",
-              "text": "sed dianm dolor sit amet amet of in"
-            }
-          }
-        },
-        "block_order": [
-          "3e07263e-ab99-4109-bd97-06ce0c5672c6",
-          "6b255205-5204-44a7-9386-e48fde8eb9df",
-          "64cdb4a2-185c-45d2-86b0-10c6705e7828"
-        ],
-        "settings": {
-          "layout": "custom-width",
-          "title": "Latest Products",
-          "content": "dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam ut labore et dolore magna",
-          "source": "2",
-          "sid_style": "style1",
-          "use-slider": true,
-          "slides-To-Scroll": 3,
-          "visible": 3,
-          "widescreen": 3,
-          "desktop": 3,
-          "laptop": 3,
-          "notebook": 2,
-          "tablet": 2,
-          "landscape": 2,
-          "portrait": 2,
-          "mobile": 1,
-          "rows": 1,
-          "autoplay": false,
-          "speed": "300",
-          "autoplay-Speed": "3000",
-          "arrows": false,
-          "adaptive-Height": false,
-          "dots": false,
-          "infinite": true,
-          "padding": 15,
-          "cl_bg": "#ffffff",
-          "cl_ic": "#fcbe00",
-          "cl_hd": "#222222",
-          "cl_cot": "#666666",
-          "margin_bottom": 75,
-          "padding_top_tablet": 0,
-          "margin_bottom_tablet": 0,
-          "padding_top_mobile": 0,
-          "margin_bottom_mobile": 0
-        }
-      },
       "footer-top": {
         "type": "footer-top",
         "blocks": {
@@ -3199,54 +3129,6 @@
           "margin_bottom_mobile": 0
         }
       },
-      "16645038222c6aa0fc": {
-        "type": "banner_style2",
-        "blocks": {
-          "16645038222c6aa0fc-0": {
-            "type": "banner",
-            "settings": {
-              "btn_title": "DENIM PAIRS",
-              "btn_link": "",
-              "open_link": "_blank"
-            }
-          },
-          "16645038222c6aa0fc-1": {
-            "type": "banner",
-            "settings": {
-              "btn_title": "TRENDING",
-              "btn_link": "",
-              "open_link": "_blank"
-            }
-          },
-          "16645038222c6aa0fc-2": {
-            "type": "banner",
-            "settings": {
-              "btn_title": "LATEST",
-              "btn_link": "",
-              "open_link": "_blank"
-            }
-          }
-        },
-        "block_order": [
-          "16645038222c6aa0fc-0",
-          "16645038222c6aa0fc-1",
-          "16645038222c6aa0fc-2"
-        ],
-        "settings": {
-          "layout": "custom-width",
-          "style": "default",
-          "block_distance": 34,
-          "btn_color": "#111111",
-          "btn_background": "#ffffff",
-          "btn_color_hover": "#ffffff",
-          "btn_background_hover": "#000000",
-          "margin_bottom": 240,
-          "padding_top_tablet": 0,
-          "margin_bottom_tablet": 0,
-          "padding_top_mobile": 0,
-          "margin_bottom_mobile": 0
-        }
-      },
       "fd74af3a-4c5a-4bc6-9e32-a9a38b996e94": {
         "type": "banner_style3",
         "settings": {
@@ -3278,8 +3160,8 @@
         "settings": {
           "layout": "custom-width",
           "cl_bg": "#ffffff",
-          "title": "The Boutique Style Guide",
-          "content": "At vero eos et accusam ut labore et dolore magna",
+          "title": "",
+          "content": "",
           "collection": "women-s",
           "max_count": 24,
           "use_equal_image_height": true,
@@ -3288,7 +3170,7 @@
           "visible": 4,
           "widescreen": 4,
           "desktop": 4,
-          "laptop": 3,
+          "laptop": 4,
           "notebook": 3,
           "tablet": 3,
           "landscape": 2,
@@ -3532,8 +3414,6 @@
     },
     "content_for_index": [
       "1664419913d0621eff",
-      "1635914317c69816e8",
-      "16645038222c6aa0fc",
       "3367ec7d-8d9a-491f-a50f-11059b72538a",
       "fd74af3a-4c5a-4bc6-9e32-a9a38b996e94",
       "c5a046fc-7d2d-43b1-b0e6-3f437e7c0d3d",
