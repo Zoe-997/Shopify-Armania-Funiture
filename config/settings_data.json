@@ -3476,10 +3476,9 @@
           },
           "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-4": {
             "type": "collection",
-            "disabled": true,
             "settings": {
-              "collection": "",
-              "title": "",
+              "collection": "lighting",
+              "title": "Lighting 2",
               "txt_align": "left"
             }
           },
