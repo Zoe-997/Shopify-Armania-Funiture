@@ -3156,70 +3156,6 @@
           "margin_bottom_mobile": 0
         }
       },
-      "fd74af3a-4c5a-4bc6-9e32-a9a38b996e94": {
-        "type": "banner_style3",
-        "settings": {
-          "color": "#111111",
-          "btn_color": "#ffffff",
-          "btn_color_hover": "#000000",
-          "btn_background": "#111111",
-          "btn_background_hover": "#ffffff",
-          "btn_border": "#111111",
-          "btn_border_hover": "#111111",
-          "layout": "custom-width",
-          "align": "initial",
-          "image": "shopify:\/\/shop_images\/banner_3610d79d-7684-47ee-86a1-6feccfdf96c2.png",
-          "heading": "ALL NEW WOMEN <br>COLLECTION RELEASED",
-          "content": "If you want to stay on top of the fashion trends, then you need to shop for the latest and trendiest clothes from WOWEAR. Check out the amazing collection of clothes for you that suit you the best.",
-          "btn_title": "SHOP NOW",
-          "btn_link": "",
-          "btn_title_2": "VIEW ALL",
-          "btn_link_2": "",
-          "open_link": "_blank",
-          "margin_bottom": 235,
-          "padding_top_tablet": 0,
-          "margin_bottom_tablet": 0,
-          "padding_top_mobile": 0,
-          "margin_bottom_mobile": 0
-        }
-      },
-      "3367ec7d-8d9a-491f-a50f-11059b72538a": {
-        "type": "carousel-product",
-        "disabled": true,
-        "settings": {
-          "layout": "container",
-          "cl_bg": "#ffffff",
-          "title": "",
-          "content": "",
-          "collection": "women-s",
-          "max_count": 24,
-          "use_equal_image_height": true,
-          "use-slider": true,
-          "slides-To-Scroll": 1,
-          "visible": 4,
-          "widescreen": 4,
-          "desktop": 4,
-          "laptop": 4,
-          "notebook": 3,
-          "tablet": 3,
-          "landscape": 2,
-          "portrait": 2,
-          "mobile": 1,
-          "rows": 1,
-          "autoplay": false,
-          "speed": "300",
-          "autoplay-Speed": "3000",
-          "arrows": false,
-          "dots": false,
-          "infinite": true,
-          "padding": 15,
-          "margin_bottom": 55,
-          "padding_top_tablet": 0,
-          "margin_bottom_tablet": 0,
-          "padding_top_mobile": 0,
-          "margin_bottom_mobile": 0
-        }
-      },
       "c5a046fc-7d2d-43b1-b0e6-3f437e7c0d3d": {
         "type": "carousel-product",
         "settings": {
@@ -3250,117 +3186,6 @@
           "infinite": true,
           "padding": 15,
           "margin_bottom": 215,
-          "padding_top_tablet": 0,
-          "margin_bottom_tablet": 0,
-          "padding_top_mobile": 0,
-          "margin_bottom_mobile": 0
-        }
-      },
-      "1239a041-ac82-4fca-a9db-be5deb213dd2": {
-        "type": "featured_blog",
-        "settings": {
-          "layout": "custom-width",
-          "cl_bg": "#ffffff",
-          "title": "LATES FROM BLOG",
-          "content": "The freshest and most exciting news",
-          "blog": "news",
-          "show_author": true,
-          "show_categories": false,
-          "show_date": true,
-          "show_content": true,
-          "show_action_btn": false,
-          "use_equal_image_height": true,
-          "image_ratio": "1.5",
-          "use-slider": true,
-          "slides-To-Scroll": 1,
-          "visible": 3,
-          "widescreen": 3,
-          "desktop": 3,
-          "laptop": 3,
-          "notebook": 2,
-          "tablet": 2,
-          "landscape": 2,
-          "portrait": 2,
-          "mobile": 1,
-          "rows": 1,
-          "autoplay": false,
-          "speed": "300",
-          "autoplay-Speed": "3000",
-          "arrows": false,
-          "dots": false,
-          "infinite": false,
-          "padding": 22,
-          "margin_bottom": 110,
-          "padding_top_tablet": 0,
-          "margin_bottom_tablet": 0,
-          "padding_top_mobile": 0,
-          "margin_bottom_mobile": 0
-        }
-      },
-      "556d04c4-9d16-4e66-8632-2accdc8c7915": {
-        "type": "benefit",
-        "blocks": {
-          "d2522e5d-f71e-408e-9bea-756feae131f3": {
-            "type": "shipping",
-            "settings": {
-              "icon": "fa fa-truck",
-              "title": "FREE DELIVERY",
-              "text": "sed dianm dolor sit amet amet of in the produts what are you doing"
-            }
-          },
-          "359ccfe9-b0ba-4a22-8447-711cc4a726c6": {
-            "type": "shipping",
-            "settings": {
-              "icon": "fa fa-truck",
-              "title": "MONEY-BACK",
-              "text": "sed dianm dolor sit amet amet of in the products what are you doing"
-            }
-          },
-          "79f8fd9c-a280-47d2-ac41-9decddf2cd44": {
-            "type": "shipping",
-            "settings": {
-              "icon": "fa fa-truck",
-              "title": "GENTAL FIT",
-              "text": "sed dianm dolor sit amet amet of in the products what are you doing"
-            }
-          }
-        },
-        "block_order": [
-          "d2522e5d-f71e-408e-9bea-756feae131f3",
-          "359ccfe9-b0ba-4a22-8447-711cc4a726c6",
-          "79f8fd9c-a280-47d2-ac41-9decddf2cd44"
-        ],
-        "settings": {
-          "layout": "custom-width",
-          "title": "Why Chose WOWEARS",
-          "content": "dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam ut labore et dolore magna",
-          "source": "2",
-          "sid_style": "style2",
-          "use-slider": true,
-          "slides-To-Scroll": 3,
-          "visible": 3,
-          "widescreen": 3,
-          "desktop": 3,
-          "laptop": 3,
-          "notebook": 2,
-          "tablet": 2,
-          "landscape": 2,
-          "portrait": 2,
-          "mobile": 1,
-          "rows": 1,
-          "autoplay": true,
-          "speed": "300",
-          "autoplay-Speed": "3000",
-          "arrows": false,
-          "adaptive-Height": false,
-          "dots": false,
-          "infinite": true,
-          "padding": 15,
-          "cl_bg": "#ffffff",
-          "cl_ic": "#f26460",
-          "cl_hd": "#111111",
-          "cl_cot": "#888888",
-          "margin_bottom": 60,
           "padding_top_tablet": 0,
           "margin_bottom_tablet": 0,
           "padding_top_mobile": 0,
@@ -3505,9 +3330,9 @@
         "settings": {
           "title": "",
           "sub_title": "",
-          "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
+          "content": "",
           "num_p_qty": false,
-          "sid_style": "style2",
+          "sid_style": "style1",
           "layout": "container",
           "cl_bg": "#ffffff",
           "layout_design": "2",
@@ -3519,7 +3344,7 @@
           "autoplay": true,
           "arrows": true,
           "dots": true,
-          "infinite": false,
+          "infinite": true,
           "mg": "",
           "pd": "",
           "mg_mb": "",
@@ -3530,11 +3355,7 @@
     "content_for_index": [
       "1664419913d0621eff",
       "dc202872-d066-4b47-ba25-ccc7ac7ea24b",
-      "3367ec7d-8d9a-491f-a50f-11059b72538a",
-      "c5a046fc-7d2d-43b1-b0e6-3f437e7c0d3d",
-      "fd74af3a-4c5a-4bc6-9e32-a9a38b996e94",
-      "1239a041-ac82-4fca-a9db-be5deb213dd2",
-      "556d04c4-9d16-4e66-8632-2accdc8c7915"
+      "c5a046fc-7d2d-43b1-b0e6-3f437e7c0d3d"
     ]
   },
   "presets": {
