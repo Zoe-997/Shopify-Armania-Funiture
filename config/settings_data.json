@@ -3476,6 +3476,7 @@
           },
           "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-4": {
             "type": "collection",
+            "disabled": true,
             "settings": {
               "collection": "lighting",
               "title": "Lighting 2",
@@ -3507,7 +3508,7 @@
           "num_p_qty": false,
           "sid_style": "style2",
           "layout": "container",
-          "cl_bg": "#fff",
+          "cl_bg": "#ffffff",
           "layout_design": "2",
           "col_coll": "4",
           "col_ipad_pro": "2",
