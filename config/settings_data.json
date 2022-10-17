@@ -3333,7 +3333,7 @@
           "content": "",
           "num_p_qty": false,
           "sid_style": "style1",
-          "layout": "container",
+          "layout": "full-width",
           "cl_bg": "#ffffff",
           "layout_design": "2",
           "col_coll": "4",
