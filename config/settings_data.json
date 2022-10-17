@@ -3436,7 +3436,7 @@
           "73866464-4848-4132-ac1a-4adfa4265cfe": {
             "type": "shipping",
             "settings": {
-              "icon": "fa fa-truck",
+              "icon": "fa fa-light fa-bolt",
               "title": "Free Shiping",
               "text": "On all orders over $49.00"
             }
