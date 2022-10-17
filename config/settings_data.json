@@ -3504,7 +3504,7 @@
           "title": "",
           "sub_title": "",
           "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
-          "num_p_qty": true,
+          "num_p_qty": false,
           "sid_style": "style2",
           "layout": "container",
           "cl_bg": "#fff",
