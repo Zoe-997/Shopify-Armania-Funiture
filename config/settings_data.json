@@ -3184,8 +3184,9 @@
       },
       "3367ec7d-8d9a-491f-a50f-11059b72538a": {
         "type": "carousel-product",
+        "disabled": true,
         "settings": {
-          "layout": "custom-width",
+          "layout": "container",
           "cl_bg": "#ffffff",
           "title": "",
           "content": "",
@@ -3437,13 +3438,101 @@
           "footer_bottom_color_hv": "#db8946",
           "footer_bottom_background": "#ffffff"
         }
+      },
+      "dc202872-d066-4b47-ba25-ccc7ac7ea24b": {
+        "type": "collection-list-slider",
+        "blocks": {
+          "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "stools",
+              "title": "Stools",
+              "txt_align": "left"
+            }
+          },
+          "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "title": "",
+              "txt_align": "left"
+            }
+          },
+          "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "title": "",
+              "txt_align": "left"
+            }
+          },
+          "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-3": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
+              "collection": "",
+              "title": "",
+              "txt_align": "left"
+            }
+          },
+          "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-4": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
+              "collection": "",
+              "title": "",
+              "txt_align": "left"
+            }
+          },
+          "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-5": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
+              "collection": "",
+              "title": "",
+              "txt_align": "left"
+            }
+          }
+        },
+        "block_order": [
+          "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-0",
+          "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-1",
+          "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-2",
+          "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-3",
+          "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-4",
+          "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-5"
+        ],
+        "settings": {
+          "title": "",
+          "sub_title": "",
+          "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
+          "num_p_qty": true,
+          "sid_style": "style2",
+          "layout": "container",
+          "cl_bg": "#fff",
+          "layout_design": "2",
+          "col_coll": "4",
+          "col_ipad_pro": "2",
+          "col_ipad": "2",
+          "col_mobile": "1",
+          "col_mobile_vertical": "1",
+          "autoplay": true,
+          "arrows": true,
+          "dots": true,
+          "infinite": false,
+          "mg": "",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
       "1664419913d0621eff",
+      "dc202872-d066-4b47-ba25-ccc7ac7ea24b",
       "3367ec7d-8d9a-491f-a50f-11059b72538a",
-      "fd74af3a-4c5a-4bc6-9e32-a9a38b996e94",
       "c5a046fc-7d2d-43b1-b0e6-3f437e7c0d3d",
+      "fd74af3a-4c5a-4bc6-9e32-a9a38b996e94",
       "1239a041-ac82-4fca-a9db-be5deb213dd2",
       "556d04c4-9d16-4e66-8632-2accdc8c7915"
     ]
