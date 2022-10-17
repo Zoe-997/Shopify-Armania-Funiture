@@ -3468,10 +3468,9 @@
           },
           "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-3": {
             "type": "collection",
-            "disabled": true,
             "settings": {
-              "collection": "",
-              "title": "",
+              "collection": "decoration",
+              "title": "Decoration",
               "txt_align": "left"
             }
           },
