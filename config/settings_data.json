@@ -3086,7 +3086,7 @@
             "type": "slide",
             "settings": {
               "image": "shopify:\/\/shop_images\/1.png",
-              "bg_color_content": "#f5f5f5",
+              "bg_color_content": "rgba(0,0,0,0)",
               "box_align": "middle-center",
               "text_alignment": "center",
               "image_overlay_opacity": 0,
