@@ -3397,56 +3397,6 @@
       "6c7779f6-7955-4427-90b9-2f92ccc85f13": {
         "type": "testimonials-style2",
         "blocks": {
-          "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-0": {
-            "type": "quote",
-            "settings": {
-              "content": "<p>I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks!<\/p>",
-              "title": "Author's name",
-              "address": "New York",
-              "show_rating": true,
-              "rating": 3
-            }
-          },
-          "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-1": {
-            "type": "quote",
-            "settings": {
-              "content": "<p>I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks!<\/p>",
-              "title": "Author's name",
-              "address": "New York",
-              "show_rating": true,
-              "rating": 3
-            }
-          },
-          "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-2": {
-            "type": "quote",
-            "settings": {
-              "content": "<p>I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks!<\/p>",
-              "title": "Author's name",
-              "address": "New York",
-              "show_rating": true,
-              "rating": 3
-            }
-          },
-          "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-3": {
-            "type": "quote",
-            "settings": {
-              "content": "<p>I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks!<\/p>",
-              "title": "Author's name",
-              "address": "New York",
-              "show_rating": true,
-              "rating": 3
-            }
-          },
-          "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-4": {
-            "type": "quote",
-            "settings": {
-              "content": "<p>I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks!<\/p>",
-              "title": "Author's name",
-              "address": "New York",
-              "show_rating": true,
-              "rating": 3
-            }
-          },
           "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-5": {
             "type": "quote",
             "settings": {
@@ -3460,11 +3410,6 @@
           }
         },
         "block_order": [
-          "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-0",
-          "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-1",
-          "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-2",
-          "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-3",
-          "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-4",
           "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-5"
         ],
         "settings": {
@@ -3484,6 +3429,58 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "081e25bc-2c4a-4e06-8f47-c551f8128510": {
+        "type": "benefit",
+        "blocks": {
+          "73866464-4848-4132-ac1a-4adfa4265cfe": {
+            "type": "shipping",
+            "settings": {
+              "icon": "fa fa-truck",
+              "title": "Free Shiping",
+              "text": "On all orders over $49.00"
+            }
+          }
+        },
+        "block_order": [
+          "73866464-4848-4132-ac1a-4adfa4265cfe"
+        ],
+        "settings": {
+          "layout": "container",
+          "title": "",
+          "content": "",
+          "source": "2",
+          "sid_style": "style2",
+          "use-slider": true,
+          "slides-To-Scroll": 3,
+          "visible": 3,
+          "widescreen": 3,
+          "desktop": 3,
+          "laptop": 3,
+          "notebook": 2,
+          "tablet": 2,
+          "landscape": 2,
+          "portrait": 2,
+          "mobile": 1,
+          "rows": 1,
+          "autoplay": true,
+          "speed": "300",
+          "autoplay-Speed": "3000",
+          "arrows": false,
+          "adaptive-Height": false,
+          "dots": false,
+          "infinite": true,
+          "padding": 15,
+          "cl_bg": "#fff",
+          "cl_ic": "#f26460",
+          "cl_hd": "#111",
+          "cl_cot": "#888",
+          "margin_bottom": 0,
+          "padding_top_tablet": 0,
+          "margin_bottom_tablet": 0,
+          "padding_top_mobile": 0,
+          "margin_bottom_mobile": 0
+        }
       }
     },
     "content_for_index": [
@@ -3491,7 +3488,8 @@
       "dc202872-d066-4b47-ba25-ccc7ac7ea24b",
       "c5a046fc-7d2d-43b1-b0e6-3f437e7c0d3d",
       "d23b5c6e-abdb-4a01-8023-4b8211ee3de2",
-      "6c7779f6-7955-4427-90b9-2f92ccc85f13"
+      "6c7779f6-7955-4427-90b9-2f92ccc85f13",
+      "081e25bc-2c4a-4e06-8f47-c551f8128510"
     ]
   },
   "presets": {
