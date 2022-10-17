@@ -3321,6 +3321,7 @@
           },
           "152145bc-26e8-451c-8152-415d9b9770bb": {
             "type": "collection",
+            "disabled": true,
             "settings": {
               "collection": "",
               "title": "",
@@ -3329,6 +3330,7 @@
           },
           "d8ba8ad9-364f-4442-824f-2b8f81bda12d": {
             "type": "collection",
+            "disabled": true,
             "settings": {
               "collection": "",
               "title": "",
@@ -3380,7 +3382,7 @@
           "day_count_down": "10",
           "btn": "BUY IT NOW",
           "cl_btn": "#000000",
-          "cl_btn_hover": "#fff",
+          "cl_btn_hover": "#ffffff",
           "bg_cl": "#f5b301",
           "bg_cl_hover": "#343e45",
           "title": "Sale Up To 60% Off",
@@ -3391,13 +3393,105 @@
           "mg_bottom": 0,
           "mg_left": 0
         }
+      },
+      "6c7779f6-7955-4427-90b9-2f92ccc85f13": {
+        "type": "testimonials-style2",
+        "blocks": {
+          "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-0": {
+            "type": "quote",
+            "settings": {
+              "content": "<p>I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks!<\/p>",
+              "title": "Author's name",
+              "address": "New York",
+              "show_rating": true,
+              "rating": 3
+            }
+          },
+          "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-1": {
+            "type": "quote",
+            "settings": {
+              "content": "<p>I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks!<\/p>",
+              "title": "Author's name",
+              "address": "New York",
+              "show_rating": true,
+              "rating": 3
+            }
+          },
+          "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-2": {
+            "type": "quote",
+            "settings": {
+              "content": "<p>I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks!<\/p>",
+              "title": "Author's name",
+              "address": "New York",
+              "show_rating": true,
+              "rating": 3
+            }
+          },
+          "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-3": {
+            "type": "quote",
+            "settings": {
+              "content": "<p>I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks!<\/p>",
+              "title": "Author's name",
+              "address": "New York",
+              "show_rating": true,
+              "rating": 3
+            }
+          },
+          "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-4": {
+            "type": "quote",
+            "settings": {
+              "content": "<p>I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks!<\/p>",
+              "title": "Author's name",
+              "address": "New York",
+              "show_rating": true,
+              "rating": 3
+            }
+          },
+          "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-5": {
+            "type": "quote",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/name.png",
+              "content": "<p>Praesent ornare turpis sed elit scelerisque facilisis. Curabitur scelerisque tellus sem vulputate pretium at quam. Donec ejusto eget nisi mollis vulputate<\/p>",
+              "title": "- Designer -",
+              "address": "Ms. Cynthia West",
+              "show_rating": true,
+              "rating": 0
+            }
+          }
+        },
+        "block_order": [
+          "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-0",
+          "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-1",
+          "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-2",
+          "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-3",
+          "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-4",
+          "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-5"
+        ],
+        "settings": {
+          "title": "Testimonials",
+          "sub_title": "",
+          "col_pr": "1",
+          "col_ipad": "1",
+          "col_mobile": "1",
+          "autoplay": true,
+          "arrows": true,
+          "dots": true,
+          "infinite": false,
+          "layout": "container",
+          "cl_bg": "#fff",
+          "mg": "",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
       "1664419913d0621eff",
       "dc202872-d066-4b47-ba25-ccc7ac7ea24b",
       "c5a046fc-7d2d-43b1-b0e6-3f437e7c0d3d",
-      "d23b5c6e-abdb-4a01-8023-4b8211ee3de2"
+      "d23b5c6e-abdb-4a01-8023-4b8211ee3de2",
+      "6c7779f6-7955-4427-90b9-2f92ccc85f13"
     ]
   },
   "presets": {
