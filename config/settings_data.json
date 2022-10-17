@@ -3461,8 +3461,8 @@
           "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-2": {
             "type": "collection",
             "settings": {
-              "collection": "",
-              "title": "",
+              "collection": "lighting",
+              "title": "Lighting",
               "txt_align": "left"
             }
           },
