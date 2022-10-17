@@ -471,7 +471,7 @@
               </a>
             </div>
           {% endif %}     
-          <div class="display-mobile"> 
+          <div class="display-mobile hidden--"> 
             <a href="{{routes.root_url | append: '/' | replace_first  : '//', '/' }}pages/wishlist" class="push_side header-icon" title="{{'general.wishlist.title' | t}}">
               {% render 'icon-notification' %}
               <span class="header__counter" data-js-wishlist-count="0">0</span>
