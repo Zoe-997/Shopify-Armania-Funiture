@@ -2964,7 +2964,6 @@
             "type": "shipping",
             "settings": {
               "icon": "",
-              "icon_img": "shopify:\/\/shop_images\/car.png",
               "title": "FREE DELIVERY",
               "text": "sed dianm dolor sit amet amet of in"
             }
@@ -2973,7 +2972,6 @@
             "type": "shipping",
             "settings": {
               "icon": "",
-              "icon_img": "shopify:\/\/shop_images\/coin.png",
               "title": "MONEY-BACK",
               "text": "sed dianm dolor sit amet amet of in"
             }
@@ -2982,7 +2980,6 @@
             "type": "shipping",
             "settings": {
               "icon": "icon-help-center",
-              "icon_img": "shopify:\/\/shop_images\/ruler-alt.png",
               "title": "GENTAL FIT",
               "text": "sed dianm dolor sit amet amet of in"
             }
@@ -3098,6 +3095,9 @@
           "menu_mega_style_desktop": "style1",
           "item_dropdown": "1|4|5|6",
           "show_line_separator": true,
+          "banner_2": "shopify:\/\/shop_images\/B1.jpg",
+          "banner_3": "shopify:\/\/shop_images\/B2.jpg",
+          "banner_4": "shopify:\/\/shop_images\/B4.jpg",
           "phone": "+1 86.36.166",
           "margin_top": 0,
           "margin_bottom": 0,
@@ -3111,7 +3111,6 @@
           "1664419913d0621eff-0": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/slideshow.png",
               "bg_color_content": "rgba(0,0,0,0)",
               "box_align": "middle-right",
               "text_alignment": "left",
@@ -3135,7 +3134,6 @@
           "1664419913d0621eff-1": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/slideshow.png",
               "bg_color_content": "rgba(0,0,0,0)",
               "box_align": "middle-right",
               "text_alignment": "left",
@@ -3211,7 +3209,6 @@
           "16645038222c6aa0fc-0": {
             "type": "banner",
             "settings": {
-              "image": "shopify:\/\/shop_images\/DENIM_PAIRS.png",
               "btn_title": "DENIM PAIRS",
               "btn_link": "",
               "open_link": "_blank"
@@ -3220,7 +3217,6 @@
           "16645038222c6aa0fc-1": {
             "type": "banner",
             "settings": {
-              "image": "shopify:\/\/shop_images\/TRENDING.png",
               "btn_title": "TRENDING",
               "btn_link": "",
               "open_link": "_blank"
@@ -3229,7 +3225,6 @@
           "16645038222c6aa0fc-2": {
             "type": "banner",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Latest.png",
               "btn_title": "LATEST",
               "btn_link": "",
               "open_link": "_blank"
@@ -3268,7 +3263,6 @@
           "btn_border_hover": "#111111",
           "layout": "custom-width",
           "align": "initial",
-          "image": "shopify:\/\/shop_images\/All_New_Women.png",
           "heading": "ALL NEW WOMEN <br>COLLECTION RELEASED",
           "content": "If you want to stay on top of the fashion trends, then you need to shop for the latest and trendiest clothes from WOWEAR. Check out the amazing collection of clothes for you that suit you the best.",
           "btn_title": "SHOP NOW",
@@ -3403,7 +3397,6 @@
             "type": "shipping",
             "settings": {
               "icon": "fa fa-truck",
-              "icon_img": "shopify:\/\/shop_images\/car.png",
               "title": "FREE DELIVERY",
               "text": "sed dianm dolor sit amet amet of in the produts what are you doing"
             }
@@ -3412,7 +3405,6 @@
             "type": "shipping",
             "settings": {
               "icon": "fa fa-truck",
-              "icon_img": "shopify:\/\/shop_images\/coin.png",
               "title": "MONEY-BACK",
               "text": "sed dianm dolor sit amet amet of in the products what are you doing"
             }
@@ -3421,7 +3413,6 @@
             "type": "shipping",
             "settings": {
               "icon": "fa fa-truck",
-              "icon_img": "shopify:\/\/shop_images\/ruler-alt.png",
               "title": "GENTAL FIT",
               "text": "sed dianm dolor sit amet amet of in the products what are you doing"
             }
@@ -3532,7 +3523,6 @@
           "show_border": true,
           "border_full_width": true,
           "footer_bottom_layout": "style_1",
-          "icon_payment": "shopify:\/\/shop_images\/Image_2.png",
           "copyright": "<p>Copyright yyyy <a href=\"https:\/\/miconme.com\" target=\"_blank\" title=\"https:\/\/miconme.com\">Wowear<\/a>. All rights reserved<\/p>",
           "show_social_link": true,
           "footer_use_language": false,
