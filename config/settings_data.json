@@ -3222,7 +3222,7 @@
       "c5a046fc-7d2d-43b1-b0e6-3f437e7c0d3d": {
         "type": "carousel-product",
         "settings": {
-          "layout": "custom-width",
+          "layout": "container",
           "cl_bg": "#ffffff",
           "title": "Our Products",
           "content": "",
@@ -3241,7 +3241,7 @@
           "portrait": 2,
           "mobile": 1,
           "rows": 2,
-          "autoplay": false,
+          "autoplay": true,
           "speed": "300",
           "autoplay-Speed": "3000",
           "arrows": false,
