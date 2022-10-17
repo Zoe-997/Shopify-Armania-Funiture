@@ -1,0 +1,346 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "use_img": false,
+        "bg": "#ffffff",
+        "b_color": "#ebebeb",
+        "b_height": 70,
+        "mg_bottom": 0,
+        "mobile_bg": "#ffffff",
+        "mobile_ht": 70,
+        "mobile_mg_bottom": 0,
+        "show_n_p": false,
+        "show_title": true
+      }
+    },
+    "main": {
+      "type": "product-information",
+      "blocks": {
+        "ed5dec54-d995-4f88-87d3-102460e07067": {
+          "type": "name_product",
+          "settings": {
+            "np_text_transform": "none",
+            "np_size": 24,
+            "np_size_mobile": 24,
+            "np_mg_top": 0,
+            "np_mg_bottom": 15
+          }
+        },
+        "b042244a-e9d0-4cc5-a653-28a82d22be13": {
+          "type": "show_sku",
+          "settings": {
+          }
+        },
+        "6ff5677e-1d98-482d-bd86-4c67fe63a2af": {
+          "type": "show_reviews",
+          "settings": {
+          }
+        },
+        "f1e09af0-0154-41e2-996f-755cdde44ea4": {
+          "type": "show_price",
+          "settings": {
+          }
+        },
+        "e86bc4bc-e521-4949-9a36-1bb6b4b93de8": {
+          "type": "ps_countdown",
+          "settings": {
+            "title": "Hurry Up! Special Offers end in:",
+            "hor_posi": "left"
+          }
+        },
+        "7dd79963-0728-4ccb-85ae-a4ef29c6e44c": {
+          "type": "inventory_qty",
+          "settings": {
+            "total_items": 50,
+            "bg_1": "#cc1414",
+            "bg_2": "#efefef",
+            "h_stock": 4
+          }
+        },
+        "5c909704-7273-41b5-b5b9-38085bf8c176": {
+          "type": "product_variants",
+          "settings": {
+            "show_title": true
+          }
+        },
+        "8681d35e-2735-4d23-98a5-4f3b5271e474": {
+          "type": "quantity_button",
+          "settings": {
+            "icon_button_cart": "lnr lnr-arrow-right",
+            "qt_show_quantity": true,
+            "qt_show_cart": true,
+            "show_popup": false,
+            "qt_buy_it_now": true,
+            "qt_show_compare": false,
+            "qt_show_wishlist": true,
+            "show_custom_color_btn": true,
+            "color_text_cart": "#222222",
+            "bg_add_to_cart": "#fcbe00",
+            "color_text_cart_hover": "#222222",
+            "bg_add_to_cart_hv": "#fcb200",
+            "color_text_buy_now": "#f5f5f5",
+            "bg_buy_it_now": "#222222",
+            "color_text_buy_now_hover": "#ffffff",
+            "bg_buy_it_now_hv": "#e52828"
+          }
+        },
+        "f1741814-047c-48e0-849d-737be8255f50": {
+          "type": "show_social",
+          "settings": {
+            "type_social": "2"
+          }
+        },
+        "bc448edc-984e-4115-a128-7fc5dffbf792": {
+          "type": "shipping",
+          "settings": {
+            "show_delivery_times": true,
+            "deliver_text": "Estimated Delivery:",
+            "deliver_days": "7",
+            "date_format": "%b %d",
+            "show_shipping_text": true,
+            "shipping_text": "<p>Free Shipping & Returns:<strong>  <\/strong>On all orders over $75<\/p>"
+          }
+        },
+        "a741c39f-9736-4123-b5bb-7fa473ded339": {
+          "type": "custom_html",
+          "settings": {
+            "html_custom": "",
+            "image": "shopify:\/\/shop_images\/paypen.jpg",
+            "svg_custom": "",
+            "svg_height": 35
+          }
+        }
+      },
+      "block_order": [
+        "ed5dec54-d995-4f88-87d3-102460e07067",
+        "b042244a-e9d0-4cc5-a653-28a82d22be13",
+        "6ff5677e-1d98-482d-bd86-4c67fe63a2af",
+        "f1e09af0-0154-41e2-996f-755cdde44ea4",
+        "e86bc4bc-e521-4949-9a36-1bb6b4b93de8",
+        "7dd79963-0728-4ccb-85ae-a4ef29c6e44c",
+        "5c909704-7273-41b5-b5b9-38085bf8c176",
+        "8681d35e-2735-4d23-98a5-4f3b5271e474",
+        "f1741814-047c-48e0-849d-737be8255f50",
+        "bc448edc-984e-4115-a128-7fc5dffbf792",
+        "a741c39f-9736-4123-b5bb-7fa473ded339"
+      ],
+      "settings": {
+      }
+    },
+    "product-page-tab": {
+      "type": "product-page-tab",
+      "blocks": {
+        "f9332aee-ca1e-4993-ad5c-e3d5984789cc": {
+          "type": "tab_description",
+          "settings": {
+            "title_description": "Description"
+          }
+        },
+        "5d50cdc1-62b7-4fe4-a1d3-de4b0fea8c25": {
+          "type": "show_variants",
+          "settings": {
+            "title": "Additional Information"
+          }
+        },
+        "d07132a9-cf30-4c47-a9f5-6b3bd410c124": {
+          "type": "tab_custom_html",
+          "settings": {
+            "title": "Custom HTML",
+            "page_content": ""
+          }
+        },
+        "22f75249-e4ab-453e-84d5-0006118d5803": {
+          "type": "tab_metafields",
+          "settings": {
+          }
+        },
+        "9da3ad2c-2f89-4402-b90b-7d10bb83185c": {
+          "type": "tab_reviews",
+          "settings": {
+            "title_reviews": "Reviews"
+          }
+        }
+      },
+      "block_order": [
+        "f9332aee-ca1e-4993-ad5c-e3d5984789cc",
+        "5d50cdc1-62b7-4fe4-a1d3-de4b0fea8c25",
+        "d07132a9-cf30-4c47-a9f5-6b3bd410c124",
+        "22f75249-e4ab-453e-84d5-0006118d5803",
+        "9da3ad2c-2f89-4402-b90b-7d10bb83185c"
+      ],
+      "settings": {
+        "layout": "container",
+        "cl_bg": "rgba(0,0,0,0)",
+        "mg_top": 60,
+        "mg_bottom": 60,
+        "pad_top": 0,
+        "pad_bottom": 60
+      }
+    },
+    "related-product-carousel": {
+      "type": "related-product-carousel",
+      "settings": {
+        "layout": "container",
+        "title": "Related Products",
+        "sub_title": "",
+        "content": "",
+        "max_count": 9,
+        "use-slider": true,
+        "slides-To-Scroll": 1,
+        "visible": 4,
+        "widescreen": 4,
+        "desktop": 4,
+        "laptop": 4,
+        "notebook": 3,
+        "tablet": 3,
+        "landscape": 2,
+        "portrait": 2,
+        "mobile": 2,
+        "rows": 1,
+        "autoplay": false,
+        "speed": "300",
+        "autoplay-Speed": "3000",
+        "arrows": true,
+        "fade": false,
+        "center-Mode": false,
+        "adaptive-Height": false,
+        "dots": false,
+        "infinite": true,
+        "padding": 15,
+        "vertical": false,
+        "cl_bg": "#ffffff",
+        "use_eq_height": true,
+        "image_ratio": "ratio2_3",
+        "mg_top": 0,
+        "mg_bottom": 40,
+        "pad_top": 0,
+        "pad_bottom": 0,
+        "mobile_mg_top": 0,
+        "mobile_mg_bottom": 20,
+        "mobile_pd_top": 0,
+        "mobile_pd_bottom": 0
+      }
+    },
+    "1636451072444b7fa9": {
+      "type": "products-recently-viewed",
+      "settings": {
+        "limit": 10,
+        "use-slider": true,
+        "slides-To-Scroll": 1,
+        "visible": 4,
+        "widescreen": 4,
+        "desktop": 4,
+        "laptop": 4,
+        "notebook": 3,
+        "tablet": 3,
+        "landscape": 2,
+        "portrait": 2,
+        "mobile": 2,
+        "rows": 1,
+        "autoplay": true,
+        "speed": "300",
+        "autoplay-Speed": "3000",
+        "arrows": true,
+        "fade": false,
+        "center-Mode": false,
+        "adaptive-Height": false,
+        "dots": false,
+        "infinite": true,
+        "padding": 15,
+        "vertical": false,
+        "show_view_all": false,
+        "use_eq_height": true,
+        "image_ratio": "ratio2_3",
+        "layout": "container",
+        "cl_bg": "#ffffff",
+        "mg": "0,0,60px,0",
+        "pd": "",
+        "mg_mb": "0,0,40px,0",
+        "pd_mb": ""
+      }
+    },
+    "1686b66f-1830-4a3a-bdf5-638b9bf2ade2": {
+      "type": "benefit",
+      "blocks": {
+        "c7e75afb-7078-49a1-b5d9-813ee5cb5f49": {
+          "type": "shipping",
+          "settings": {
+            "icon": "fa fa-truck",
+            "icon_img": "shopify:\/\/shop_images\/car.png",
+            "title": "FREE DELIVERY",
+            "text": "sed dianm dolor sit amet amet of in the produts what are you doing"
+          }
+        },
+        "42262359-9d13-4302-9e92-3c16ff51c1dd": {
+          "type": "shipping",
+          "settings": {
+            "icon": "fa fa-truck",
+            "icon_img": "shopify:\/\/shop_images\/coin.png",
+            "title": "MONEY-BACK",
+            "text": "sed dianm dolor sit amet amet of in the products what are you doing"
+          }
+        },
+        "8ee1f197-63ce-4277-898c-7e9a1f529635": {
+          "type": "shipping",
+          "settings": {
+            "icon": "fa fa-truck",
+            "icon_img": "shopify:\/\/shop_images\/ruler-alt.png",
+            "title": "GENTAL FIT",
+            "text": "sed dianm dolor sit amet amet of in the products what are you doing"
+          }
+        }
+      },
+      "block_order": [
+        "c7e75afb-7078-49a1-b5d9-813ee5cb5f49",
+        "42262359-9d13-4302-9e92-3c16ff51c1dd",
+        "8ee1f197-63ce-4277-898c-7e9a1f529635"
+      ],
+      "settings": {
+        "layout": "container",
+        "title": "Why Chose WOWEARS",
+        "content": "dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam ut labore et dolore magna",
+        "source": "2",
+        "sid_style": "style2",
+        "use-slider": true,
+        "slides-To-Scroll": 3,
+        "visible": 3,
+        "widescreen": 3,
+        "desktop": 3,
+        "laptop": 3,
+        "notebook": 2,
+        "tablet": 2,
+        "landscape": 2,
+        "portrait": 2,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": true,
+        "speed": "300",
+        "autoplay-Speed": "3000",
+        "arrows": false,
+        "adaptive-Height": false,
+        "dots": false,
+        "infinite": true,
+        "padding": 15,
+        "cl_bg": "#fff",
+        "cl_ic": "#f26460",
+        "cl_hd": "#111",
+        "cl_cot": "#888",
+        "margin_bottom": 0,
+        "padding_top_tablet": 100,
+        "margin_bottom_tablet": 100,
+        "padding_top_mobile": 50,
+        "margin_bottom_mobile": 50
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main",
+    "product-page-tab",
+    "related-product-carousel",
+    "1636451072444b7fa9",
+    "1686b66f-1830-4a3a-bdf5-638b9bf2ade2"
+  ]
+}

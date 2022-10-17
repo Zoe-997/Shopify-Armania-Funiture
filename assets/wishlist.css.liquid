@@ -1,0 +1,26 @@
+{%- assign productionMode = settings.production_mode -%}
+{%- capture styleCss -%}
+.collection-wishlist .collection-wishlist-empty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  margin-top: 100px;
+}
+.collection-wishlist .collection-wishlist-empty p{
+    font-size: 18px;
+    margin: 0;
+    color: var(--color-main);
+    font-weight: 500;
+}
+#wishlist.template-page .breadcrumbs .outline-breadcrum .wrap-breadcrum{
+	text-align: left;
+    align-items: baseline;
+}
+{%- endcapture -%}
+{%- if productionMode -%}
+    {%- assign paragraphs = styleCss | newline_to_br | split: '<br />' -%}
+    {%- for paragraph in paragraphs %}{{- paragraph | strip -}}{% endfor -%}
+{%- else -%}
+    {{styleCss}}
+{%- endif -%}

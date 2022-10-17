@@ -1,0 +1,59 @@
+{%- liquid
+	assign sid = section.id
+	
+	assign margin_top = section.settings.margin_top
+	assign margin_bottom = section.settings.margin_bottom
+	assign padding_top = section.settings.padding_top
+	assign padding_bottom = section.settings.padding_bottom
+
+	assign margin_top_tablet = section.settings.margin_top_tablet
+	assign margin_bottom_tablet = section.settings.margin_bottom_tablet
+	assign padding_top_tablet = section.settings.padding_top_tablet
+	assign padding_bottom_tablet = section.settings.padding_bottom_tablet
+
+	assign margin_top_mobile = section.settings.margin_top_mobile
+	assign margin_bottom_mobile = section.settings.margin_bottom_mobile
+	assign padding_top_mobile = section.settings.padding_top_mobile
+	assign padding_bottom_mobile = section.settings.padding_bottom_mobile
+
+	assign distance_col = section.settings.block_distance | divided_by: 2
+-%}
+
+{%- style -%}
+	#section-{{ sid }}{
+		{% if margin_top %}margin-top: {{ margin_top }}px; {% endif %}
+		{% if margin_bottom %}margin-bottom: {{ margin_bottom }}px; {% endif %}
+		{% if padding_top %}padding-top: {{ padding_top }}px; {% endif %}
+		{% if padding_bottom %}padding-bottom: {{ padding_bottom }}px; {% endif %}
+	}
+
+	{% if distance_col %}
+		#section-{{ sid }} .row{{ distance_col }}{
+			margin-left: {{ distance_col | times: -1 }}px;
+			margin-right: {{ distance_col | times: -1 }}px;
+		}
+
+		#section-{{ sid }} .col{{ distance_col }}{
+			padding-left: {{ distance_col }}px;
+			padding-right: {{ distance_col }}px;
+		}
+	{% endif %}
+
+	@media(max-width: 1023px){
+		#section-{{ sid }}{
+			{% if margin_top %}margin-top: {{ margin_top_tablet }}px; {% endif %}
+			{% if margin_bottom %}margin-bottom: {{ margin_bottom_tablet }}px; {% endif %}
+			{% if padding_top %}padding-top: {{ padding_top_tablet }}px; {% endif %}
+			{% if padding_bottom %}padding-bottom: {{ padding_bottom_tablet }}px; {% endif %}
+		}
+	}
+
+	@media(max-width: 767px){
+		#section-{{ sid }}{
+			{% if margin_top %}margin-top: {{ margin_top_mobile }}px; {% endif %}
+			{% if margin_bottom %}margin-bottom: {{ margin_bottom_mobile }}px; {% endif %}
+			{% if padding_top %}padding-top: {{ padding_top_mobile }}px; {% endif %}
+			{% if padding_bottom %}padding-bottom: {{ padding_bottom_mobile }}px; {% endif %}
+		}
+	}
+{%- endstyle -%}

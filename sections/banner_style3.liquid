@@ -1,0 +1,282 @@
+{% liquid
+  assign sid = section.id 
+  assign layout = section.settings.layout
+  assign align = section.settings.align
+  assign image = section.settings.image
+  assign cimg_1 = 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg fill-e5e5e5'
+  assign ratio = image.aspect_ratio | default: 1.0
+%}
+
+{%- for i in (1..1) -%}
+  <section id="section-{{ sid }}" class="section-{{ align }}">
+    <div class="laber_banner{% if image == blank %} use-svg{% endif %}">
+      <div class="cms-img">
+        {%- if image -%}
+            <div data-image-effect class="pr_lazy_img main-img lazyload laber_bg_lz " data-id="{{ image.id }}" data-bgset="{{ image | img_url: 'master' }}" data-parent-fit="width" data-wiis data-ratio="{{ ratio }}" data-sizes="auto" style="padding-top:{{ 1 | divided_by: ratio | times: 100 }}%;"></div>
+        {% else %}
+          <div class="pr_lazy_img main-img lazyload laber_bg_lz {{ block.settings.img_align }}" data-parent-fit="width" data-sizes="auto">
+            {{ cimg_1 }}
+          </div>
+        {%- endif -%}
+      </div>
+      <div class="cms-content {{ layout }}" {% if hidden_content %}style="display:none;"{% endif %}>
+        <div class="content_banner">
+          {% if section.settings.heading != blank %}<h3 class="title">{{ section.settings.heading }}</h3>{% endif %}
+          {% if section.settings.content != blank %}<p class="text">{{ section.settings.content }}</p>{% endif %}
+          {%- if  section.settings.btn_title != blank or section.settings.btn_title_2 != blank -%}
+            <div class="actions">
+              <a id="b_{{ section.id }}" class="buttons" href="{% if section.settings.btn_link %}{{ section.settings.btn_link }}{% else %}#{% endif %}" target="{{ section.settings.open_link }}" {{ section.shopify_attributes }}>{{ section.settings.btn_title }}</a>
+              <a id="b_{{ section.id }}" class="buttons" href="{% if section.settings.btn_link_2 %}{{ section.settings.btn_link_2 }}{% else %}#{% endif %}" target="{{ section.settings.open_link }}" {{ section.shopify_attributes }}>{{ section.settings.btn_title_2 }}</a>
+            </div>
+          {%- endif -%}
+        </div>
+      </div>
+    </div> 
+  </section>
+  {%- render 'section_style' -%}
+{%- endfor -%}
+{%- schema -%}
+  {
+    "name": "t:sections.image-banner-3.name",
+    "class": "cms_section section-banner style-3",
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:sections.all.colors.label"
+      },
+      {
+        "type": "color",
+        "id": "color",
+        "label": "t:sections.image-banner-3.color.color",
+        "default": "#000"
+      },
+      {
+        "type": "color",
+        "id": "btn_color",
+        "label": "t:sections.image-banner-3.color.button.color",
+        "default": "#fff"
+      },
+      {
+        "type": "color",
+        "id": "btn_color_hover",
+        "label": "t:sections.image-banner-3.color.button.hover.color",
+        "default": "#fff"
+      },
+      {
+        "type": "color",
+        "id": "btn_background",
+        "label": "t:sections.image-banner-3.color.button.background",
+        "default": "#000"
+      },
+      {
+        "type": "color",
+        "id": "btn_background_hover",
+        "label": "t:sections.image-banner-3.color.button.hover.background",
+        "default": "#222"
+      },
+      {
+        "type": "color",
+        "id": "btn_border",
+        "label": "t:sections.image-banner-3.color.button.border",
+        "default": "#000"
+      },
+      {
+        "type": "color",
+        "id": "btn_border_hover",
+        "label": "t:sections.image-banner-3.color.button.hover.border",
+        "default": "#222"
+      },
+      {
+        "type": "header",
+        "content": "t:sections.image-banner-3.content.label"
+      },
+      {
+        "type": "select",
+        "id": "layout",
+        "options": [
+          {
+            "value": "container",
+            "label": "t:sections.all.layout.option__1"
+          }, 
+          {
+            "value": "full-width",
+            "label": "t:sections.all.layout.option__2"
+          }, 
+          {
+            "value": "custom-width",
+            "label": "t:sections.all.layout.option__3"
+          }
+        ],
+        "label": "t:sections.all.layout.width"
+      },
+      {
+        "type": "select",
+        "id": "align",
+        "default": "initial",
+        "options": [
+          {
+            "value": "initial",
+            "label": "t:sections.image-banner-3.align.initial"
+          }, 
+          {
+            "value": "center",
+            "label": "t:sections.image-banner-3.align.center"
+          }
+        ],
+        "label": "t:sections.image-banner-3.align.label"
+      }, 
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "t:sections.image-banner-3.content.image"
+      },
+      {
+        "type": "textarea",
+        "id": "heading",
+        "label": "t:sections.image-banner-3.content.heading",
+        "default": "ALL NEW WOMEN <br>COLLECTION RELEASED"
+      },
+      {
+        "type": "textarea",
+        "id": "content",
+        "label": "t:sections.image-banner-3.content.content",
+        "default": "If you want to stay on top of the fashion trends, then you need to shop for the latest and trendiest clothes from WOWEAR. Check out the amazing collection of clothes for you that suit you the best."
+      },
+      {
+        "type": "text",
+        "id": "btn_title",
+        "label": "t:sections.image-banner-3.content.button.label",
+        "default": "Learn More"
+      }, 
+      {
+        "type": "url",
+        "id": "btn_link",
+        "label": "t:sections.image-banner-3.content.button.link"
+      }, 
+      {
+        "type": "text",
+        "id": "btn_title_2",
+        "label": "t:sections.image-banner-3.content.button.label_2",
+        "default": "Learn More"
+      }, 
+      {
+        "type": "url",
+        "id": "btn_link_2",
+        "label": "t:sections.image-banner-3.content.button.link_2"
+      }, 
+      {
+        "type": "select",
+        "id": "open_link",
+        "options": [
+          {
+            "value": "_self",
+            "label": "t:sections.all.links.open_link.option__1"
+          }, {
+            "value": "_blank",
+            "label": "t:sections.all.links.open_link.option__2"
+          }
+        ],
+        "label": "t:sections.all.links.open_link.label",
+        "default": "_blank"
+      },
+      {
+        "type": "header",
+        "content": "t:sections.all.spacing.label"
+      },
+      {
+        "type": "range",
+        "id": "margin_bottom",
+        "min": 0,
+        "max": 300,
+        "step": 5,
+        "unit": "px",
+        "label": "t:sections.all.spacing.margin.bottom",
+        "default": 0
+      },
+      {
+        "type": "header",
+        "content": "t:sections.all.tablet.label"
+      }, 
+      {
+        "type": "range",
+        "id": "padding_top_tablet",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "t:sections.all.spacing.padding.top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "margin_bottom_tablet",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "t:sections.all.spacing.margin.bottom",
+        "default": 0
+      },
+      {
+        "type": "header",
+        "content": "t:sections.all.mobile.label"
+      }, 
+      {
+        "type": "range",
+        "id": "padding_top_mobile",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "t:sections.all.spacing.padding.top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "margin_bottom_mobile",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "t:sections.all.spacing.margin.bottom",
+        "default": 0
+      }
+    ],
+    "presets": [
+      {
+        "name": "t:sections.image-banner-3.presets.name",
+        "category": "Images"
+      }
+    ]
+  }
+{% endschema %}
+
+{% style %}
+  #section-{{ sid }} .laber_banner:not(.use-svg) .cms-content{
+    color: {{ section.settings.color }};
+  }
+
+  #section-{{ sid }} .buttons{
+    color: {{ section.settings.btn_color }};
+    background-color: {{ section.settings.btn_background }};
+    border-color: {{ section.settings.btn_border }};
+  }
+
+  #section-{{ sid }} .buttons:hover{
+    color: {{ section.settings.btn_color_hover }};
+    background-color: {{ section.settings.btn_background_hover }};
+    border-color: {{ section.settings.btn_border_hover }};
+  }
+
+  #section-{{ sid }} .buttons:last-child{
+    color: {{ section.settings.btn_color_hover }};
+    background-color: {{ section.settings.btn_background_hover }};
+    border-color: {{ section.settings.btn_border_hover }};
+  }
+
+  #section-{{ sid }} .buttons:last-child:hover{
+    color: {{ section.settings.btn_color }};
+    background-color: {{ section.settings.btn_background }};
+    border-color: {{ section.settings.btn_border }};
+  }
+{% endstyle %}

@@ -1,0 +1,142 @@
+{% assign sid = section.id %}
+<section id="section-{{ sid }}">
+  <div class="page-width page-width--narrow">
+    <div class="{{ section.settings.layout }}">
+      {% if section.settings.show_page%}
+        <h2 class="page-title-extra">{{ page.title | escape }}</h2>
+      {%endif%}
+      <div class="rte">
+        {{ page.content }}
+      </div>
+    </div>
+  </div>
+</section>
+{%style%}
+body {
+    background-color: {{section.settings.cl_bg}};
+}
+{%endstyle%}
+{%- render 'section_style' -%}
+{% schema %}
+  {
+    "name": "t:sections.page.name",
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:sections.all.layout.label"
+      },
+      {
+        "type": "select",
+        "id": "layout",
+        "options": [
+          {
+            "value": "container",
+            "label": "t:sections.all.layout.option__1"
+          }, {
+            "value": "full-width",
+            "label": "t:sections.all.layout.option__2"
+          }, {
+            "value": "custom-width",
+            "label": "t:sections.all.layout.option__3"
+          }
+        ],
+        "label": "t:sections.all.layout.width"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_page",
+        "label": "t:sections.page.show_name_page",
+        "default": false
+      }, 
+      {
+        "type": "header",
+        "content": "t:sections.page.settings.content.label"
+      },
+        {
+        "type": "color",
+        "id": "cl_bg",
+        "label": "t:sections.page.settings.colors.background",
+        "default": "#fff"
+      },
+      {
+        "type": "header",
+        "content": "t:sections.all.spacing.label"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 300,
+        "step": 5,
+        "unit": "px",
+        "label": "t:sections.all.spacing.padding.top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "margin_bottom",
+        "min": 0,
+        "max": 300,
+        "step": 5,
+        "unit": "px",
+        "label": "t:sections.all.spacing.margin.bottom",
+        "default": 0
+      },
+      {
+        "type": "header",
+        "content": "t:sections.all.tablet.label"
+      }, 
+      {
+        "type": "range",
+        "id": "padding_top_tablet",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "t:sections.all.spacing.padding.top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "margin_bottom_tablet",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "t:sections.all.spacing.margin.bottom",
+        "default": 0
+      },
+      {
+        "type": "header",
+        "content": "t:sections.all.mobile.label"
+      }, 
+      {
+        "type": "range",
+        "id": "padding_top_mobile",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "t:sections.all.spacing.padding.top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "margin_bottom_mobile",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "t:sections.all.spacing.margin.bottom",
+        "default": 0
+      }		
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+

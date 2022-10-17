@@ -1,0 +1,15 @@
+{
+  "sections": {
+    "main": {
+      "type": "content-404",
+      "settings": {
+        "bg_img_404": "shopify:\/\/shop_images\/404-page_dukamarket.png",
+        "title": "Opps! Page not found.",
+        "content": "Sorry for the inconvenience. Go to our homepage or check out our latest collections."
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

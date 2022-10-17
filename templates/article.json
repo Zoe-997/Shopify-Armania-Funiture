@@ -1,0 +1,89 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb_blog",
+      "settings": {
+        "bg": "#ffffff",
+        "b_color": "#ebebeb",
+        "b_height": 70,
+        "mg_bottom": 0,
+        "mobile_bg": "#ffffff",
+        "mobile_ht": 70,
+        "mobile_mg_bottom": 0
+      }
+    },
+    "content-article": {
+      "type": "content-article",
+      "blocks": {
+        "d156c2ac-2996-4129-a296-0aa50bb6dc8d": {
+          "type": "search",
+          "settings": {
+            "title": "Search blog",
+            "place_holder_search_sidebar": "Search blog",
+            "icon_search": "<i class=\"icon-search\"><\/i>"
+          }
+        },
+        "e59fc378-70db-4744-9c1b-000ab582ab9f": {
+          "type": "author",
+          "settings": {
+            "img_avata": "shopify:\/\/shop_images\/6.jpg",
+            "content": "<p>There are many variations of passages of lorem ipsum available but the majority have suffered.<\/p>",
+            "img_signature": "shopify:\/\/shop_images\/blog-left.png"
+          }
+        },
+        "08309332-b709-414b-88b1-dd38de999d08": {
+          "type": "category",
+          "settings": {
+            "title_category_sidebar": "Categories",
+            "pagination_limit_category": "6"
+          }
+        },
+        "109ec0e3-7942-48ba-8489-95f7ca7da732": {
+          "type": "latestpost",
+          "settings": {
+            "title": "Latest post",
+            "blog": "cameras",
+            "limit_blog_latest": "5"
+          }
+        },
+        "abdcd55d-60ae-446c-81a6-85dfe1206014": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Newsletter",
+            "subtitle": "Subscribe to our newsletter and get our newest updates right on your inbox.",
+            "place_holder": "Your email",
+            "title_newsletter_checkbox": "I agree to the terms & conditions",
+            "title_newsletter_button": "Subscribe"
+          }
+        },
+        "41cec932-44fa-49de-8b99-a8ee35dee42e": {
+          "type": "tags",
+          "settings": {
+            "title": "Tags Cloud",
+            "limit_tags": "6"
+          }
+        }
+      },
+      "block_order": [
+        "d156c2ac-2996-4129-a296-0aa50bb6dc8d",
+        "e59fc378-70db-4744-9c1b-000ab582ab9f",
+        "08309332-b709-414b-88b1-dd38de999d08",
+        "109ec0e3-7942-48ba-8489-95f7ca7da732",
+        "abdcd55d-60ae-446c-81a6-85dfe1206014",
+        "41cec932-44fa-49de-8b99-a8ee35dee42e"
+      ],
+      "settings": {
+        "title_show_sidebar": "Show Sidebar",
+        "comment_use_chk": true,
+        "show_tags": true,
+        "limit_tags": "4",
+        "show_social": true,
+        "layout_blog": "2"
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "content-article"
+  ]
+}

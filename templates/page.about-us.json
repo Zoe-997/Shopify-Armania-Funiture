@@ -1,0 +1,273 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "show_n_p": true,
+        "show_title": true,
+        "color": "#080808",
+        "color_link": "#080808",
+        "color_hover": "#e52828",
+        "color_title": "#080808",
+        "bg": "#ffffff",
+        "b_color": "rgba(0,0,0,0)",
+        "mg_bottom": 50,
+        "mobile_mg_bottom": 100
+      }
+    },
+    "main-about": {
+      "type": "about-section",
+      "settings": {
+        "layout": "custom-width",
+        "style": "default",
+        "color": "#272727",
+        "color_link": "#272727",
+        "color_hover": "#e52828",
+        "color_heading": "#010101",
+        "bg_color": "#ffffff",
+        "title": "It Pains Me Physically To See Woman Victimized,<br>\nRendered Pathetic By Fashion.",
+        "description": "<p>Awkwardness gives me great comfort. I’ve never been cool, but I’ve felt cool. I’ve been in the<br\/>cool place, but I wasn’t really cool – I was trying to pass for hip or cool.<br\/><br\/>A girl should be two things: classy and fabulous. I am convinced that there can be luxury in simplicity. I wanted to dress the woman who lives and works, not the woman in a painting. It’s hard to balance everything. It’s always challenging. My relationships with producers or photographers – these are relationships that took years. I can’t get sucked into that celebrity thing, because I think it’s just crass. My aim is to make the poor look rich and the rich look poor. Vanity is the healthiest thing in life. I believe that my clothes can give people a better image of themselves – that it can increase their feelings of confidence and happiness. You can hide so much behind theatrics, and I don’t need to do that any more. I don’t really know how to do casual clothes.<\/p>",
+        "image": "shopify:\/\/shop_images\/woman-g7e66fa554_1920.png",
+        "margin_bottom": 50,
+        "padding_top_tablet": 0,
+        "margin_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "margin_bottom_mobile": 0
+      }
+    },
+    "e5e8f95c-cd49-445a-a17a-4a72364c082b": {
+      "type": "about-section",
+      "settings": {
+        "layout": "container",
+        "style": "style-2",
+        "color": "#272727",
+        "color_link": "#272727",
+        "color_hover": "#e52828",
+        "color_heading": "#010101",
+        "bg_color": "#ffffff",
+        "title": "We are proudly",
+        "description": "<p>Australian.<br\/><br\/>Soft Fabric<br\/>Get complimentary ground shipping on every<br\/>order.Don’t love it? Send it back, on us.<br\/><br\/><br\/>Lightweight<br\/>Join Minimog Rewards to earn gift cards<br\/>and enjoy exclusive member benefits.<br\/><br\/><br\/>All Day Comfort<br\/>We believe getting dressed should be the<br\/>easiest part of your day.<\/p>",
+        "image": "shopify:\/\/shop_images\/pexels-kate-gundareva-8566964.png",
+        "margin_bottom": 70,
+        "padding_top_tablet": 0,
+        "margin_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "margin_bottom_mobile": 0
+      }
+    },
+    "53d19a38-2e07-4341-8af2-30c64949c2a1": {
+      "type": "about-section",
+      "settings": {
+        "layout": "container",
+        "style": "style-3",
+        "color": "#272727",
+        "color_link": "#272727",
+        "color_hover": "#e52828",
+        "color_heading": "#010101",
+        "bg_color": "#ffffff",
+        "title": "The world needs to move fast to make a meaningful<br>\ndifference in the fight against climate change.",
+        "description": "<p>A girl should be two things: classy and fabulous. I am convinced that there can be luxury in simplicity. I wanted to dress the woman who lives and works, not the woman in a painting. It’s hard to balance everything. It’s always challenging. My relationships with producers or photographers – these are relationships that took years. I can’t get sucked into that celebrity thing, because I think it’s just crass. My aim is to make the poor look rich and the rich look poor. Vanity is the healthiest thing in life. I believe that my clothes can give people a better image of themselves – that it can increase their feelings of confidence and happiness. You can hide so much behind theatrics, and I don’t need to do that any more. I don’t really know how to do casual clothes.<\/p>",
+        "margin_bottom": 90,
+        "padding_top_tablet": 0,
+        "margin_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "margin_bottom_mobile": 0
+      }
+    },
+    "53d19a38-2e07-4341-8af2-30c64949c2a2": {
+      "type": "our-team",
+      "blocks": {
+        "92cbf0a8-b7b7-40a5-a7ed-8836c0d8468c": {
+          "type": "text_block",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/pexels-timur-weber-8560305.png",
+            "name": "Byron Jasper",
+            "position": "CHIEF OPERATING OFFICER",
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "phone": ""
+          }
+        },
+        "a3cdbad1-95bf-4771-8071-02c90ae3d1eb": {
+          "type": "text_block",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/pexels-alena-shekhovtcova-8067992.png",
+            "name": "Edison Romeo",
+            "position": "CO-FOUNDER",
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "phone": ""
+          }
+        },
+        "802dca73-b24c-456e-b966-cea12f04045a": {
+          "type": "text_block",
+          "settings": {
+            "avatar": "shopify:\/\/shop_images\/pexels-karolina-grabowska-7679584.png",
+            "name": "Victoria Crofts",
+            "position": "MARKETING",
+            "facebook": "",
+            "twitter": "",
+            "instagram": "",
+            "phone": ""
+          }
+        }
+      },
+      "block_order": [
+        "92cbf0a8-b7b7-40a5-a7ed-8836c0d8468c",
+        "a3cdbad1-95bf-4771-8071-02c90ae3d1eb",
+        "802dca73-b24c-456e-b966-cea12f04045a"
+      ],
+      "settings": {
+        "layout": "custom-width",
+        "title": "Our Team",
+        "content": "",
+        "show_contact_info": false,
+        "use-slider": true,
+        "slides-To-Scroll": 1,
+        "visible": 3,
+        "widescreen": 3,
+        "desktop": 3,
+        "laptop": 3,
+        "notebook": 2,
+        "tablet": 2,
+        "landscape": 2,
+        "portrait": 2,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": false,
+        "speed": "300",
+        "autoplay-Speed": "3000",
+        "arrows": false,
+        "adaptive-Height": false,
+        "dots": false,
+        "infinite": true,
+        "padding": 24,
+        "margin_bottom": 145,
+        "padding_top_tablet": 0,
+        "margin_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "margin_bottom_mobile": 0
+      }
+    },
+    "4dfac1db-e9de-46b7-acda-857b2d3c193d": {
+      "type": "benefit",
+      "blocks": {
+        "4dadc93d-5e95-4971-b90a-ebab4affed4e": {
+          "type": "shipping",
+          "settings": {
+            "icon": "fa fa-truck",
+            "icon_img": "shopify:\/\/shop_images\/car.png",
+            "title": "FREE DELIVERY",
+            "text": "sed dianm dolor sit amet amet of in the produts what are you doing"
+          }
+        },
+        "baeb7b35-9013-43b5-ac7a-5c8939cc8da9": {
+          "type": "shipping",
+          "settings": {
+            "icon": "fa fa-truck",
+            "icon_img": "shopify:\/\/shop_images\/coin.png",
+            "title": "MONEY-BACK",
+            "text": "sed dianm dolor sit amet amet of in the produts what are you doing"
+          }
+        },
+        "bce84fb6-f705-478e-a96f-0e5744482972": {
+          "type": "shipping",
+          "settings": {
+            "icon": "fa fa-truck",
+            "icon_img": "shopify:\/\/shop_images\/ruler-alt.png",
+            "title": "GENTAL FIT",
+            "text": "sed dianm dolor sit amet amet of in the produts what are you doing"
+          }
+        }
+      },
+      "block_order": [
+        "4dadc93d-5e95-4971-b90a-ebab4affed4e",
+        "baeb7b35-9013-43b5-ac7a-5c8939cc8da9",
+        "bce84fb6-f705-478e-a96f-0e5744482972"
+      ],
+      "settings": {
+        "layout": "container",
+        "title": "Why Chose WOWEARS",
+        "content": "dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam ut labore et dolore magna",
+        "source": "2",
+        "sid_style": "style2",
+        "use-slider": true,
+        "slides-To-Scroll": 3,
+        "visible": 3,
+        "widescreen": 3,
+        "desktop": 3,
+        "laptop": 3,
+        "notebook": 2,
+        "tablet": 2,
+        "landscape": 2,
+        "portrait": 2,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": true,
+        "speed": "300",
+        "autoplay-Speed": "3000",
+        "arrows": false,
+        "adaptive-Height": false,
+        "dots": false,
+        "infinite": true,
+        "padding": 15,
+        "cl_bg": "#ffffff",
+        "cl_ic": "#f26460",
+        "cl_hd": "#111111",
+        "cl_cot": "#888888",
+        "margin_bottom": 145,
+        "padding_top_tablet": 0,
+        "margin_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "margin_bottom_mobile": 0
+      }
+    },
+    "621804cf-e22e-4f92-b025-4094df939c99": {
+      "type": "carousel-product",
+      "settings": {
+        "layout": "container",
+        "cl_bg": "#ffffff",
+        "title": "You Might Also Like",
+        "content": "",
+        "collection": "accessories",
+        "max_count": 8,
+        "use_equal_image_height": true,
+        "use-slider": true,
+        "slides-To-Scroll": 1,
+        "visible": 4,
+        "widescreen": 4,
+        "desktop": 4,
+        "laptop": 3,
+        "notebook": 3,
+        "tablet": 3,
+        "landscape": 2,
+        "portrait": 2,
+        "mobile": 1,
+        "rows": 1,
+        "autoplay": true,
+        "speed": "300",
+        "autoplay-Speed": "3000",
+        "arrows": true,
+        "dots": false,
+        "infinite": true,
+        "padding": 15,
+        "margin_bottom": 5,
+        "padding_top_tablet": 0,
+        "margin_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "margin_bottom_mobile": 0
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main-about",
+    "e5e8f95c-cd49-445a-a17a-4a72364c082b",
+    "53d19a38-2e07-4341-8af2-30c64949c2a1",
+    "53d19a38-2e07-4341-8af2-30c64949c2a2",
+    "4dfac1db-e9de-46b7-acda-857b2d3c193d",
+    "621804cf-e22e-4f92-b025-4094df939c99"
+  ]
+}

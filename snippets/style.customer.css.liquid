@@ -1,0 +1,79 @@
+{%- assign productionMode = settings.production_mode -%}
+{%- capture styleCss -%}
+/* Login page */
+.login-page .cms-left .check-box {
+	 margin-bottom: 30px;
+}
+ .login-page .cms-left .group-button .submit {
+}
+ .login-page .cms-left .errors ul {
+	 list-style: none;
+}
+ .login-page .cms-left .errors ul li {
+	 color: red;
+	 font-style: italic;
+}
+ .login-page .cms-right .errors {
+	 display: none;
+}
+.login-page .cms-left form, 
+.login-page .cms-right form{
+}
+/* End login */
+
+/*shop-page-account*/
+.shop-page-account h1.page-title{
+    color: var(--color-main);
+    font-size: 38px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 30px 0;
+    line-height: 1;
+    border-bottom: 2px solid #ebebeb;
+    padding-bottom: 15px;
+  }
+  .shop-page-account p{
+  	
+  } 
+  .shop-page-account .address-box h4{
+    color: var(--color-main);
+    font-size: 18px;
+    margin: 15px 0;
+  }
+  .shop-page-account .address-box .view-address{
+    color: var(--color-main);
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+    display: flex;
+    text-decoration: underline;
+  }
+  .shop-page-account .address-box .view-address:hover{
+  	color:var(--color-link-hover);
+  }
+  .shop-page-account .default_address{
+    border: 1px solid #ebebeb;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .shop-page-account .default_address p{
+    line-height: 35px;
+    margin:0;
+  }
+  
+  .shop-page .section-header h1{
+  	font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--color-main);
+     margin:0;
+    margin-bottom: 30px;
+  }
+{%- endcapture -%}
+{%- if productionMode -%}
+    {%- assign paragraphs = styleCss | newline_to_br | split: '<br />' -%}
+    {%- for paragraph in paragraphs %}{{- paragraph | strip -}}{% endfor -%}
+{%- else -%}
+    {{styleCss}}
+{%- endif -%}

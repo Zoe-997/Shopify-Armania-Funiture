@@ -1,0 +1,385 @@
+<!--Footer--> 
+<div class="main-footer">
+    <div class="{{ section.settings.layout }}">
+        <div class="inner-main-footer">
+            <div class="row justify-content-between">
+                {%- for block in section.blocks -%}
+                    {%- case block.type -%}
+                        {%- when 'logo' -%}
+                        {%- assign image = block.settings.background_image -%}
+                        <div class="col-lg-{{ block.settings.cl }} col-md-{{ block.settings.cl_tb }} col-{{ block.settings.cl_mb }}" {{ block.shopify_attributes }}>
+                            <aside id="block_{{ block.id }}" class="widget widget_text widget_logo{% if block.settings.show_border %} show-border{% endif %}">
+                                {%- assign image = block.settings.footer_logo -%}
+                                {%- if image != blank -%}
+                                    <div class="footer-logo-wrap">
+                                        <a class="db" href="/">
+                                            {%- assign lg_w = block.settings.logo_width -%}
+                                            {% capture image_size %}{{ lg_w | escape }}x{% endcapture %}
+                                            {%- assign img_url = image | img_url: image_size -%}
+                                            <img class="lazyload " src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ img_url }}" alt="{{ image.alt | default: shop.name | escape }}" style="max-width: {{ lg_w }}px; width:auto; height:auto; ">
+                                        </a>
+                                    </div> 
+                                {%- endif -%}
+                                
+                                {%- if block.settings.title != blank -%}
+                                    <h3 class="widget-title" >
+                                        <span class="txt_title">{{ block.settings.title }}</span>
+                                        <span class="icon_mobile"><i class="laber-icon-down icon-chevron-down"></i>
+                                            <i class="laber-icon-up icon-chevron-up"></i></span> 
+                                    </h3>
+                                {%- endif -%}
+                                
+                                <div class="textwidget widget_footer">
+                                    <div class="footer-contact-items">  
+                                        {% if block.settings.address_content != blank %}                                 	
+                                            <div class="footer-contact-item address">
+                                                {{ block.settings.address_content }}
+                                            </div>  
+                                        {% endif %}
+                                        {% if block.settings.phone != blank %}                                 	
+                                            <div class="footer-contact-item phone">
+                                                <a href="tel: {{ block.settings.phone }}">{{ block.settings.phone }}</a>
+                                            </div>  
+                                        {% endif %}
+                                        {% if block.settings.email != blank %}                                 	
+                                            <div class="footer-contact-item email">
+                                                <a href="mailto: {{ block.settings.email }}">{{ block.settings.email }}</a>
+                                            </div>  
+                                        {% endif %}
+                                        {% if block.settings.show_social != blank %}                                 	
+                                            <div class="footer-contact-item social{% if section.settings.use_footer_style %} footer-style{% endif %}">
+                                                {% render 'social_link' %}
+                                            </div>  
+                                        {% endif %}                             
+                                    </div>
+                                </div>
+                            </aside>
+                        </div>
+
+                        {%- when 'collection' -%}
+                        {%- liquid
+                            assign on_sale_txt = 'products.product.on_sale' | t
+                            assign save_js = 'products.product.save_js' | t: saved_amount:'saved_amount' 
+                        -%}
+                        <div class="col-md-4 col-12 col-item" {{ block.shopify_attributes }}>
+                            <aside id="block_{{ block.id }}" class="widget widget_product_list{% if block.settings.show_border %} show-border{% endif %}">
+                                {%- if block.settings.title != blank -%}
+                                    <h3 class="widget-title"><span class="txt_title">{{ block.settings.title }}</span>
+                                        <span class="icon_mobile"><i class="laber-icon-down icon-chevron-down"></i><i class="laber-icon-up icon-chevron-up"></i></span> 
+                                    </h3>
+                                {%- endif -%}
+                                {%- if block.settings.collection == blank -%}
+                                    <p>{{ 'homepage.onboarding.no_content' | t }}</p>
+                                {%- else -%}
+                                <div class="widget_footer product_list_widget">
+                                    <div class="products-wrapper list-style">
+                                    {%- for product in collections[block.settings.collection].products limit: block.settings.limit -%}
+                                        {%- render 'pr_group_loop',product:product,c:collections[block.settings.collection],on_sale_txt:on_sale_txt,save_js:save_js -%}
+                                    {%- endfor -%}
+                                </div>
+                                </div>
+                                {%- endif -%}
+                            </aside>
+                        </div>
+
+                        {%- when 'text' -%}
+                        <div class="col-md-4 col-12 col-item" {{ block.shopify_attributes }}>
+                            <aside id="block_{{ block.id }}" class="widget widget_text{% if block.settings.show_border %} show-border{% endif %}">
+                                {%- if block.settings.title != blank -%}
+                                    <h3 class="widget-title">
+                                    <span class="txt_title">{{ block.settings.title }}</span>
+                                    <span class="icon_mobile"><i class="laber-icon-down icon-chevron-down"></i><i class="laber-icon-up icon-chevron-up"></span>
+                                    </h3>
+                                {%- endif -%}
+                                <div class="textwidget widget_footer">{{ block.settings.content }}</div>
+                            </aside>
+                        </div>
+
+                        {%- when 'menu' -%}
+                        <div class="col-md-2 col-12 col-item" {{ block.shopify_attributes }}>
+                            <aside id="block_{{ block.id }}" class="widget widget_nav_menu{% if block.settings.show_border %} show-border{% endif %}">
+                            {%- if block.settings.title != blank -%}
+                                <h3 class="widget-title">
+                                <span class="txt_title">{{ block.settings.title }}</span>
+                                <span class="icon_mobile"><i class="laber-icon-down icon-chevron-down"></i><i class="laber-icon-up icon-chevron-up"></i></span> 
+                                </h3>
+                            {%- endif -%}
+                            <div class="menu_footer widget_footer">
+                                {%- assign menu = block.settings.menu -%}
+                                {%- if menu != blank -%}
+                                <ul class="menu">
+                                    {%- for link in linklists[menu].links -%}
+                                    <li class="menu-item{% if link.active %} current-menu-item{% endif %}"><a href="{{ link.url }}">{{ link.title | split: '[' | first }}</a></li>
+                                    {%- endfor -%}
+                                </ul>
+                                {%- else -%}
+                                <ul class="menu">
+                                    <li class="menu-item"><a href="#">License</a></li>
+                                    <li class="menu-item"><a href="#">Privacy Policy</a></li>
+                                    <li class="menu-item"><a href="#">Terms Of Use</a></li>
+                                    <li class="menu-item"><a href="#">Help</a></li>
+                                </ul>
+                                {%- endif -%}
+                            </div>
+                            </aside>
+                        </div>
+
+                        {%- when 'mail' -%}
+                            <div class="block-subscribe col-md-4 col-12 col-item" {{ block.shopify_attributes }}>
+                            <aside id="block_{{ block.id }}" class="widget widget_text widget_subscribe{% if block.settings.show_border %} show-border{% endif %}">
+                                {% if block.settings.newsletter_heading != blank or block.settings.newsletter_content != blank %}
+                                    <div class="section-title-group">
+                                    {% if block.settings.newsletter_heading != blank %}<h3 class="section-title">{{ block.settings.newsletter_heading }}</h3>{% endif %}
+                                    {% if block.settings.newsletter_content != blank %}<div class="section-content">{{ block.settings.newsletter_content }}</div>{% endif %}
+                                    </div>
+                                {% endif %}
+                                
+                                <div class="wrap-content widget_footer">
+                                    <div class="footer-mail">                                   	
+                                    {%- form 'customer', class:'newsletter-form-footer' -%}
+                                        <input type="hidden" name="contact[tags]" value="newsletter">
+                                        <div class="mc4wp-form-fields">
+                                        <div class="signup-newsletter-form{% if block.settings.btn_icon %} show-icon{% endif %}">
+                                            <div class="input-wrapper"><input type="email" name="contact[email]" placeholder="{{ 'general.newsletter_form.email_placeholder' | t }}"  value="{% if customer %}{{ customer.email }}{% endif %}" class="{{ class_ip }} input-text" required="required"></div>
+                                            <div class="actions-wrapper">
+                                                <button type="submit" class="submit-btn truncate{% if settings.checkbox_mail %} mail_agree pr{% endif %}">
+                                                    {%- if block.settings.btn_icon -%}
+                                                    {% render 'icon-email' %}
+                                                    {%- else -%}
+                                                    <span>{{ 'general.newsletter_form.submit' | t }} </span>
+                                                    {%- endif -%}
+                                                </button>
+                                            </div>
+                                        </div>
+                                        </div>
+                
+                                        {%- if form.posted_successfully? -%}
+                                        <div class="mc4wp-response">
+                                            <div class="shopify-message"><i class="las la-check"></i>{{ 'general.newsletter_form.confirmation' | t }}</div>{%- elsif form.errors -%}<div class="shopify-error"><i class="las la-exclamation-triangle"></i>{{ form.errors | default_errors }}</div>
+                                        </div>
+                                        {%- endif -%}
+                                    {%- endform -%}
+                                    </div>
+                                </div>
+                            </aside>
+                            </div>
+
+                            {% style %}
+                                {% if block.settings.btn_icon %}
+                                    .footer-mail .signup-newsletter-form .submit-btn svg,
+                                    .footer-mail .signup-newsletter-form .submit-btn svg path{
+                                        fill: {{ block.settings.color_btn }};
+                                    }
+
+                                    .footer-mail .signup-newsletter-form .submit-btn:hover svg,
+                                    .footer-mail .signup-newsletter-form .submit-btn:hover svg path{
+                                        fill: {{ block.settings.color_btn_hv }};
+                                    }
+                                {% else %}
+                                    .footer-mail .signup-newsletter-form .submit-btn{
+                                        color: {{ block.settings.color_btn }};
+                                        background-color: {{ block.settings.background_btn }};
+                                        border-color: {{ block.settings.background_btn }};
+                                    }
+
+                                    .footer-mail .signup-newsletter-form .submit-btn:hover{
+                                        color: {{ block.settings.color_btn_hv }};
+                                        background-color: {{ block.settings.background_btn_hv }};
+                                        border-color: {{ block.settings.background_btn_hv }};
+                                    }
+                                {% endif %}
+
+                                .footer-mail .signup-newsletter-form input{
+                                    border-color: {{ block.settings.border_input }};
+                                    color: {{ block.settings.color_input }};
+                                }
+
+                                .footer-mail .signup-newsletter-form input:focus{
+                                    border-color: {{ block.settings.border_input_focus }};
+                                }
+                            {% endstyle %}
+                    {%- endcase -%}
+                {%- endfor -%}
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer-note {{ section.settings.footer_bottom_layout }}{% if section.settings.show_border %} show-border{% endif %}">
+    <div class="{{ section.settings.layout }}">
+        <div class="inner-footer-note">
+        <div class="d-flex flex-wrap align-items-center">
+            {% if section.settings.footer_bottom_layout == 'style_1' %}
+                <div class="footer-note-item extra-info text-start">                               	
+                    <div class="inner-extra-info">
+                        {% if section.settings.show_social_link %}
+                            <div class="footer-contact-item social{% if section.settings.use_footer_style %} footer-style{% endif %}">
+                                {% render 'social_link' %}
+                            </div>    
+                        {% endif %}
+                        <ul class="{{ text_align }} menu-language parent-list">
+                            {% if section.settings.footer_use_currency %}
+                                <li class="language item-list" >
+                                {% render 'currency-picker' %}
+                                <a href="javascript:void(0);" class="toggle-submenu">                
+                                    <span class="lang-currency">{% if settings.default_currency != blank %}{{ settings.default_currency }}{% else %}{{ shop.currency }}{% endif %}</span><span class="icon"><i class="fa fa-angle-down"></i></span>
+                                </a>  
+                                <ul class="{{ shop.currency }} list-currencies currency-lists child-list">         
+                                    {% assign codes = 'USD,EUR,GBP,CAD,ARS,AUD,BBD,BDT,BSD,BHD,BRL,BOB,BND,BGN,ILS,MMK,KYD,CLP,CNY,COP,CRC,HRK,CZK,DKK,DOP,XCD,EGP,XPF,FJD,GHS,GTQ,GYD,GEL,HKD,HUF,ISK,INR,IDR,NIS,JMD,JPY,JOD,KZT,KES,KWD,LVL,LTL,MXN,MYR,MUR,MDL,MAD,MNT,MZN,ANG,NZD,NGN,NOK,OMR,PKR,PYG,PEN,PHP,PLN,QAR,RON,RUB,SAR,RSD,SCR,SGD,SYP,ZAR,KRW,LKR,SEK,CHF,TWD,THB,TZS,TTD,TRY,UAH,AED,UYU,VEB,VND,ZMK' | split: ',' %}
+                                    {% assign supported_codes = settings.supported_currencies | split: ' ' %}  
+                                    {% assign currency_default = shop.currency %}
+                                    {% for code in supported_codes %}
+                                    {% if codes contains code %}
+                                        <li data-value="{{ code }}" class="{{ code }}{% if currency_default == code %} active{% endif %}" ><a href="javascript:void(0);"><span class="code_currency">{{ code }}</span></a></li>
+                                    {% endif %}
+                                    {% endfor %} 
+                                </ul>
+                                </li>
+                            {% endif %}
+                            {% if section.settings.footer_use_language %}
+                                <li class="item-list shop-language {% if showFlag %}show-flag{% endif %}">
+                                    {% if shop.published_locales.size > 1 %}
+                                    {% assign showFlag = settings.show_flag %}
+                                    <a data-code="{{ shop.locale }}" href="javascript:void(0);" class="toggle-submenu item-active">
+                                        {% if showFlag %}<img class="flag" src="" data-src="{{ shop.locale | prepend: 'flag_' | append: '.png' | asset_url }}" />{% endif %}                        
+                                    <span class="current">{{ shop.locale | upcase }}</span><span class="icon"><i class="fa fa-angle-down"></i></span>
+                                    </a>
+                                    <ul class="dropdown child-list">
+                                    {% for locale in shop.published_locales %}
+                                    <li data-code="{{ locale.iso_code }}" class="{{ locale.iso_code }}{% if locale.iso_code == shop.locale %} active{% endif %}{% if locale.primary %} primary{% endif %}">
+                                        <a data-code="{{ locale.iso_code }}" href="javascript:void(0);" class="language-code">
+                                        {% if showFlag %}<img class="flag" src="" data-src="{{ locale.iso_code | prepend: 'flag_' | append: '.png' | asset_url }}" />{% endif %}      
+                                        <span class"name" style="display:none">{{ locale.name }}</span>
+                                        <span class"code">{{ locale.iso_code | upcase  }}</span>
+                                        </a>
+                                    </li>
+                                    {% endfor %}
+                                    </ul>
+                                    {% endif %}
+                                </li>
+                            {% endif %}
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-note-item copyright text-center">
+                    <div class="coppy-right">
+                        <h3 class="content">{{ section.settings.copyright }}</h3>
+                    </div>
+                </div>
+                <div class="footer-note-item payment text-end">
+                    <div class="footer_paypal">
+                        {% if section.settings.icon_payment %}
+                            <img src="{{ section.settings.icon_payment | img_url:"325x29" }}" alt="Payment">
+                        {% else %}
+                            {% if shop.enabled_payment_types.size > 0 %}
+                                {% for type in shop.enabled_payment_types %}
+                                    <img src="{{ type | payment_type_img_url }}" />
+                                {% endfor %}
+                            {% else %}
+                                <img src="https://placehold.jp/14/e8e8e8/fff/325x29.png?text=Payment+image+325x29" alt="Payment">
+                            {% endif %}
+                        {% endif %}
+                    </div>
+                </div>
+            {% else %}
+                <div class="footer-note-item copyright text-start">
+                    <div class="coppy-right">
+                        <h3 class="content">{{ section.settings.copyright }}</h3>
+                    </div>
+                </div>
+                <div class="footer-note-item payment text-end">
+                    <div class="footer_paypal">
+                        {% if section.settings.icon_payment %}
+                            <img src="{{ section.settings.icon_payment | img_url:"325x29" }}" alt="Payment">
+                        {% else %}
+                            {% if shop.enabled_payment_types.size > 0 %}
+                                {% for type in shop.enabled_payment_types %}
+                                    <img src="{{ type | payment_type_img_url }}" />
+                                {% endfor %}
+                            {% else %}
+                                <img src="https://placehold.jp/14/e8e8e8/fff/325x29.png?text=Payment+image+325x29" alt="Payment">
+                            {% endif %}
+                        {% endif %}
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+        </div>
+    </div>
+</div>
+<!--/Footer-->
+{% style %}
+    {%- capture rgb -%}{{ section.settings.border_color| color_to_rgb }}{%- endcapture -%}
+    {%- assign alpha = section.settings.border_opacity | divided_by: 100.00 -%}
+    {%- assign tail = alpha | prepend: ', ' | append: ')' -%}
+    {%- assign rgb = rgb | replace: 'rgb', 'rgba' | replace: ')', tail -%}
+    .footer{
+        margin-top: {{ section.settings.margin_top }}px;
+        {% if section.settings.background_image != blank %}
+            background-image:url('{{ section.settings.background_image | img_url:"1920x682" }}'); 
+            background-repeat: no-repeat;
+            background-size: {{ section.settings.background_size }};
+            {% if section.settings.background_fixed %}background-attachment: fixed;{% endif %}
+            {% if section.settings.background_position != blank %}background-position: {{ section.settings.background_position }};{% endif %}
+        {% else %}
+            background-color: {{ section.settings.background }};
+        {% endif %}
+    }
+
+    .footer .main-footer,
+    .footer-mail .signup-newsletter-form input::placeholder,
+    .footer .parent-list .item-list>span, 
+    .footer .parent-list .item-list>a{
+        color: {{ section.settings.color }};
+    }
+    .footer .main-footer a,
+    .footer .social.footer-style .laber-social-link .list-socials li a{
+        color: {{ section.settings.color }};
+    }
+    .footer .main-footer a:hover,
+    .footer .social.footer-style .laber-social-link .list-socials li a:hover{
+        color: {{ section.settings.color_hv }};
+    }
+    .footer .main-footer .widget-title .txt_title{
+        color: {{ section.settings.color_heading }};
+    }
+    .footer .main-footer .widget{
+        border-color: {{ rgb }};
+    }
+    {% if section.settings.show_border %}
+        {% if section.settings.border_full_width %}
+            .footer .main-footer{
+                border-width: 0 0 1px;
+                border-style: solid;
+                border-color: {{ rgb }};
+            }
+        {% else %}
+            .footer .main-footer .inner-main-footer{
+                border-width: 0 0 1px;
+                border-style: {{ section.settings.border_style }};
+                border-color: {{ rgb }};
+            }
+        {% endif %}
+    {% endif %}
+    .footer .footer-note{
+        background-color: {{ section.settings.footer_bottom_background }};
+        color: {{ section.settings.footer_bottom_color }};
+    }
+    .footer .footer-note a{
+        color: {{ section.settings.footer_bottom_color_link }};
+    }
+    .footer .footer-note a:hover{
+        color: {{ section.settings.footer_bottom_color_hv }};
+    }
+    .footer .footer-note .parent-list .item-list>a{
+        color: {{ section.settings.footer_bottom_color }};
+    }
+    @media(max-width: 767px){
+        .footer{
+            margin-top: {{ section.settings.margin_top_mobile }}px;
+        }
+        .footer .main-footer{
+            padding-top: {{ section.settings.padding_top_mobile }}px;
+            padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+        }
+    }
+{% endstyle %}

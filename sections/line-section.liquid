@@ -1,0 +1,171 @@
+<div id="label_{{ section.id }}">
+    <div class="{{ section.settings.layout }}">
+    <div class="section-line"></div>
+    </div>
+</div>
+
+{% style %}
+    {%- capture rgb -%}{{ section.settings.color | color_to_rgb }}{%- endcapture -%}
+    {%- assign alpha = section.settings.color_opacity | divided_by: 100.00 -%}
+    {%- assign tail = alpha | prepend: ', ' | append: ')' -%}
+    {%- assign rgb = rgb | replace: 'rgb', 'rgba' | replace: ')', tail -%}
+    
+    {% if section.settings.layout == "container" %}
+        #label_{{ section.id }} .section-line{
+            height: {{ section.settings.height }}px;
+            background-color: {{ rgb }};
+            width: 100%;
+        }
+    {% else %}
+        #label_{{ section.id }}{
+            height: {{ section.settings.height }}px;
+            background-color: {{ rgb }};
+            width: 100%;
+        }
+    {% endif %}
+
+    #label_{{ section.id }}{
+        margin-top: {{ section.settings.margin_top }}px;
+        margin-bottom: {{ section.settings.margin_bottom }}px;
+    }
+    
+    @media(max-width: 767px){
+        #label_{{ section.id }}{
+            margin-top: {{ section.settings.margin_top_mobile }}px;
+            margin-bottom: {{ section.settings.margin_bottom_mobile }}px;
+        }
+    }
+{% endstyle %}
+
+{% schema %}
+    {
+        "name": "t:sections.line.name",
+        "class":"type_line",
+        "settings": [
+            {
+                "type": "header",
+                "content": "t:sections.all.layout.label"
+            },
+            {
+                "type": "select",
+                "id": "layout",
+                "options": [
+                {
+                    "value": "container",
+                    "label": "t:sections.all.layout.option__1"
+                }, {
+                    "value": "full-width",
+                    "label": "t:sections.all.layout.option__2"
+                }, {
+                    "value": "custom-width",
+                    "label": "t:sections.all.layout.option__3"
+                }
+                ],
+                "label": "t:sections.all.layout.width"
+            },
+            {
+                "type": "range",
+                "id": "height",
+                "min": 0,
+                "max": 5,
+                "step": 1,
+                "unit": "px",
+                "label": "Line height",
+                "default": 1
+            },
+            {
+                "type": "color",
+                "id": "color",
+                "label": "Line color",
+                "default": "#000000"
+            },
+            {
+                "type": "range",
+                "id": "color_opacity",
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "unit": "%",
+                "label": "Color opacity",
+                "default": 10
+            },
+            {
+                "type": "header",
+                "content": "t:sections.all.spacing.label"
+            },
+            {
+                "type": "range",
+                "id": "margin_top",
+                "min": 0,
+                "max": 300,
+                "step": 5,
+                "unit": "px",
+                "label": "t:sections.all.spacing.margin.top",
+                "default": 0
+            },
+            {
+                "type": "range",
+                "id": "margin_bottom",
+                "min": 0,
+                "max": 300,
+                "step": 5,
+                "unit": "px",
+                "label": "t:sections.all.spacing.margin.bottom",
+                "default": 0
+            },
+            {
+                "type": "header",
+                "content": "t:sections.all.tablet.label"
+            }, 
+            {
+                "type": "range",
+                "id": "margin_top_tablet",
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "unit": "px",
+                "label": "t:sections.all.spacing.margin.top",
+                "default": 0
+            },
+            {
+                "type": "range",
+                "id": "margin_bottom_tablet",
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "unit": "px",
+                "label": "t:sections.all.spacing.margin.bottom",
+                "default": 0
+            },
+            {
+                "type": "header",
+                "content": "t:sections.all.mobile.label"
+            }, 
+            {
+                "type": "range",
+                "id": "margin_top_mobile",
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "unit": "px",
+                "label": "t:sections.all.spacing.margin.top",
+                "default": 0
+            },
+            {
+                "type": "range",
+                "id": "margin_bottom_mobile",
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "unit": "px",
+                "label": "t:sections.all.spacing.margin.bottom",
+                "default": 0
+            }
+        ],
+        "presets": [
+            {
+                "name": "t:sections.line.presets.name"
+            }   
+        ]
+    }
+{% endschema %}

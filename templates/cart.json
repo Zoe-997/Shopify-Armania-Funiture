@@ -1,0 +1,29 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb",
+      "settings": {
+        "use_img": true,
+        "bg_breadcrumb_blog": "shopify:\/\/shop_images\/breadcrumb-cart_394f2656-9a1a-4c59-a12d-029b4f75c034.jpg",
+        "bg": "#b92b2b",
+        "b_color": "rgba(0,0,0,0)",
+        "b_height": 350,
+        "mg_bottom": 100,
+        "mobile_bg": "rgba(0,0,0,0)",
+        "mobile_ht": 200,
+        "mobile_mg_bottom": 60,
+        "show_n_p": true,
+        "show_title": true
+      }
+    },
+    "main": {
+      "type": "main-cart",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "main"
+  ]
+}

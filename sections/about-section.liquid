@@ -1,0 +1,229 @@
+{% liquid
+  assign sid = section.id 
+  assign image = section.settings.image
+  assign style = section.settings.style
+%}
+{%- for i in (1..1) -%}
+  <section id="section-{{ sid }}" class="{{ style }}">       
+    <div class="{{ section.settings.layout }}">
+      <div class="inner-section">
+        {% if style == 'style-2' %}
+          <div class="row">
+        {% endif %}
+          {% if style == 'default' or style == 'style-2' %}
+            <div class="section-media{% if style == 'style-2' %} col-md-6 col-12 col-item {% endif %}">
+              <div class="images">
+                {%- if image != blank -%}
+                  <img class="lazyload" loading="lazy" data-src="{{ image | img_url: '1296x' }} width="1296" height="auto" alt="{{ image.alt }}"/>
+                {%- else -%}
+                  {%- if style == 'style-2' -%}
+                    {{ 'collection-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                  {%- else -%}
+                    {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                  {%- endif -%}
+                {%- endif -%}
+              </div> 
+            </div>            
+          {% endif %}
+          <div class="section-content{% if style == 'style-2' %} col-md-6 col-12 col-item {% endif %}">
+            {% if section.settings.title != blank %}<h2 class="section-title">{{ section.settings.title }}</h2>{% endif %}
+            {% if section.settings.description != blank %}<div class="description">{{ section.settings.description }}</div>{% endif %}
+          </div>
+        {% if style == 'style-2' %}
+          </div>            
+        {% endif %}
+      </div>
+    </div>
+  </section>
+{%- endfor -%}
+
+{%- style -%}
+  #section-{{ sid }}{
+    color: {{ section.settings.color }};
+    background-color: {{ section.settings.bg_color }};
+  }
+
+  #section-{{ sid }} .section-title{
+    color: {{ section.settings.color_heading }};
+  }
+
+  #section-{{ sid }} a{
+    color: {{ section.settings.color_link }};
+  }
+
+  #section-{{ sid }} a:hover{
+    color: {{ section.settings.color_hover }};
+  }
+{%- endstyle -%}
+{%- render 'section_style' -%}
+
+{%- schema -%}
+  {
+    "name": "t:sections.about.name",
+    "class": "cms-section section-about",	
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:sections.all.layout.label"
+      },
+      {
+        "type": "select",
+        "id": "layout",
+        "options": [
+          {
+            "value": "container",
+            "label": "t:sections.all.layout.option__1"
+          }, {
+            "value": "full-width",
+            "label": "t:sections.all.layout.option__2"
+          }, {
+            "value": "custom-width",
+            "label": "t:sections.all.layout.option__3"
+          }
+        ],
+        "label": "t:sections.all.layout.width"
+      },
+      {
+        "type": "select",
+        "id": "style",
+        "default": "default",
+        "options": [
+          {
+            "value": "default",
+            "label": "t:sections.about.style.option__1"
+          }, 
+          {
+            "value": "style-2",
+            "label": "t:sections.about.style.option__2"
+          },
+          {
+            "value": "style-3",
+            "label": "t:sections.about.style.option__3"
+          }
+        ],
+        "label": "t:sections.about.style.label"
+      },
+      {
+        "type": "color",
+        "id": "color",
+        "label": "t:sections.about.colors.color",
+        "default": "#272727"
+      },
+      {
+        "type": "color",
+        "id": "color_link",
+        "label": "t:sections.about.colors.color_link",
+        "default": "#272727"
+      },
+      {
+        "type": "color",
+        "id": "color_hover",
+        "label": "t:sections.about.colors.color_hover",
+        "default": "#e52828"
+      },
+      {
+        "type": "color",
+        "id": "color_heading",
+        "label": "t:sections.about.colors.color_heading",
+        "default": "#010101"
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "t:sections.about.colors.background",
+        "default": "#fff"
+      },	
+      {
+        "type": "header",
+        "content": "t:sections.about.content.label"
+      },    		 
+      {
+        "type": "textarea",
+        "id": "title",
+        "label": "t:sections.about.content.title",
+        "default": "When You Look Good, You Feel Good",
+        "info": "t:sections.all.note.br"
+      }, 
+      {
+        "type": "richtext",
+        "id": "description",
+        "label": "t:sections.about.content.description",
+        "default": "<p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "t:sections.about.content.image.label",
+        "info": "t:sections.about.content.image.info"
+      },
+      {
+        "type": "header",
+        "content": "t:sections.all.spacing.label"
+      },
+      {
+        "type": "range",
+        "id": "margin_bottom",
+        "min": 0,
+        "max": 300,
+        "step": 5,
+        "unit": "px",
+        "label": "t:sections.all.spacing.margin.bottom",
+        "default": 0
+      },
+      {
+        "type": "header",
+        "content": "t:sections.all.tablet.label"
+      }, 
+      {
+        "type": "range",
+        "id": "padding_top_tablet",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "t:sections.all.spacing.padding.top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "margin_bottom_tablet",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "t:sections.all.spacing.margin.bottom",
+        "default": 0
+      },
+      {
+        "type": "header",
+        "content": "t:sections.all.mobile.label"
+      }, 
+      {
+        "type": "range",
+        "id": "padding_top_mobile",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "t:sections.all.spacing.padding.top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "margin_bottom_mobile",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "t:sections.all.spacing.margin.bottom",
+        "default": 0
+      }
+    ],
+    "presets": [
+      {
+        "name": "t:sections.about.presets.name",
+        "category": "Introduce"
+      }
+    ]
+  }
+{% endschema %}

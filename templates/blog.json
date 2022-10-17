@@ -1,0 +1,79 @@
+{
+  "sections": {
+    "breadcrumb": {
+      "type": "breadcrumb_blog",
+      "settings": {
+        "bg": "rgba(0,0,0,0)",
+        "b_color": "#ebebeb",
+        "b_height": 70,
+        "mg_bottom": 0,
+        "mobile_bg": "rgba(0,0,0,0)",
+        "mobile_ht": 70,
+        "mobile_mg_bottom": 0
+      }
+    },
+    "content-blog": {
+      "type": "content-blog",
+      "blocks": {
+        "e9bdefe9-9d3a-465e-9fdf-8751362422f1": {
+          "type": "search",
+          "settings": {
+            "title": "Search blog",
+            "place_holder_search_sidebar": "Search blog",
+            "icon_search": "<i class=\"icon-search\"><\/i>"
+          }
+        },
+        "bbbe3ea1-cf58-4a82-a24c-f4cfb21c7123": {
+          "type": "category",
+          "settings": {
+            "title_category_sidebar": "Categories",
+            "pagination_limit_category": "6"
+          }
+        },
+        "c8ffbd87-a17f-40ea-8241-1ee3b203aefb": {
+          "type": "latestpost",
+          "settings": {
+            "title": "Latest post",
+            "blog": "cameras",
+            "limit_blog_latest": "5"
+          }
+        },
+        "8272970e-2be6-475d-ad6a-d211ca8f2457": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Newsletter",
+            "subtitle": "Subscribe to our newsletter and get our newest updates right on your inbox.",
+            "place_holder": "Your email",
+            "title_newsletter_checkbox": "I agree to the terms & conditions",
+            "title_newsletter_button": "Subscribe"
+          }
+        },
+        "7479102b-2c4a-4327-a989-b64a5b9c64d8": {
+          "type": "tags",
+          "settings": {
+            "title": "Tags Cloud",
+            "limit_tags": "6"
+          }
+        }
+      },
+      "block_order": [
+        "e9bdefe9-9d3a-465e-9fdf-8751362422f1",
+        "bbbe3ea1-cf58-4a82-a24c-f4cfb21c7123",
+        "c8ffbd87-a17f-40ea-8241-1ee3b203aefb",
+        "8272970e-2be6-475d-ad6a-d211ca8f2457",
+        "7479102b-2c4a-4327-a989-b64a5b9c64d8"
+      ],
+      "settings": {
+        "layout_blog": "2",
+        "pagination_limit_blog": "8",
+        "cl_first": "6",
+        "cl": "6",
+        "mg_bottom": 30
+      }
+    }
+  },
+  "order": [
+    "breadcrumb",
+    "content-blog"
+  ]
+}

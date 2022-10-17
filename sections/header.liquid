@@ -1,0 +1,254 @@
+{% liquid
+  assign se_blocks = section.blocks 
+  assign tp_blocks = se_blocks | map: 'type' | join: ',' | remove:',link2' | remove:',link' | remove:',pr' | remove:',banner' | remove:',html' | remove:',cat' | split: ','
+%}
+{%- if template.suffix == "item_menu" and template.name == 'search' -%}
+	{%- render 'menu_import',section:section -%}	
+{%- else -%}
+  <div data-section-id="{{ section.id }}" data-section-type="header-section">
+    {% capture image_size %}{{ section.settings.logo_max_width | escape }}x{% endcapture %}
+    {% include 'header' %}
+    {%- unless type_name contains 'customers/' or customer != blank -%}
+    <div id="login_pupop" class="hero_canvas" data-include="/search/?view=login">
+      <div class="loading_bg"></div>
+    </div>
+    {%- endunless -%}
+  </div>
+{%- endif -%}
+{% schema %}
+  {
+    "name": "t:sections.header.name",
+    "class": "section-header",
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:sections.header.settings.color.label"
+      },    
+      {
+        "type": "color",
+        "id": "color",
+        "label": "t:sections.header.settings.color.color",
+        "default": "#000000"
+      },   
+      {
+        "type": "color",
+        "id": "color_hv",
+        "label": "t:sections.header.settings.color.color_hover",
+        "default": "#ff6f00"
+      }, 
+      {
+        "type": "color",
+        "id": "background_color",
+        "label": "t:sections.header.settings.color.background",
+        "default": "#fff"
+      },    
+      {
+        "type": "color",
+        "id": "border_color",
+        "label": "t:sections.header.settings.color.border",
+        "default": "#fff"
+      },  
+      {
+        "type": "color",
+        "id": "color_count",
+        "label": "t:sections.header.settings.color.count.color",
+        "default": "#fff"
+      },  
+      {
+        "type": "color",
+        "id": "background_count",
+        "label": "t:sections.header.settings.color.count.background",
+        "default": "#ff6f00"
+      },  
+      {
+        "type": "header",
+        "content": "t:sections.header.settings.layout.label"
+      },  
+      {
+        "type": "select",
+        "id": "header_width",
+        "options": [
+          {
+            "value": "container",
+            "label": "t:sections.header.settings.width.options__1.label"
+          },
+          {
+            "value": "full-width",
+            "label": "t:sections.header.settings.width.options__2.label"
+          }
+        ],
+        "default": "container",
+        "label": "t:sections.header.settings.width.label"
+      },   
+      {
+        "type": "number",
+        "id": "header_width_distance",
+        "label": "t:sections.header.settings.width.distance",
+        "default": 60
+      }, 
+      {
+        "type": "select",
+        "id": "logo_position",
+        "options": [
+          {
+            "value": "middle-left",
+            "label": "t:sections.header.settings.logo_position.options__1.label"
+          },
+          {
+            "value": "top-left",
+            "label": "t:sections.header.settings.logo_position.options__2.label"
+          },
+          {
+            "value": "top-left-2",
+            "label": "t:sections.header.settings.logo_position.options__3.label"
+          },
+          {
+            "value": "top-center",
+            "label": "t:sections.header.settings.logo_position.options__4.label"
+          }
+        ],
+        "default": "middle-left",
+        "label": "t:sections.header.settings.logo_position.label",
+        "info": "t:sections.header.settings.logo_position.info"
+      },
+      {
+        "type": "header",
+        "content": "t:sections.header.settings.menu.label"
+      },
+      {
+        "type": "link_list",
+        "id": "menu",
+        "default": "main-menu",
+        "label": "t:sections.header.settings.menu.content"
+      },
+      {
+        "type": "select",
+        "id": "menu_type_desktop",
+        "options": [
+          {
+            "value": "dropdown",
+            "label": "t:sections.header.settings.menu_type_desktop.options__1.label"
+          },
+          {
+            "value": "mega",
+            "label": "t:sections.header.settings.menu_type_desktop.options__2.label"
+          }
+        ],
+        "default": "dropdown",
+        "label": "t:sections.header.settings.menu_type_desktop.label",
+        "info": "t:sections.header.settings.menu_type_desktop.info"
+      },
+      {
+        "type": "select",
+        "id": "menu_mega_style_desktop",
+        "options": [
+          {
+            "value": "style1",
+            "label": "t:sections.header.settings.mega_menu.style.options__1.label"
+          },
+          {
+            "value": "style2",
+            "label": "t:sections.header.settings.mega_menu.style.options__2.label"
+          }
+        ],
+        "default": "style1",
+        "label": "t:sections.header.settings.mega_menu.style.label",
+        "info": "t:sections.header.settings.mega_menu.style.info"
+      },
+      {
+        "type": "text",
+        "id": "item_dropdown",
+        "label": "t:sections.header.settings.menu_style_desktop.item_dropdown.label",
+        "info": "t:sections.header.settings.menu_style_desktop.item_dropdown.info"
+      }, 
+      {
+        "type": "checkbox",
+        "id": "show_line_separator",
+        "default": true,
+        "label": "t:sections.header.settings.show_line_separator.label"
+      },
+      {
+        "type": "header",
+        "content": "t:sections.header.settings.mega_menu.label"
+      },
+      {
+        "type": "image_picker",
+        "id": "banner_2",
+        "label": "t:sections.header.settings.mega_menu.banner.label_2"
+      },  
+      {
+        "type": "image_picker",
+        "id": "banner_3",
+        "label": "t:sections.header.settings.mega_menu.banner.label_3"
+      },  
+      {
+        "type": "image_picker",
+        "id": "banner_4",
+        "label": "t:sections.header.settings.mega_menu.banner.label_4"
+      },  
+      {
+        "type": "image_picker",
+        "id": "banner_5",
+        "label": "t:sections.header.settings.mega_menu.banner.label_5"
+      },      
+      {
+        "type": "header",
+        "content": "t:sections.header.settings.extra_info.label"
+      },
+      {
+        "type": "text",
+        "id": "phone",
+        "label": "t:sections.header.settings.extra_info.phone",
+        "default": "+1 86.36.166 "
+      },    
+      {
+        "type": "header",
+        "content": "t:sections.all.spacing.margin.label"
+      },
+      {
+        "type": "range",
+        "id": "margin_top",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "t:sections.all.spacing.margin.top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "margin_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "t:sections.all.spacing.margin.bottom",
+        "default": 0
+      },
+      {
+        "type": "header",
+        "content": "t:sections.all.spacing.padding.label"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "t:sections.all.spacing.padding.top",
+        "default": 20
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "t:sections.all.spacing.padding.bottom",
+        "default": 20
+      }
+    ]
+  }
+{% endschema %}

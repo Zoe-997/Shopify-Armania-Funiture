@@ -1,0 +1,64 @@
+<div class="laber-social-link socials clearfix">
+  {% if settings.link_title_social != blank %}<spam class="title-socials">{{ settings.link_title_social }}</spam>{% endif %}
+  <ul class="list-socials ">
+    {% if settings.social_link_facebook_enable %}
+      <li class="facebook">
+        <a  target="_blank" href="{{settings.social_link_facebook_link}}" title="{{settings.social_link_facebook_text}}"><i class="fa fa-facebook"></i></a>
+      </li>
+    {% endif %}
+
+    {% if settings.social_link_twitter_enable %}
+      <li class="twitter">
+        <a  target="_blank" href="{{settings.social_link_twitter_link}}" title="{{settings.social_link_twitter_text}}"><i class="fa fa-twitter"></i></a>
+      </li>
+    {% endif %}
+
+    {% if settings.social_link_instagram_enable %}
+      <li class="instagram">
+        <a  target="_blank" href="{{settings.social_link_instagram_link}}" title="{{settings.social_link_instagram_text}}"><i class="fa fa-instagram"></i></a>
+      </li>
+    {% endif %}
+
+    {% if settings.social_link_linkedin_enable %}
+      <li class="pinterest">
+        <a  target="_blank" href="{{settings.social_link_linkedin_link}}" title="{{settings.social_link_linkedin_text}}"><i class="fa fa-linkedin"></i></a>
+      </li>
+    {% endif %}
+
+    {% if settings.social_link_pinterest_enable %}
+      <li class="pinterest">
+        <a  target="_blank" href="{{settings.social_link_pinterest_link}}" title="{{settings.social_link_pinterest_text}}"><i class="fa fa-pinterest"></i></a>
+      </li>
+    {% endif %}
+    
+    {% if settings.social_link_google_enable %}
+      <li class="google">
+        <a  target="_blank" href="{{settings.social_link_google_link}}" title="{{settings.social_link_google_text}}"><i class="fa fa-google-plus"></i></a>
+      </li>
+    {% endif %}
+
+    {% if settings.social_link_tumblr_enable %}
+      <li class="tumblr">
+        <a  target="_blank" href="{{settings.social_tumblr_link}}" title="{{settings.social_link_tumblr_text}}"><i class="fa fa-tumblr"></i></a>
+      </li>
+    {% endif %}
+
+    {% if settings.social_link_snapchat_enable %}
+      <li class="snapcha">
+        <a  target="_blank" href="{{settings.social_snapchat_link}}" title="{{settings.social_link_snapchat_text}}"><i class="fa fa-snapchat-ghost"></i></a>
+      </li>
+    {% endif %}
+
+    {% if settings.social_link_youtube_enable %}
+      <li class="youtube">
+        <a  target="_blank" href="{{settings.social_youtube_link}}" title="{{settings.social_link_youtube_text}}"><i class="fa fa-youtube-play"></i></a>
+      </li>
+    {% endif %}
+
+    {% if settings.social_link_vimeo_enable %}
+      <li class="vimeo">
+        <a  target="_blank" href="{{settings.social_vimeo_link}}" title="{{settings.social_link_vimeo_text}}"><i class="fa fa-vimeo"></i></a>
+      </li>
+    {% endif %}
+  </ul>
+</div>

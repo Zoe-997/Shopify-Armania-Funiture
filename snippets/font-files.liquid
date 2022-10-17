@@ -1,0 +1,23 @@
+{%- style -%}
+  {%- assign font-face = font-face | split: " " -%}
+  @font-face {
+    {{font-name}};
+    {%- for filename in font-face -%}
+      {%- assign filename-split = filename | split: "." -%}
+      {%- for format in filename-split -%}
+        {%- if format == 'eot' -%}
+          src: url("{{ filename | asset_url }}");
+        {%- endif -%}
+        {%- if format == 'ttf' or format == 'otf' -%}
+          src: url("{{ filename | asset_url }}") format('truetype');
+        {%- endif -%}
+        {%- if format == 'woff' or format == 'woff2' -%}
+          src: url("{{ filename | asset_url }}") format('{{ format }}');
+        {%- endif -%}
+        {%- if format == 'svg' -%}
+          src: url("{{ filename | asset_url | append: '#' | append: font-name }}") format('{{ format }}');
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endfor -%}
+  }
+{%- endstyle -%}
