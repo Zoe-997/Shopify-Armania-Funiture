@@ -3317,6 +3317,22 @@
               "title": "",
               "txt_align": "left"
             }
+          },
+          "152145bc-26e8-451c-8152-415d9b9770bb": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "title": "",
+              "txt_align": "left"
+            }
+          },
+          "d8ba8ad9-364f-4442-824f-2b8f81bda12d": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "title": "",
+              "txt_align": "left"
+            }
           }
         },
         "block_order": [
@@ -3325,7 +3341,9 @@
           "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-2",
           "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-3",
           "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-4",
-          "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-5"
+          "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-5",
+          "152145bc-26e8-451c-8152-415d9b9770bb",
+          "d8ba8ad9-364f-4442-824f-2b8f81bda12d"
         ],
         "settings": {
           "title": "",
@@ -3350,12 +3368,35 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "d23b5c6e-abdb-4a01-8023-4b8211ee3de2": {
+        "type": "product-countdown-banner",
+        "settings": {
+          "bg_img": "shopify:\/\/shop_images\/banner_3610d79d-7684-47ee-86a1-6feccfdf96c2.png",
+          "button_link": "shopify:\/\/collections",
+          "year_count_down": "0",
+          "month_count_down": "0",
+          "day_count_down": "10",
+          "btn": "BUY IT NOW",
+          "cl_btn": "#000000",
+          "cl_btn_hover": "#fff",
+          "bg_cl": "#f5b301",
+          "bg_cl_hover": "#343e45",
+          "title": "Sale Up To 60% Off",
+          "title2": "",
+          "sub_title": "#ArmaniaDiscount",
+          "mg_top": 0,
+          "mg_right": 0,
+          "mg_bottom": 0,
+          "mg_left": 0
+        }
       }
     },
     "content_for_index": [
       "1664419913d0621eff",
       "dc202872-d066-4b47-ba25-ccc7ac7ea24b",
-      "c5a046fc-7d2d-43b1-b0e6-3f437e7c0d3d"
+      "c5a046fc-7d2d-43b1-b0e6-3f437e7c0d3d",
+      "d23b5c6e-abdb-4a01-8023-4b8211ee3de2"
     ]
   },
   "presets": {
