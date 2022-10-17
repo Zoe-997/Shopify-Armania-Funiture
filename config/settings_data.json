@@ -3449,11 +3449,29 @@
               "title": "21 Days Return",
               "text": "Moneyback guarantee"
             }
+          },
+          "9fbe196d-9a8f-4a6c-af2e-e8fd2ee786ff": {
+            "type": "shipping",
+            "settings": {
+              "icon": "fa fa-truck",
+              "title": "Secure Checkout",
+              "text": "100% protected payments"
+            }
+          },
+          "652400ad-e8b5-499a-a454-ad9efcab9679": {
+            "type": "shipping",
+            "settings": {
+              "icon": "fa fa-truck",
+              "title": "Add a title",
+              "text": "Use this text to describe."
+            }
           }
         },
         "block_order": [
           "73866464-4848-4132-ac1a-4adfa4265cfe",
-          "12c861c5-48d1-4c4a-8dad-6433d5a4950a"
+          "12c861c5-48d1-4c4a-8dad-6433d5a4950a",
+          "9fbe196d-9a8f-4a6c-af2e-e8fd2ee786ff",
+          "652400ad-e8b5-499a-a454-ad9efcab9679"
         ],
         "settings": {
           "layout": "container",
