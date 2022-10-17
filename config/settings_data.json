@@ -3436,14 +3436,24 @@
           "73866464-4848-4132-ac1a-4adfa4265cfe": {
             "type": "shipping",
             "settings": {
-              "icon": "fa fa-light fa-bolt",
+              "icon": "",
+              "icon_img": "{{ shop.brand.square_logo }}",
               "title": "Free Shiping",
               "text": "On all orders over $49.00"
+            }
+          },
+          "12c861c5-48d1-4c4a-8dad-6433d5a4950a": {
+            "type": "shipping",
+            "settings": {
+              "icon": "fa fa-truck",
+              "title": "21 Days Return",
+              "text": "Moneyback guarantee"
             }
           }
         },
         "block_order": [
-          "73866464-4848-4132-ac1a-4adfa4265cfe"
+          "73866464-4848-4132-ac1a-4adfa4265cfe",
+          "12c861c5-48d1-4c4a-8dad-6433d5a4950a"
         ],
         "settings": {
           "layout": "container",
