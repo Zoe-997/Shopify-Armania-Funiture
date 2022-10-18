@@ -3307,7 +3307,7 @@
             "settings": {
               "collection": "decoration",
               "title": "Decoration",
-              "txt_align": "left"
+              "txt_align": "right"
             }
           },
           "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-4": {
@@ -3363,7 +3363,7 @@
           "content": "",
           "num_p_qty": false,
           "sid_style": "style1",
-          "layout": "full-width",
+          "layout": "container",
           "cl_bg": "#ffffff",
           "layout_design": "2",
           "col_coll": "4",
@@ -3371,10 +3371,10 @@
           "col_ipad": "2",
           "col_mobile": "1",
           "col_mobile_vertical": "1",
-          "autoplay": true,
-          "arrows": true,
-          "dots": true,
-          "infinite": true,
+          "autoplay": false,
+          "arrows": false,
+          "dots": false,
+          "infinite": false,
           "mg": "",
           "pd": "",
           "mg_mb": "",
