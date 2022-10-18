@@ -3,9 +3,9 @@
     "home_keywords": "Alothemes, Dukamarket theme, Fastest, Ajax Shop, Minimal, Lazyload",
     "shop_author": "Dukamarket",
     "production_mode": false,
-    "show_button_rtl": true,
-    "show_announcement": false,
-    "show_top_header": false,
+    "show_button_rtl": false,
+    "show_announcement": true,
+    "show_top_header": true,
     "container_width": "1370px",
     "privacy_policy_page_content": "privacy-policy",
     "terms_of_service_content": "terms-and-conditions",
@@ -3516,6 +3516,52 @@
           "margin_bottom_tablet": 0,
           "padding_top_mobile": 0,
           "margin_bottom_mobile": 0
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "title_link": "Shop now",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+          "home_page_only": false,
+          "header_use_top_bar_mobile": true,
+          "show_close_btn": false,
+          "title_close_btn": "",
+          "section_style": "style1",
+          "section_bg": "#fff",
+          "section_bd": "#fff",
+          "section_cl": "#000",
+          "link_cl_hv": "#000",
+          "use-slider": true,
+          "slides-To-Scroll": 1,
+          "visible": 1,
+          "widescreen": 1,
+          "desktop": 1,
+          "laptop": 1,
+          "notebook": 1,
+          "tablet": 1,
+          "landscape": 1,
+          "portrait": 1,
+          "mobile": 1,
+          "rows": 1,
+          "autoplay": true,
+          "speed": "300",
+          "autoplay-Speed": "3000",
+          "arrows": true,
+          "infinite": true,
+          "padding": 15,
+          "vertical": false
         }
       }
     },
