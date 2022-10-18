@@ -3223,9 +3223,9 @@
           "bf9c0a04-94cd-4710-a022-d374ee24019d": {
             "type": "mail",
             "settings": {
-              "newsletter_heading": "Get Special Offers & More!",
-              "newsletter_content": "Subscibe our newsletter for get notification about events, discount, etc.",
-              "btn_icon": true,
+              "newsletter_heading": "Our Newsletter",
+              "newsletter_content": "Get instant updates about our new products and\nspecial promos!",
+              "btn_icon": false,
               "show_border": false,
               "color_input": "#111111",
               "border_input": "#ffffff",
