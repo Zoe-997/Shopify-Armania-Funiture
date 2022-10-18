@@ -3199,7 +3199,7 @@
           "0074f1b1-c67b-4928-b246-95c9d9271d49": {
             "type": "menu",
             "settings": {
-              "title": "Quick links",
+              "title": "",
               "menu": "footer-c1",
               "show_border": false
             }
