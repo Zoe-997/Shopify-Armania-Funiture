@@ -3227,14 +3227,14 @@
               "newsletter_heading": "Our Newsletter",
               "newsletter_content": "Get instant updates about our new products and\nspecial promos!",
               "btn_icon": false,
-              "show_border": true,
-              "color_input": "#000000",
+              "show_border": false,
+              "color_input": "#222222",
               "border_input": "#ffffff",
               "border_input_focus": "#db8946",
               "color_btn": "#111111",
               "background_btn": "#ffd800",
               "color_btn_hv": "#db8946",
-              "background_btn_hv": "rgba(0,0,0,0)"
+              "background_btn_hv": "#e52828"
             }
           }
         },
