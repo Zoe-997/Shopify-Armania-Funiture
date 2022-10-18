@@ -209,16 +209,7 @@
         </ul>
       </li>
     </ul>
-
-
-    <ul class="top-links">
-      {% if customer %}
-        <li><a href="/account/logout">{{'layout.customer.log_out'|t}}</a></li>
-      {% else %}
-        <li><a href="/account/login">{{'layout.customer.log_in' | t}}</a></li>
-      {% endif %}    
-     
-    </ul>             
+            
     
     {%- assign show_contnent = settings.show_policy_terms_of_service_page -%}
     {%- assign value1 = pages[settings.privacy_policy_page_content].url -%}
