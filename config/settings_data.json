@@ -3196,6 +3196,30 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "0074f1b1-c67b-4928-b246-95c9d9271d49": {
+            "type": "menu",
+            "settings": {
+              "title": "Quick links",
+              "menu": "footer-c1",
+              "show_border": false
+            }
+          },
+          "1ac388c4-ae99-449a-80ac-e3386a74f207": {
+            "type": "menu",
+            "settings": {
+              "title": "Quick links",
+              "menu": "footer-c2",
+              "show_border": false
+            }
+          },
+          "bc40aab0-98a6-45a1-b6f2-f09d133d0eaf": {
+            "type": "menu",
+            "settings": {
+              "title": "Quick links",
+              "menu": "",
+              "show_border": false
+            }
+          },
           "bf9c0a04-94cd-4710-a022-d374ee24019d": {
             "type": "mail",
             "settings": {
@@ -3211,37 +3235,13 @@
               "color_btn_hv": "#db8946",
               "background_btn_hv": "rgba(0,0,0,0)"
             }
-          },
-          "0074f1b1-c67b-4928-b246-95c9d9271d49": {
-            "type": "menu",
-            "settings": {
-              "title": "Quick links",
-              "menu": "",
-              "show_border": false
-            }
-          },
-          "1ac388c4-ae99-449a-80ac-e3386a74f207": {
-            "type": "menu",
-            "settings": {
-              "title": "Quick links",
-              "menu": "",
-              "show_border": false
-            }
-          },
-          "bc40aab0-98a6-45a1-b6f2-f09d133d0eaf": {
-            "type": "menu",
-            "settings": {
-              "title": "Quick links",
-              "menu": "",
-              "show_border": false
-            }
           }
         },
         "block_order": [
-          "bf9c0a04-94cd-4710-a022-d374ee24019d",
           "0074f1b1-c67b-4928-b246-95c9d9271d49",
           "1ac388c4-ae99-449a-80ac-e3386a74f207",
-          "bc40aab0-98a6-45a1-b6f2-f09d133d0eaf"
+          "bc40aab0-98a6-45a1-b6f2-f09d133d0eaf",
+          "bf9c0a04-94cd-4710-a022-d374ee24019d"
         ],
         "settings": {
           "layout": "custom-width",
@@ -3423,7 +3423,7 @@
           "dots": true,
           "infinite": false,
           "layout": "container",
-          "cl_bg": "#fff",
+          "cl_bg": "#ffffff",
           "mg": "",
           "pd": "",
           "mg_mb": "",
@@ -3499,10 +3499,10 @@
           "dots": false,
           "infinite": true,
           "padding": 15,
-          "cl_bg": "#fff",
+          "cl_bg": "#ffffff",
           "cl_ic": "#daf260",
-          "cl_hd": "#111",
-          "cl_cot": "#888",
+          "cl_hd": "#111111",
+          "cl_cot": "#888888",
           "margin_bottom": 0,
           "padding_top_tablet": 0,
           "margin_bottom_tablet": 0,
