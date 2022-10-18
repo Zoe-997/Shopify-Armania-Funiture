@@ -3373,9 +3373,9 @@
           "col_mobile_vertical": "1",
           "autoplay": false,
           "arrows": false,
-          "dots": false,
-          "infinite": false,
-          "mg": "",
+          "dots": true,
+          "infinite": true,
+          "mg": "20px",
           "pd": "",
           "mg_mb": "",
           "pd_mb": ""
