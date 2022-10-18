@@ -173,7 +173,7 @@
     </div>
 
 
-      {% if section.settings.home_page_only == false or template.name == 'index' %}
+{% if section.settings.home_page_only == false or template.name == 'index' %}
 {% if section.settings.header_use_top_header %}
 <div class="topbar layout1" {% if section.settings.show_border_bottom %}style="border-bottom: 1px solid rgb(0,0,0,.2);" {%endif%}>
   <div class="container {% if section.settings.layout == 'full-width' %}{{section.settings.layout}} {% endif %}">
