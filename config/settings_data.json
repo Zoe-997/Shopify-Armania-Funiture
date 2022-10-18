@@ -3376,7 +3376,7 @@
           "dots": true,
           "infinite": true,
           "mg": "20px",
-          "pd": "",
+          "pd": "20px",
           "mg_mb": "",
           "pd_mb": ""
         }
