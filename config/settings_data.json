@@ -3262,10 +3262,10 @@
           "show_social_link": true,
           "footer_use_language": false,
           "footer_use_currency": false,
-          "footer_bottom_color": "#111111",
-          "footer_bottom_color_link": "#111111",
+          "footer_bottom_color": "#adadad",
+          "footer_bottom_color_link": "#ffd800",
           "footer_bottom_color_hv": "#db8946",
-          "footer_bottom_background": "#ffffff"
+          "footer_bottom_background": "#000000"
         }
       },
       "dc202872-d066-4b47-ba25-ccc7ac7ea24b": {
