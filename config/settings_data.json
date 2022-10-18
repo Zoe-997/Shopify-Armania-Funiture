@@ -2389,7 +2389,7 @@
           "sub_title_newslette": "SIGN UP FOR OUR NEWSLETTER & PROMOTIONS !",
           "title_newslette": "Sale 20% OFF",
           "description": "ON YOUR NEXT PURCHASE",
-          "placeholder_newsletter": "Your email address...",
+          "placeholder_newsletter": "Email@example.com",
           "button_newsletter": "Subscribe & Get our promotion now !",
           "no_show_popup_again": "I would like to receive news and special offers.",
           "max_width": "600",
@@ -3205,19 +3205,19 @@
               "show_border": false
             }
           },
-          "1ac388c4-ae99-449a-80ac-e3386a74f207": {
-            "type": "menu",
-            "settings": {
-              "title": "",
-              "menu": "footer-c2",
-              "show_border": false
-            }
-          },
           "bc40aab0-98a6-45a1-b6f2-f09d133d0eaf": {
             "type": "menu",
             "settings": {
               "title": "",
               "menu": "footer-c3",
+              "show_border": false
+            }
+          },
+          "1ac388c4-ae99-449a-80ac-e3386a74f207": {
+            "type": "menu",
+            "settings": {
+              "title": "",
+              "menu": "footer-c2",
               "show_border": false
             }
           },
@@ -3240,8 +3240,8 @@
         },
         "block_order": [
           "0074f1b1-c67b-4928-b246-95c9d9271d49",
-          "1ac388c4-ae99-449a-80ac-e3386a74f207",
           "bc40aab0-98a6-45a1-b6f2-f09d133d0eaf",
+          "1ac388c4-ae99-449a-80ac-e3386a74f207",
           "bf9c0a04-94cd-4710-a022-d374ee24019d"
         ],
         "settings": {
