@@ -5,7 +5,7 @@
     "production_mode": false,
     "show_button_rtl": false,
     "show_announcement": true,
-    "show_top_header": true,
+    "show_top_header": false,
     "container_width": "1370px",
     "privacy_policy_page_content": "privacy-policy",
     "terms_of_service_content": "terms-and-conditions",
