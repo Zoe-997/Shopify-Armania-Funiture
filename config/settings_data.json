@@ -1253,8 +1253,8 @@
           "2cf6c811-adf2-4bdc-bdda-2213c16dbaa1": {
             "type": "contac_header",
             "settings": {
-              "phone_number": "<i class=\"lnr lnr-phone-handset\"><\/i><span>Call: +1 (202) 861-5567<\/span>",
-              "header_email": "<i class=\"lnr lnr-envelope\"><\/i><a href=\"mailto:%20Support@demo.com\"><span>Email: Support@demo.com<\/span><\/a>",
+              "phone_number": "<i class=\"lnr lnr-phone-handset\"><\/i><span> Call: +1 (202) 861-5567<\/span>",
+              "header_email": "<i class=\"lnr lnr-envelope\"><\/i><a href=\"mailto:%20Support@demo.com\"><span> Email: Support@demo.com<\/span><\/a>",
               "store_ocation": "<i class=\"lnr lnr-map-marker\"><\/i> <a class=\"#\"><span>No. Rosecrans Ave, Suite 200 El Segundo, CA 90245. USA<\/span><\/a>",
               "text_align": "topbar-right",
               "col": "6"
