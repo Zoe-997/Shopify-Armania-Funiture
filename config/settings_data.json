@@ -3257,6 +3257,7 @@
           "show_border": false,
           "border_full_width": true,
           "footer_bottom_layout": "style_1",
+          "icon_payment": "shopify:\/\/shop_images\/Payment.png",
           "copyright": "<p>© 2020 <a href=\"\/collections\" target=\"_blank\" title=\"All collections\">Armania<\/a>. All rights reserved<\/p>",
           "show_social_link": true,
           "footer_use_language": false,
