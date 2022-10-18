@@ -1248,7 +1248,7 @@
               "header_use_social": false,
               "type_social": "1",
               "text_align": "topbar-right",
-              "col": "3"
+              "col": "12"
             }
           },
           "2cf6c811-adf2-4bdc-bdda-2213c16dbaa1": {
@@ -1260,15 +1260,24 @@
               "text_align": "topbar-right",
               "col": "6"
             }
+          },
+          "b96bda93-6fcd-4333-a14a-51027b60f7e1": {
+            "type": "top_header_4",
+            "settings": {
+              "menu_topbar": "",
+              "text_align": "topbar-left",
+              "col": "4"
+            }
           }
         },
         "block_order": [
           "bb57daf5-b063-4996-8fe6-1fba1ef5dc38",
-          "2cf6c811-adf2-4bdc-bdda-2213c16dbaa1"
+          "2cf6c811-adf2-4bdc-bdda-2213c16dbaa1",
+          "b96bda93-6fcd-4333-a14a-51027b60f7e1"
         ],
         "settings": {
           "header_use_top_header": true,
-          "home_page_only": false,
+          "home_page_only": true,
           "layout": "container",
           "show_border_bottom": true,
           "bg_top_header": "#263c97",
