@@ -4,7 +4,7 @@
     "shop_author": "Dukamarket",
     "production_mode": false,
     "rtl": false,
-    "show_button_rtl": true,
+    "show_button_rtl": false,
     "show_load_page": false,
     "show_announcement": false,
     "show_top_header": true,
