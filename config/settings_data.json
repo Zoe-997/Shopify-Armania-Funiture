@@ -1242,7 +1242,6 @@
         "blocks": {
           "bb57daf5-b063-4996-8fe6-1fba1ef5dc38": {
             "type": "top_header_3",
-            "disabled": true,
             "settings": {
               "header_use_currency": true,
               "header_use_language": true,
@@ -1254,7 +1253,6 @@
           },
           "2cf6c811-adf2-4bdc-bdda-2213c16dbaa1": {
             "type": "contac_header",
-            "disabled": true,
             "settings": {
               "phone_number": "<i class=\"lnr lnr-phone-handset\"><\/i><span> Call: +1 (202) 861-5567<\/span>",
               "header_email": "<i class=\"lnr lnr-envelope\"><\/i><a href=\"mailto:%20Support@demo.com\"><span> Email: Support@demo.com<\/span><\/a>",
@@ -3039,13 +3037,13 @@
           "background_count": "#e52828",
           "header_width": "container",
           "header_width_distance": 60,
-          "logo_position": "middle-left",
-          "menu": "main-menu",
+          "logo_position": "top-left",
+          "menu": "",
           "menu_type_desktop": "dropdown",
           "menu_mega_style_desktop": "style1",
           "item_dropdown": "",
           "show_line_separator": false,
-          "phone": "+1 86.36.166",
+          "phone": "",
           "margin_top": 0,
           "margin_bottom": 0,
           "padding_top": 20,
