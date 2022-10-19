@@ -2090,7 +2090,7 @@
             "type": "menu_mb",
             "settings": {
               "title": "Home",
-              "url": "",
+              "url": "shopify:\/\/collections",
               "open_link": "_self",
               "menu": "",
               "show_icon": false,
