@@ -173,6 +173,22 @@
     </div>
 
 
+
+                 
+        		{% assign col = block.settings.col %}
+        		{% assign text_align = block.settings.text_align %}
+        		<div class="{{text_align}} col-lg-{{col}} col-12 col-md-12">
+                    <ul class="topbar-menu">
+                        {% assign handle = block.settings.menu_topbar %}     
+                        {% for link in linklists[handle].links %}
+                            <li><a href="{{link.url}}"> {{ link.title }} </a></li>
+                        {% endfor %}
+                    </ul>
+        		   </div>	
+            
+
+
+
                   
     {%- assign show_contnent = settings.show_policy_terms_of_service_page -%}
     {%- assign value1 = pages[settings.privacy_policy_page_content].url -%}
