@@ -1268,7 +1268,7 @@
         ],
         "settings": {
           "header_use_top_header": true,
-          "home_page_only": true,
+          "home_page_only": false,
           "layout": "container",
           "show_border_bottom": true,
           "bg_top_header": "#263c97",
