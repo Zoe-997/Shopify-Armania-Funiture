@@ -2088,7 +2088,6 @@
           },
           "mobile_menu-0": {
             "type": "menu_mb",
-            "disabled": true,
             "settings": {
               "title": "Home",
               "url": "",
@@ -2162,6 +2161,7 @@
           },
           "mobile_menu-7": {
             "type": "account",
+            "disabled": true,
             "settings": {
               "title": "Login \/ Register",
               "show_icon": false,
@@ -2213,7 +2213,6 @@
         "settings": {
           "title": "",
           "show_logo": false,
-          "logo": "shopify:\/\/shop_images\/logo.png",
           "logo_max_width": 80,
           "bg_menu": "#0a2748",
           "color_text": "#ffffff",
