@@ -2081,6 +2081,7 @@
         "blocks": {
           "f325d060-17e0-48d9-9ffd-d011701dedc8": {
             "type": "search",
+            "disabled": true,
             "settings": {
               "title": "Search",
               "show_icon": true,
@@ -2089,6 +2090,7 @@
           },
           "mobile_menu-0": {
             "type": "menu_mb",
+            "disabled": true,
             "settings": {
               "title": "Home",
               "url": "",
@@ -2102,6 +2104,7 @@
           },
           "mobile_menu-1": {
             "type": "menu_mb",
+            "disabled": true,
             "settings": {
               "title": "Shop",
               "url": "shopify:\/\/collections\/laptop-computer",
@@ -2115,6 +2118,7 @@
           },
           "mobile_menu-2": {
             "type": "menu_mb",
+            "disabled": true,
             "settings": {
               "title": "page",
               "url": "",
@@ -2128,6 +2132,7 @@
           },
           "mobile_menu-3": {
             "type": "menu_mb",
+            "disabled": true,
             "settings": {
               "title": "Blog",
               "url": "shopify:\/\/blogs\/cameras",
@@ -2141,6 +2146,7 @@
           },
           "mobile_menu-4": {
             "type": "wishlist",
+            "disabled": true,
             "settings": {
               "title": "Wishlist",
               "show_icon": false,
@@ -2149,6 +2155,7 @@
           },
           "mobile_menu-5": {
             "type": "compare",
+            "disabled": true,
             "settings": {
               "title": "Compare",
               "show_icon": false,
@@ -2175,6 +2182,7 @@
           },
           "89bef4c4-843e-4294-b143-b6c915f66301": {
             "type": "language",
+            "disabled": true,
             "settings": {
               "title": "Language",
               "show_icon": true,
@@ -2183,6 +2191,7 @@
           },
           "7d96da94-803e-4e3f-a753-11822a5887ef": {
             "type": "currency",
+            "disabled": true,
             "settings": {
               "title_currency": "Currency",
               "show_icon": true,
@@ -2204,9 +2213,10 @@
           "7d96da94-803e-4e3f-a753-11822a5887ef"
         ],
         "settings": {
-          "title": "",
-          "show_logo": false,
-          "logo_max_width": 115,
+          "title": "helooo",
+          "show_logo": true,
+          "logo": "shopify:\/\/shop_images\/logo.png",
+          "logo_max_width": 80,
           "bg_menu": "#0a2748",
           "color_text": "#ffffff",
           "color_text_hover": "#fcbe00",
