@@ -1269,7 +1269,7 @@
           "2cf6c811-adf2-4bdc-bdda-2213c16dbaa1"
         ],
         "settings": {
-          "header_use_top_header": false,
+          "header_use_top_header": true,
           "home_page_only": false,
           "layout": "container",
           "show_border_bottom": true,
