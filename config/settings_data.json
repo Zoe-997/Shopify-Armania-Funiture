@@ -3037,7 +3037,7 @@
           "background_count": "#e52828",
           "header_width": "container",
           "header_width_distance": 60,
-          "logo_position": "middle-left",
+          "logo_position": "top-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "menu_mega_style_desktop": "style1",
