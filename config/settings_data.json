@@ -2211,8 +2211,8 @@
           "7d96da94-803e-4e3f-a753-11822a5887ef"
         ],
         "settings": {
-          "title": "helooo",
-          "show_logo": true,
+          "title": "",
+          "show_logo": false,
           "logo": "shopify:\/\/shop_images\/logo.png",
           "logo_max_width": 80,
           "bg_menu": "#0a2748",
