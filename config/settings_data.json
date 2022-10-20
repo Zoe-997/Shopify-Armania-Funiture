@@ -3484,6 +3484,7 @@
             "type": "shipping",
             "settings": {
               "icon": "fa fa-truck",
+              "icon_img": "shopify:\/\/shop_images\/4.png",
               "title": "247 Support",
               "text": "24\/7 Quality Support"
             }
