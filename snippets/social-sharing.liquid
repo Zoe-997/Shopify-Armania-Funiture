@@ -26,6 +26,14 @@
       </a>
     </li>
     {% endif %}
+    {% if settings.share_behandce %}
+    <li class="twitter">
+      <a data-no-instant rel="noopener noreferrer nofollow" title="{{ 'general.social.share_on_behandce' | t }}" href="http://behandce.com/share?text={{ permaTitle }}&amp;url={{ permalinkURL }}" target="_blank" class="behandce ">
+        <span class="title">{{ 'general.social.share_on_behandce' | t }}</span>
+        <i class="fa fa-behandce"></i>
+      </a>
+    </li>
+    {% endif %}
     {% if settings.share_email %}
     <li class="email">
       <a data-no-instant rel="noopener noreferrer nofollow" title="{{ 'general.social.share_on_email' | t }}" href="mailto:?subject=Check this {{ permalinkURL }}" target="_blank" class="email ">
