@@ -1867,6 +1867,24 @@
       },
       {
         "type": "checkbox",
+        "id": "social_link_behance_enable",
+        "label": "t:settings_schema.social-media.links.behance.label",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "social_link_behance_link",
+        "label": "t:settings_schema.social-media.links.behance.link",
+        "info": "t:settings_schema.social-media.links.behance.info"
+      },
+      {
+        "type": "text",
+        "id": "social_link_behance_text",
+        "label": "t:settings_schema.social-media.links.behance.title",
+        "default": "Behance"
+      },
+      {
+        "type": "checkbox",
         "id": "social_link_twitter_enable",
         "label": "t:settings_schema.social-media.links.twitter.label",
         "default": true
