@@ -3465,7 +3465,7 @@
           "12c861c5-48d1-4c4a-8dad-6433d5a4950a": {
             "type": "shipping",
             "settings": {
-              "icon": "fa fa-truck",
+              "icon": "fa fa-check-square-o",
               "icon_img": "shopify:\/\/shop_images\/21.png",
               "title": "21 Days Return",
               "text": "Moneyback guarantee"
