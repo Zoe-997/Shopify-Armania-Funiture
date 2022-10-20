@@ -3444,7 +3444,7 @@
           "infinite": true,
           "layout": "container",
           "cl_bg": "#ffffff",
-          "mg": "50px, 50px, 50px, 50px",
+          "mg": "50,50,50,50",
           "pd": "",
           "mg_mb": "",
           "pd_mb": ""
