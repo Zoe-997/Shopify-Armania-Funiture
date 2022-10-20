@@ -3474,7 +3474,7 @@
           "9fbe196d-9a8f-4a6c-af2e-e8fd2ee786ff": {
             "type": "shipping",
             "settings": {
-              "icon": "",
+              "icon": "fa fa-lock",
               "icon_img": "shopify:\/\/shop_images\/33.png",
               "title": "Secure Checkout",
               "text": "100% protected payments"
