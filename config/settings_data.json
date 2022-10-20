@@ -3491,6 +3491,7 @@
           },
           "9de4a281-a600-4dff-aaf8-9f924a1ca7b0": {
             "type": "shipping",
+            "disabled": true,
             "settings": {
               "icon": "fa fa-truck",
               "title": "Add a title",
@@ -3509,7 +3510,7 @@
           "layout": "container",
           "title": "",
           "content": "",
-          "source": "1",
+          "source": "2",
           "sid_style": "style2",
           "use-slider": true,
           "slides-To-Scroll": 1,
