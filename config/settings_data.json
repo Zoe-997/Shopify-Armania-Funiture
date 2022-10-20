@@ -3475,6 +3475,7 @@
             "type": "shipping",
             "settings": {
               "icon": "",
+              "icon_img": "shopify:\/\/shop_images\/33.png",
               "title": "Secure Checkout",
               "text": "100% protected payments"
             }
