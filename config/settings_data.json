@@ -3532,11 +3532,11 @@
           "cl_ic": "#daf260",
           "cl_hd": "#111111",
           "cl_cot": "#888888",
-          "margin_bottom": 0,
-          "padding_top_tablet": 40,
+          "margin_bottom": 40,
+          "padding_top_tablet": 41,
           "margin_bottom_tablet": 40,
-          "padding_top_mobile": 0,
-          "margin_bottom_mobile": 0
+          "padding_top_mobile": 40,
+          "margin_bottom_mobile": 40
         }
       },
       "announcement-bar": {
