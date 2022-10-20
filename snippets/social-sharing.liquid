@@ -26,6 +26,15 @@
       </a>
     </li>
     {% endif %}
+    {% if settings.share_twitter %}
+    <li class="behance">
+      <a data-no-instant rel="noopener noreferrer nofollow" title="{{ 'general.social.share_on_behance' | t }}" href="http://behance.com/share?text={{ permaTitle }}&amp;url={{ permalinkURL }}" target="_blank" class="behance ">
+        <span class="title">{{ 'general.social.share_on_behance' | t }}</span>
+        <i class="fa fa-behance"></i>
+      </a>
+    </li>
+    {% endif %}
+    
     {% if settings.share_email %}
     <li class="email">
       <a data-no-instant rel="noopener noreferrer nofollow" title="{{ 'general.social.share_on_email' | t }}" href="mailto:?subject=Check this {{ permalinkURL }}" target="_blank" class="email ">
