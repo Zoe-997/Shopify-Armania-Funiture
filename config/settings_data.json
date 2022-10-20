@@ -3466,6 +3466,7 @@
             "type": "shipping",
             "settings": {
               "icon": "fa fa-truck",
+              "icon_img": "shopify:\/\/shop_images\/21.png",
               "title": "21 Days Return",
               "text": "Moneyback guarantee"
             }
