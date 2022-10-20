@@ -164,7 +164,7 @@
     "social_link_pinterest_enable": false,
     "social_link_pinterest_link": "",
     "social_link_pinterest_text": "Pinterest",
-    "social_link_tumblr_enable": true,
+    "social_link_tumblr_enable": false,
     "social_tumblr_link": "",
     "social_link_tumblr_text": "Tumblr",
     "social_link_snapchat_enable": false,
