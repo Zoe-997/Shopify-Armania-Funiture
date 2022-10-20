@@ -13,6 +13,12 @@
       </li>
     {% endif %}
 
+    {% if settings.social_link_behandce_enable %}
+      <li class="behandce">
+        <a  target="_blank" href="{{settings.social_link_behandce_link}}" title="{{settings.social_link_behandce_text}}"><i class="fa fa-behandce"></i></a>
+      </li>
+    {% endif %}
+
     {% if settings.social_link_instagram_enable %}
       <li class="instagram">
         <a  target="_blank" href="{{settings.social_link_instagram_link}}" title="{{settings.social_link_instagram_text}}"><i class="fa fa-instagram"></i></a>
