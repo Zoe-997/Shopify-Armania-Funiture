@@ -3457,6 +3457,7 @@
             "type": "shipping",
             "settings": {
               "icon": "",
+              "icon_img": "shopify:\/\/shop_images\/freeship.png",
               "title": "Free Shiping",
               "text": "On all orders over $49.00"
             }
