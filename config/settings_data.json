@@ -3456,7 +3456,7 @@
           "73866464-4848-4132-ac1a-4adfa4265cfe": {
             "type": "shipping",
             "settings": {
-              "icon": "",
+              "icon": "fa fa-regular",
               "icon_img": "shopify:\/\/shop_images\/freeship.png",
               "title": "Free Shiping",
               "text": "On all orders over $49.00"
