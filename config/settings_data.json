@@ -3441,10 +3441,10 @@
           "autoplay": true,
           "arrows": true,
           "dots": true,
-          "infinite": false,
+          "infinite": true,
           "layout": "container",
           "cl_bg": "#ffffff",
-          "mg": "",
+          "mg": "50px, 50px, 50px, 50px",
           "pd": "",
           "mg_mb": "",
           "pd_mb": ""
