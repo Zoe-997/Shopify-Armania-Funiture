@@ -32,6 +32,8 @@
     "color_btn_hover": "#ffffff",
     "background_btn_hover": "#222222",
     "border_btn_hover": "#222222",
+    "color_compare_price": "#777777",
+    "color_price": "#000000",
     "color_label_out": "#636363",
     "color_btn_product": "#ffffff",
     "background_btn_product": "#000000",
