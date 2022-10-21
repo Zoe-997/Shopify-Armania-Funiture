@@ -88,7 +88,7 @@
     "product_collection_show_label": false,
     "product_page_new_product": "9999",
     "product_collection_show_availability": false,
-    "product_collection_show_reviews": false,
+    "product_collection_show_reviews": true,
     "product_collection_hide_reviews_counter": true,
     "product_collection_hide_empty_reviews": false,
     "product_collection_show_options": false,
@@ -155,6 +155,7 @@
     "social_link_facebook_enable": true,
     "social_link_facebook_link": "",
     "social_link_facebook_text": "Facebook",
+    "social_link_behance_enable": false,
     "social_link_twitter_enable": true,
     "social_link_twitter_link": "",
     "social_link_twitter_text": "Twitter",
@@ -3396,13 +3397,10 @@
           "speed": "300",
           "autoplay-Speed": "3000",
           "arrows": false,
-          "fade": false,
-          "center-Mode": false,
           "adaptive-Height": false,
           "dots": false,
           "infinite": true,
-          "padding": 15,
-          "vertical": false
+          "padding": 15
         }
       },
       "d23b5c6e-abdb-4a01-8023-4b8211ee3de2": {
