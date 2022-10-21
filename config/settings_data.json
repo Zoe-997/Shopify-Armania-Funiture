@@ -902,7 +902,7 @@
               "title": "Product Categories",
               "default_state": "open",
               "show_counter": true,
-              "menu": "category"
+              "menu": ""
             }
           },
           "be73363c-c6f4-4c02-a269-887b403057a6": {
@@ -1299,6 +1299,10 @@
         "settings": {
           "show_n_p": true,
           "show_title": false,
+          "color": "#000",
+          "color_link": "#222",
+          "color_hover": "#222",
+          "color_title": "#000",
           "bg": "#ffffff",
           "b_color": "#ebebeb",
           "mg_bottom": 0,
@@ -3327,7 +3331,6 @@
           },
           "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-4": {
             "type": "collection",
-            "disabled": true,
             "settings": {
               "collection": "lighting",
               "title": "Lighting 2",
@@ -3336,7 +3339,6 @@
           },
           "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-5": {
             "type": "collection",
-            "disabled": true,
             "settings": {
               "collection": "",
               "title": "",
@@ -3345,7 +3347,6 @@
           },
           "152145bc-26e8-451c-8152-415d9b9770bb": {
             "type": "collection",
-            "disabled": true,
             "settings": {
               "collection": "",
               "title": "",
@@ -3354,7 +3355,6 @@
           },
           "d8ba8ad9-364f-4442-824f-2b8f81bda12d": {
             "type": "collection",
-            "disabled": true,
             "settings": {
               "collection": "",
               "title": "",
