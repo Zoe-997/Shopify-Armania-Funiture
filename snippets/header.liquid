@@ -488,7 +488,7 @@
               </a>
             </div>
           {% else %}
-            <div class="signin display-mobile">	
+            <div class="signin display-mobile hidden--">	
               <a href="{{routes.root_url | append: '/' | replace_first  : '//', '/' }}account" class="push_side header-icon" title="{{'customer.login.sign_out' | t}}" >	
                 {% render 'icon-user' %}
                 <span>{{'customer.login.account_login' | t}}, {{ customer.first_name }}</span>
