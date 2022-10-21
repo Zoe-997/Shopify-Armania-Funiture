@@ -269,6 +269,10 @@
           "label": "Snapchat",
           "info": "https:\/\/www.snapchat.com\/add\/shopify"
         },
+        "social_behance_link": {
+          "label": "Behance",
+          "info": "https:\/\/www.behance.com\/add\/shopify"
+        },
         "social_youtube_link": {
           "label": "YouTube",
           "info": "https:\/\/www.youtube.com\/shopify"
