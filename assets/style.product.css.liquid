@@ -13,10 +13,24 @@
   color: var(--color-price);
 }
 
+.product-collection .price .current {
+  font-size: 20px;
+  font-weight: 600;
+}
+
 .product-collection .price .compare{
   color: var(--color-compare-price);
   text-decoration: line-through;
+  font-size: 16px;
+  
 }
+
+.price price--sale {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
 
 .product-collection .product-image{
   margin-bottom: 20px;
@@ -178,19 +192,7 @@
     left: 20px;
 }
 
-.price price--sale {
-    display: flex;
-    flex-direction: column-reverse;
-}
 
-.price price--sale .current {
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.price price--sale .compare {
-  font-size: 16px;
-}
 
 
 .product-item .product-collection__content.text-end{
