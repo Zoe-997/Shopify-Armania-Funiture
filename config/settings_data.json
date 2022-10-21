@@ -3198,7 +3198,7 @@
           "portrait": 2,
           "mobile": 1,
           "rows": 2,
-          "autoplay": true,
+          "autoplay": false,
           "speed": "100",
           "autoplay-Speed": "1000",
           "arrows": false,
@@ -3289,19 +3289,19 @@
       "dc202872-d066-4b47-ba25-ccc7ac7ea24b": {
         "type": "collection-list-slider",
         "blocks": {
-          "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-0": {
-            "type": "collection",
-            "settings": {
-              "collection": "stools",
-              "title": "Stools",
-              "txt_align": "left"
-            }
-          },
           "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-1": {
             "type": "collection",
             "settings": {
               "collection": "wood-seating",
               "title": "Wood Seating",
+              "txt_align": "left"
+            }
+          },
+          "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "stools",
+              "title": "Stools",
               "txt_align": "left"
             }
           },
@@ -3359,8 +3359,8 @@
           }
         },
         "block_order": [
-          "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-0",
           "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-1",
+          "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-0",
           "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-2",
           "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-3",
           "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-4",
