@@ -151,6 +151,7 @@
       "share": {
         "label": "Social Sharing",
         "facebook": "Share on Facebook",
+        "Behance": "Share on Behance",
         "twitter": "Share on Twitter",
         "email": "Share on Email",
         "pinterest": "Share on Pinterest",
@@ -175,6 +176,12 @@
           "link": "Your twitter",
           "title": "Title of twitter",
           "info": "https:\/\/twitter.com\/shopify"
+        },
+        "behance": {
+          "label": "Show social media Behance",
+          "link": "Your behance",
+          "title": "Title of behance",
+          "info": "https:\/\/behance.com\/shopify"
         },
         "pinterest": {
           "label": "Show social media pinterest",
