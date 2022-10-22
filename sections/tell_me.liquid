@@ -4,7 +4,7 @@
          {%- assign sblock = block.settings -%}
          {%- case block.type -%}
             {%- when 'logo' -%}
-                <div class="logo">
+                <div class="logo hiddden--">
                   {% if block.settings.logo != blank %}
                   <a href="/" class="site-header__logo-image">
                     {% capture image_size %}{{ settings.logo_max_width | escape }}x{% endcapture %}
@@ -29,7 +29,7 @@
                 </div> 
          {%- endcase -%}
       {%- endfor -%}
-	<div class="div_instagram">  
+	<div class="div_instagram hidden">  
       <div class="row">
     {%- for block in section.blocks -%}
       {%- assign sblock = block.settings -%}
