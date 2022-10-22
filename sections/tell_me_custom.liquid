@@ -1,9 +1,5 @@
 <div class="content_tell_me">
-   {%- if section.blocks.size > 0 -%}
-      {%- for block in section.blocks -%}
       {%- assign sblock = block.settings -%}
-        {%- case block.type -%}
-        {%- when 'contact' -%}
   			{% assign type_social = block.settings.type_social | plus: 0 %}
   			<div class="contact">
               {% if block.settings.title != blank %}
@@ -20,11 +16,8 @@
                 {%- endif -%}
               {% endif %}
   			</div>
-      {%- endcase -%}
-    {%- endfor -%}
   
   
-   {%- endif -%}
 </div>
 {%- schema -%}
   {
