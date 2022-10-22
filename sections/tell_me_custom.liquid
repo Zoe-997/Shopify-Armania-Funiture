@@ -1,18 +1,17 @@
 <div class="content_tell_me">
       {%- assign sblock = block.settings -%}
   			{% assign type_social = block.settings.type_social | plus: 0 %}
-         <div class="tell_me">
+         <div class="tell_me_2">
             <div class="login-signup">
                 <a href="" class="login__link">Login</a>
                 <a href="" class="login__link">Register</a>
                 <a href="" class="login__link">Check out</a>
             </div>
-  			<div class="contact">
-              {% if block.settings.title != blank %}
-              <div class="title">{{block.settings.title}}</div>{%endif%}
-              {% if block.settings.p_number != blank %}<div class="p_number">{{block.settings.p_number}}</div>{%endif%}
-              {% if block.settings.address != blank %}<div class="address">{{block.settings.address}}</div>{%endif%}
-              {% if block.settings.s_email != blank %}<div class="s_email"><a href="mailto:{{block.settings.s_email}}">{{block.settings.s_email}}</a></div>{%endif%}
+  			<div class="contact_2">
+              <div class="title_2">Contact Us</div>
+              {<div class="p_number_2"></div>
+              <div class="address_2"></div>
+              <div class="s_email_2"><a href="mailto:></a></div>
               
               {%if block.settings.header_use_social%}
                 {%- if type_social == 1 -%}
