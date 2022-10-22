@@ -7,28 +7,23 @@
                 <a href="" class="login__link">Register</a>
                 <a href="" class="login__link">Check out</a>
             </div>
-           <ul class="menu-language parent-list">
-                                data-language-flag-map='{"en" : "gb"}'>
-                              <a data-code="{{shop.locale}}" href="javascript:void(0);" class="item-active toggle-tab-body">
-                                <span class="current">{{shop.locale | upcase}}</span></span>
-                                <span class="icon"><i class="fa fa-angle-down"></i></span>
-                              </a>
-                              <ul class="child-list list-unstyled dropdown">
-                                  <li data-code="{{ locale.iso_code }}" class="{{ locale.iso_code }}{% if locale.iso_code == shop.locale %} active{% endif%}{% if locale.primary %} primary{% endif%}">
-                                      <a data-code="{{ locale.iso_code }}" href="javascript:void(0);" class="language-code">
-                                        <span class="name" style="display:none">{{ locale.name }}</span>
-                                        <span class="code">{{ locale.iso_code | upcase  }}</span>
-                                    </a>
-                                  </li>
-                              </ul>
-                            </li>
-                          <li class="item-list language-shop">
-                            <a href="javascript:void(0);" class="toggle-submenu">     
-                              <span>ENG</span>    
-                              <span class="icon"><i class="fa fa-angle-down"></i></span>
-                            </a>
-                        </li>
-                    </ul> 
+            <div class="currency-language">
+                  <div class="currency_2">
+                    <label for="Currencies">Currencies:</label>
+                    <select id="Currencies">
+                      <option value="US Dollar">US Dollar</option>
+                      <option value="VND">VND</option>
+                      <option value="EURO">EURO</option>
+                    </select>
+                  </div>
+                  <div class="currency_2">
+                    <label for="Currencies">Language:</label>
+                    <select id="Currencies">
+                      <option value="English">English</option>
+                      <option value="VN">Tiếng Việt</option>
+                    </select>
+                  </div>
+            </div>        
   			<div class="contact_2">
               <div class="title_2">Contact Us</div>
               <div class="address_2">
