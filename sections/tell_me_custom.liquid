@@ -8,33 +8,41 @@
                 <a href="" class="login__link">Check out</a>
             </div>
             
-             <div class="tell_me_2_item currency-language">
-                  <div class="currency_2">
-                    <ul class="Currencies">Currencies:
-                      <li class="">US Dollar
-                        <i class="fa fa-angle-down" aria-hidden="true"></i>
-                      </li>
-                      <li class="">VND
-                        <i class="fa fa-angle-down" aria-hidden="true"></i>
-                      </li>
-                      <li class="">EURO
-                        <i class="fa fa-angle-down" aria-hidden="true"></i>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="currency_2">
-                    <ul class="Currencies">Language:
-                      <li class="">
-                        <img class="img-flag"  src="//cdn.shopify.com/" alt="">
-                        English
-                      </li>
-                      <li class="">
-                        <img class="img-flag" src="./assets/vn.jpg" alt="">
-                        Tiếng Việt
-                      </li>
-                    </ul>
-                  </div>
-            </div>       
+            <ul class="menu-language parent-list">
+                      {%if block.settings.header_use_currency%}
+                        {% if shop.published_locales.size > 0 %}
+                            {% assign showFlag = settings.show_flag %}
+                            {% assign showRoundFlag = settings.show_round_flag %}
+                            <li class="item-list shop-language language-shop {% if showFlag %}show-flag{% endif %}{% if showRoundFlag %} show-round-flag{% endif %}" data-title="{{'general.multi_shop.language_label' | t}}"
+                                data-language-flag-map='{"en" : "gb"}'>
+                              <a data-code="{{shop.locale}}" href="javascript:void(0);" class="item-active toggle-tab-body">
+                                {% if showFlag %}<img class="flag" src="" data-src="{{shop.locale | prepend: 'flag_' | append: '.png' | asset_url }}" />{% endif %}
+                                <span class="current">{{shop.locale | upcase}}</span></span>
+                                <span class="icon"><i class="fa fa-angle-down"></i></span>
+                              </a>
+                              <ul class="child-list list-unstyled dropdown">
+                                {% for locale in shop.published_locales %}
+                                  <li data-code="{{ locale.iso_code }}" class="{{ locale.iso_code }}{% if locale.iso_code == shop.locale %} active{% endif%}{% if locale.primary %} primary{% endif%}">
+                                      <a data-code="{{ locale.iso_code }}" href="javascript:void(0);" class="language-code">
+                                        {% if showFlag %}<img class="flag" src="" data-src="{{ locale.iso_code | prepend: 'flag_' | append: '.png' | asset_url }}" />{% endif %}
+                                        <span class="name" style="display:none">{{ locale.name }}</span>
+                                        <span class="code">{{ locale.iso_code | upcase  }}</span>
+                                    </a>
+                                  </li>
+                                {% endfor %}
+                              </ul>
+                            </li>
+                          {% endif %}
+                      {% endif %}
+                        {%if block.settings.header_use_language%}
+                          <li class="item-list language-shop">
+                            <a href="javascript:void(0);" class="toggle-submenu">     
+                              <span>ENG</span>    
+                              <span class="icon"><i class="fa fa-angle-down"></i></span>
+                            </a>
+                        </li>
+                      {% endif %}
+                    </ul>   
         
   			<div class="tell_me_2_item contact_2">
               <div class="title_2">Contact Us</div>
