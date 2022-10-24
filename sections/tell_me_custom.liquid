@@ -9,7 +9,6 @@
             </div>
             
             <ul class="menu-language parent-list">
-                      {%if block.settings.header_use_currency%}
                         {% if shop.published_locales.size > 0 %}
                             {% assign showFlag = settings.show_flag %}
                             {% assign showRoundFlag = settings.show_round_flag %}
@@ -33,15 +32,12 @@
                               </ul>
                             </li>
                           {% endif %}
-                      {% endif %}
-                        {%if block.settings.header_use_language%}
                           <li class="item-list language-shop">
                             <a href="javascript:void(0);" class="toggle-submenu">     
                               <span>ENG</span>    
                               <span class="icon"><i class="fa fa-angle-down"></i></span>
                             </a>
                         </li>
-                      {% endif %}
                     </ul>   
         
   			<div class="tell_me_2_item contact_2">
