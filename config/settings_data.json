@@ -3643,7 +3643,7 @@
           "cl_bg": "#fff",
           "title": "Latest Blog",
           "content": "",
-          "blog": "",
+          "blog": "news",
           "show_author": false,
           "show_categories": true,
           "show_date": true,
