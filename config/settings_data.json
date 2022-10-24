@@ -27,7 +27,7 @@
     "color_scrollbar": "#222222",
     "color_border": "#707070",
     "color_btn": "#7c7c7c",
-    "background_btn": "#d24343",
+    "background_btn": "rgba(0,0,0,0)",
     "border_btn": "#000000",
     "color_btn_hover": "#000000",
     "background_btn_hover": "#ffd800",
