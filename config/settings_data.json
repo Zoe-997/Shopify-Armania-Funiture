@@ -1017,81 +1017,6 @@
           "enable_number": false
         }
       },
-      "testimonials-section-home1": {
-        "type": "testimonials-section-home1",
-        "blocks": {
-          "6ab48ed0-1e14-4d98-bbaa-7efa16fa6c5a": {
-            "type": "quote",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/testimonial.jpg",
-              "content": "<p>“ Congue condimentum et non eu arcu sociis aenean vivamus quisque. Porta purus urna. <br\/>Massa id blandit enim cursus ante. Nec consectetuer imperdiet ipsum. Magnis rutrum tristique rutrum <\/p><p>lobortis nulla nec hendrerit convallis suspendisse...”<\/p>",
-              "title": "algistino",
-              "address": "Chief Operating Officer",
-              "rating": 5
-            }
-          },
-          "a84b6de0-c116-495f-b188-745da174cca0": {
-            "type": "quote",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/testimonial.jpg",
-              "content": "<p>“ Congue condimentum et non eu arcu sociis aenean vivamus quisque. Porta purus urna. <br\/>Massa id blandit enim cursus ante. Nec consectetuer imperdiet ipsum. Magnis rutrum tristique rutrum <\/p><p>lobortis nulla nec hendrerit convallis suspendisse...”<\/p>",
-              "title": "algistino",
-              "address": "Chief Operating Officer",
-              "rating": 5
-            }
-          },
-          "56a9acb1-eef5-42ce-97b3-a427bd580c3b": {
-            "type": "quote",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/testimonial.jpg",
-              "content": "<p>“ Congue condimentum et non eu arcu sociis aenean vivamus quisque. Porta purus urna. <br\/>Massa id blandit enim cursus ante. Nec consectetuer imperdiet ipsum. Magnis rutrum tristique rutrum <\/p><p>lobortis nulla nec hendrerit convallis suspendisse...”<\/p>",
-              "title": "algistino",
-              "address": "Chief Operating Officer",
-              "rating": 5
-            }
-          },
-          "60667878-3e15-4363-837c-f43455609ec9": {
-            "type": "quote",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/testimonial.jpg",
-              "content": "<p>“ Congue condimentum et non eu arcu sociis aenean vivamus quisque. Porta purus urna. <br\/>Massa id blandit enim cursus ante. Nec consectetuer imperdiet ipsum. Magnis rutrum tristique rutrum <\/p><p>lobortis nulla nec hendrerit convallis suspendisse...”<\/p>",
-              "title": "algistino",
-              "address": "Chief Operating Officer",
-              "rating": 5
-            }
-          }
-        },
-        "block_order": [
-          "6ab48ed0-1e14-4d98-bbaa-7efa16fa6c5a",
-          "a84b6de0-c116-495f-b188-745da174cca0",
-          "56a9acb1-eef5-42ce-97b3-a427bd580c3b",
-          "60667878-3e15-4363-837c-f43455609ec9"
-        ],
-        "settings": {
-          "hidden": false,
-          "layout": "container",
-          "bg_image": "shopify:\/\/shop_images\/bg_testimonials2.jpg",
-          "cl_bg": "#f6f7f9",
-          "pad_top": 100,
-          "pad_bottom": 630,
-          "mg_top": 0,
-          "mg_bottom": 0,
-          "title": "",
-          "sub_title": "",
-          "content": "",
-          "col_pr": "1",
-          "col_ipad": "1",
-          "col_mobile": "1",
-          "autoplay": true,
-          "arrows": true,
-          "dots": false,
-          "infinite": false,
-          "pad_top_mobile": 50,
-          "pad_bottom_mobile": 50,
-          "mg_top_mobile": 0,
-          "mg_bottom_mobile": 0
-        }
-      },
       "call-to-action-style2": {
         "type": "call-to-action-style2",
         "settings": {
@@ -1404,9 +1329,6 @@
         "settings": {
           "title": "Client Testimonials",
           "sub_title": "",
-          "col_pr": "1",
-          "col_ipad": "1",
-          "col_mobile": "1",
           "autoplay": true,
           "arrows": true,
           "dots": true,
@@ -3458,13 +3380,26 @@
         "settings": {
           "title": "",
           "sub_title": "",
-          "col_pr": "1",
-          "col_ipad": "1",
-          "col_mobile": "1",
+          "use-slider": true,
+          "slides-To-Scroll": 1,
+          "visible": 1,
+          "widescreen": 1,
+          "desktop": 1,
+          "laptop": 1,
+          "notebook": 1,
+          "tablet": 1,
+          "landscape": 1,
+          "portrait": 1,
+          "mobile": 1,
+          "rows": 1,
           "autoplay": true,
+          "speed": "300",
+          "autoplay-Speed": "3000",
           "arrows": true,
+          "adaptive-Height": false,
           "dots": true,
           "infinite": true,
+          "padding": 15,
           "layout": "container",
           "cl_bg": "#ffffff",
           "mg": "50",
