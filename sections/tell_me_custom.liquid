@@ -34,7 +34,7 @@
                           {% endif %}
                          <li class="language item-list currency-shop" data-title="{{ 'general.multi_shop.currency_label' | t }}">
                             {% render 'currency-picker' %}
-                            <a href="javascript:void(0);" class="toggle-tab-body">                
+                            <a href="javascript:void(0);" class="toggle-submenu">                
                               <span class="lang-currency">{% if settings.default_currency != blank %}{{ settings.default_currency }}{% else %}{{ shop.currency }}{% endif %}</span><span class="icon"><i class="organey-icon-dropdown"></i></span>
                             </a>  
                             <ul class="{{ shop.currency }} list-currencies currency-lists child-list list-unstyled">         
