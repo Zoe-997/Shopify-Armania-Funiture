@@ -3357,7 +3357,7 @@
               "content": "<p>Praesent ornare turpis sed elit scelerisque facilisis. Curabitur scelerisque tellus sem vulputate pretium at quam. Donec ejusto eget nisi mollis vulputate<\/p>",
               "title": "- Designer -",
               "address": "Ms. Cynthia West",
-              "show_rating": true,
+              "show_rating": false,
               "rating": 3
             }
           },
