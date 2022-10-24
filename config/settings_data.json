@@ -3640,10 +3640,10 @@
         "type": "featured_blog",
         "settings": {
           "layout": "container",
-          "cl_bg": "#fff",
+          "cl_bg": "#ffffff",
           "title": "Latest Blog",
           "content": "",
-          "blog": "news",
+          "blog": "furniture-chairs",
           "show_author": false,
           "show_categories": true,
           "show_date": true,
