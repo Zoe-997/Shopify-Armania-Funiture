@@ -41,21 +41,11 @@
         {%- if section.blocks.size > 0 -%}  
             <div class="quote_col_right" >
             <div class="contentTestimonial" >
-               <div class="js-slick-carousel laber-slick-carousel cms-wrap-content row row-10"
+                {% include 'grid-slider', settings:section.settings %}
+                <div class="grid-slider laber-slick-carousel" {{gridSlider}}>
+<!--                <div class="js-slick-carousel laber-slick-carousel cms-wrap-content row row-10" -->
                      
-                     data-slidesToShow="{{col_pr}}" 
-                     data-slidesToScroll="{{col_pr}}" 
-
-                     data-slidesToShowIpad="{{col_ipad}}" 
-                     data-slidesToScrollIpad="{{col_ipad}}"
-
-                     data-slidesToShowMobile="{{col_mobile}}" 
-                     data-slidesToScrollMobile="{{col_mobile}}"
-                     
-                  data-arrows="{{arrows}}" 
-                  data-dots="{{dots}}" 
-                  data-autoplay="{{autoplay}}"
-                  data-infinite="{{infinite}}"
+                  
                      
                >
               
