@@ -3641,8 +3641,8 @@
         "settings": {
           "layout": "container",
           "cl_bg": "#fff",
-          "title": "Tips & tricks",
-          "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
+          "title": "Latest Blog",
+          "content": "",
           "blog": "",
           "show_author": false,
           "show_categories": true,
