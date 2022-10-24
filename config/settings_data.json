@@ -44,7 +44,7 @@
     "color_label_hot": "#cc1414",
     "color_label_new": "#5aab19",
     "color_label_sale": "#5aab19",
-    "select_body_font": "font_files",
+    "select_body_font": "shopify_font",
     "type_body_font_files": "MicrosoftSansSerif.ttf",
     "font_family": "font-family: 'Microsoft'",
     "select_heading_font": "font_files",
