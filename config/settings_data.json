@@ -3370,11 +3370,22 @@
               "show_rating": false,
               "rating": 3
             }
+          },
+          "058dfe51-1c31-43b7-8185-d813fed77cb2": {
+            "type": "quote",
+            "settings": {
+              "content": "<p>I love my lash tint! I don't have extremely blonde lashes, but I do like that they can be even darker than they are. It makes my eyes stand out more and I love the way it looks!<\/p>",
+              "title": "Author's name",
+              "address": "New York",
+              "show_rating": true,
+              "rating": 3
+            }
           }
         },
         "block_order": [
           "6c7779f6-7955-4427-90b9-2f92ccc85f13-1666000529a52f7107-5",
-          "5c8011f2-b044-4c0f-99b9-eab67c8f3004"
+          "5c8011f2-b044-4c0f-99b9-eab67c8f3004",
+          "058dfe51-1c31-43b7-8185-d813fed77cb2"
         ],
         "settings": {
           "title": "",
@@ -3624,6 +3635,47 @@
         ],
         "settings": {
         }
+      },
+      "c3d15403-67ce-4c11-aaad-ea4e6695ba0e": {
+        "type": "featured_blog",
+        "settings": {
+          "layout": "container",
+          "cl_bg": "#fff",
+          "title": "Tips & tricks",
+          "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
+          "blog": "",
+          "show_author": false,
+          "show_categories": true,
+          "show_date": true,
+          "show_content": false,
+          "show_action_btn": false,
+          "use_equal_image_height": false,
+          "image_ratio": "1.5",
+          "use-slider": true,
+          "slides-To-Scroll": 1,
+          "visible": 2,
+          "widescreen": 2,
+          "desktop": 2,
+          "laptop": 2,
+          "notebook": 3,
+          "tablet": 3,
+          "landscape": 2,
+          "portrait": 2,
+          "mobile": 1,
+          "rows": 1,
+          "autoplay": true,
+          "speed": "300",
+          "autoplay-Speed": "3000",
+          "arrows": false,
+          "dots": false,
+          "infinite": true,
+          "padding": 15,
+          "margin_bottom": 0,
+          "padding_top_tablet": 0,
+          "margin_bottom_tablet": 0,
+          "padding_top_mobile": 0,
+          "margin_bottom_mobile": 0
+        }
       }
     },
     "content_for_index": [
@@ -3632,7 +3684,8 @@
       "c5a046fc-7d2d-43b1-b0e6-3f437e7c0d3d",
       "d23b5c6e-abdb-4a01-8023-4b8211ee3de2",
       "6c7779f6-7955-4427-90b9-2f92ccc85f13",
-      "081e25bc-2c4a-4e06-8f47-c551f8128510"
+      "081e25bc-2c4a-4e06-8f47-c551f8128510",
+      "c3d15403-67ce-4c11-aaad-ea4e6695ba0e"
     ]
   },
   "presets": {
