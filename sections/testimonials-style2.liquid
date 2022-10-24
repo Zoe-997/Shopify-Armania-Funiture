@@ -126,102 +126,185 @@
       },  
       {
         "type": "header",
-        "content": "== Slider Settings"
+        "content": "t:slick_slider.label",
+        "info": "t:slick_slider.content"
+      },  
+      {
+        "type": "checkbox",
+        "id": "use-slider",
+        "label": "t:slick_slider.use_slider",
+        "default": true
+      },
+      {  
+        "type": "range",  
+        "id": "slides-To-Scroll",  
+        "label": "t:slick_slider.scroll.label",  
+        "info": "t:slick_slider.scroll.content",
+        "min": 1,
+        "max": 5,
+        "step": 1,
+        "unit": "col",
+        "default": 3
+      },   
+      {  
+        "type": "range",  
+        "id": "visible",  
+        "label": "t:slick_slider.visible.label",
+        "info": "t:slick_slider.visible.content",
+        "min": 1,
+        "max": 5,
+        "step": 1,
+        "unit": "col",
+        "default": 3 
+      },
+      {  
+        "type": "range",  
+        "id": "widescreen",  
+        "label": "t:slick_slider.widescreen.label",
+        "info": "t:slick_slider.widescreen.content",
+        "min": 1,
+        "max": 5,
+        "step": 1,
+        "unit": "col",
+        "default": 3 
+      },  
+      {  
+        "type": "range",  
+        "id": "desktop",  
+        "label": "t:slick_slider.desktop.label",
+        "info":  "t:slick_slider.desktop.content",
+        "min": 1,
+        "max": 5,
+        "step": 1,
+        "unit": "col",
+        "default": 3  
+      },    
+      {  
+        "type": "range",  
+        "id": "laptop",  
+        "label": "t:slick_slider.laptop.label",
+        "info": "t:slick_slider.laptop.content",
+        "min": 1,
+        "max": 5,
+        "step": 1,
+        "unit": "col",
+        "default": 3
+      },    
+      {  
+        "type": "range",  
+        "id": "notebook",  
+        "label": "t:slick_slider.notebook.label",
+        "info": "t:slick_slider.notebook.content",
+        "min": 1,
+        "max": 5,
+        "step": 1,
+        "unit": "col",
+        "default": 2  
+      },  
+      {  
+        "type": "range",  
+        "id": "tablet",  
+        "label": "t:slick_slider.tablet.label",
+        "info": "t:slick_slider.tablet.content",
+        "min": 1,
+        "max": 5,
+        "step": 1,
+        "unit": "col",
+        "default": 2 
+      },
+      {  
+        "type": "range",  
+        "id": "landscape",  
+        "label": "t:slick_slider.landscape.label",
+        "info": "t:slick_slider.landscape.content",
+        "min": 1,
+        "max": 5,
+        "step": 1,
+        "unit": "col",
+        "default": 2 
       }, 
-		{
-        "type": "select",
-        "id": "col_pr",
-        "label": "Columns (PC)",
-        "default": "1",
-        "options": [
-          {
-          "value": "1",
-          "label": "1"
-          },
-          {
-            "value": "2",
-            "label": "2"
-          },
-          {
-            "value": "3",
-            "label": "3"
-          },
-          {
-            "value": "4",
-            "label": "4"
-          },
-          {
-            "value": "5",
-            "label": "5"
-          }
-        ]
+      {  
+        "type": "range",  
+        "id": "portrait",  
+        "label": "t:slick_slider.portrait.label",
+        "info": "t:slick_slider.portrait.content",
+        "min": 1,
+        "max": 5,
+        "step": 1,
+        "unit": "col",
+        "default": 2 
       },
-	  {
-      "type": "select",
-      "id": "col_ipad",
-      "label": "Columns (Ipad)",
-      "info": "How many item you want to show per row",
-      "default": "1",
-      "options": [
-      {
-      "value": "1",
-      "label": "1"
+      {  
+        "type": "range",  
+        "id": "mobile",  
+        "label": "t:slick_slider.mobile.label",
+        "info": "t:slick_slider.mobile.content",
+        "min": 1,
+        "max": 3,
+        "step": 1,
+        "unit": "col",
+        "default": 1 
+      },
+      {  
+        "type": "range",  
+        "id": "rows",  
+        "label": "t:slick_slider.rows.label",  
+        "min": 1,
+        "max": 3,
+        "step": 1,
+        "unit": "row",
+        "default": 1
       },
       {
-      "value": "2",
-      "label": "2"
+        "type": "checkbox",
+        "id": "autoplay",
+        "label": "t:slick_slider.autoplay.label",
+        "default": true
+      },
+      {   
+        "type": "text",
+        "id": "speed",
+        "label": "t:slick_slider.speed.label",
+        "default": "300",
+        "info": "t:slick_slider.speed.content"
+      },
+      {   
+        "type": "text",
+        "id": "autoplay-Speed",
+        "label": "t:slick_slider.autoplay_speed.label",
+        "default": "3000",
+        "info": "t:slick_slider.autoplay_speed.content"
+      },
+      {   
+        "type": "checkbox",
+        "id": "arrows",
+        "label": "t:slick_slider.arrows.label",
+        "default": false
+      },
+      {   
+        "type": "checkbox",
+        "id": "adaptive-Height",
+        "label": "t:slick_slider.adaptive_height.label",
+        "default": false
+      },
+      {   
+        "type": "checkbox",
+        "id": "dots",
+        "label": "t:slick_slider.dots.label",
+        "default": false 
+      },
+      {   
+        "type": "checkbox",
+        "id": "infinite",
+        "label": "t:slick_slider.infinite.label",
+        "default": true
       },
       {
-      "value": "3",
-      "label": "3"
-      },
-      {
-      "value": "4",
-      "label": "4"
-      }
-      ]
-      },	
-      {
-      "type": "select",
-      "id": "col_mobile",
-      "label": "Columns (Mobile)",
-      "default": "1",
-      "options": [
-      {
-      "value": "1",
-      "label": "1"
-      },
-      {
-      "value": "2",
-      "label": "2"
-      }
-      ]
-      },
-      {
-      "type": "checkbox",
-      "id": "autoplay",
-      "label": "Autoplay",
-      "default": true
-      },
-      {	
-      "type": "checkbox",
-      "id": "arrows",
-      "label": "Arrows",
-      "default": true
-      },
-      {	
-      "type": "checkbox",
-      "id": "dots",
-      "label": "Dots",
-      "default": true
-      },
-      {	
-      "type": "checkbox",
-      "id": "infinite",
-      "label": "Infinite",
-      "default": false,
-      "info":"Infinity loop. Duplicate last and first items to get loop illusion."	
-      },
+        "type": "number",
+        "id": "padding",
+        "label": "t:slick_slider.padding.label",
+        "default": 15
+      },    
       {
         "type": "header",
         "content": "== Design Options"
