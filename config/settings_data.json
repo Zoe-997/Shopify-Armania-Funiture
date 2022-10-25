@@ -28,7 +28,7 @@
     "color_border": "#707070",
     "color_btn": "#7c7c7c",
     "background_btn": "rgba(0,0,0,0)",
-    "border_btn": "#000000",
+    "border_btn": "rgba(0,0,0,0)",
     "color_btn_hover": "#000000",
     "background_btn_hover": "#ffd800",
     "border_btn_hover": "#222222",
