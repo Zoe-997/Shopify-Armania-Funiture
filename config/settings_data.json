@@ -3651,7 +3651,7 @@
           "title": "Latest Blog",
           "content": "",
           "blog": "decoration-living-room",
-          "show_author": false,
+          "show_author": true,
           "show_categories": false,
           "show_date": true,
           "show_content": false,
