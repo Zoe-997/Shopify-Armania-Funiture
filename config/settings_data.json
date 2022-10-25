@@ -3116,7 +3116,7 @@
           "layout": "container",
           "cl_bg": "#ffffff",
           "title": "Our Products",
-          "content": "12121212121",
+          "content": "",
           "collection": "ok",
           "max_count": 7,
           "use_equal_image_height": true,
