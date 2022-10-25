@@ -3262,6 +3262,7 @@
           },
           "dc202872-d066-4b47-ba25-ccc7ac7ea24b-166599321258d56e84-5": {
             "type": "collection",
+            "disabled": true,
             "settings": {
               "collection": "",
               "title": "",
@@ -3270,6 +3271,7 @@
           },
           "152145bc-26e8-451c-8152-415d9b9770bb": {
             "type": "collection",
+            "disabled": true,
             "settings": {
               "collection": "",
               "title": "",
@@ -3278,6 +3280,7 @@
           },
           "d8ba8ad9-364f-4442-824f-2b8f81bda12d": {
             "type": "collection",
+            "disabled": true,
             "settings": {
               "collection": "",
               "title": "",
@@ -3296,9 +3299,9 @@
           "d8ba8ad9-364f-4442-824f-2b8f81bda12d"
         ],
         "settings": {
-          "title": "",
-          "sub_title": "",
-          "content": "",
+          "title": "aaaaaaaaaaaaaaaaaaass",
+          "sub_title": "ddddddddddd",
+          "content": "dsadsadsd",
           "num_p_qty": true,
           "sid_style": "style2",
           "layout": "container",
