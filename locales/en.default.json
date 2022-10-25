@@ -653,10 +653,10 @@
       "years": "Years",
       "months": "Months",
       "weeks": "Weeks",
-      "days": "Days",
-      "hours": "Hrs",
-      "minutes": "Mins",
-      "seconds": "Secs"
+      "days": "days",
+      "hours": "hours",
+      "minutes": "mins",
+      "seconds": "secs"
     }
   },
   "compare_page": {
