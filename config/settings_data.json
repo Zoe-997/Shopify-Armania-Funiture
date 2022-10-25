@@ -71,18 +71,19 @@
     "custom_color_free_shipping": true,
     "bg_free_shipping": "#555555",
     "bg_free_shipping_progress": "#cc1414",
-    "product_info_show_size_guide": true,
+    "product_info_show_size_guide": false,
     "product_info_size_guide_page_content": "size-guide",
     "product_info_show_delivery_return": false,
     "product_info_delivery_return_page_content": "",
-    "product_info_show_terms_conditions": true,
+    "product_info_show_terms_conditions": false,
     "product_terms_conditions_page_content": "terms-and-conditions",
-    "sticky_atc": true,
+    "sticky_atc": false,
     "product_visitors_min": 10,
     "product_visitors_max": 50,
     "product_visitors_interval_min": 4,
     "product_visitors_interval_max": 5,
     "bg_product_page": "rgba(0,0,0,0)",
+    "pad_top_product_page": 0,
     "pad_bottom_product_page": 0,
     "design_product": "design-1",
     "product_collection_show_label": false,
@@ -3682,85 +3683,6 @@
           "padding_top_mobile": 0,
           "margin_bottom_mobile": 0
         }
-      },
-      "e5e10080-3639-4ab1-9a3b-82f0bdd3a8e8": {
-        "type": "collection-featured",
-        "blocks": {
-          "e5e10080-3639-4ab1-9a3b-82f0bdd3a8e8-1666686616c3ee6d73-0": {
-            "type": "menu",
-            "settings": {
-              "title": "Heading",
-              "url": "shopify:\/\/collections\/all",
-              "open_link": "_blank",
-              "menu": ""
-            }
-          },
-          "e5e10080-3639-4ab1-9a3b-82f0bdd3a8e8-1666686616c3ee6d73-1": {
-            "type": "menu",
-            "settings": {
-              "title": "Heading",
-              "url": "",
-              "open_link": "_self",
-              "menu": ""
-            }
-          },
-          "e5e10080-3639-4ab1-9a3b-82f0bdd3a8e8-1666686616c3ee6d73-2": {
-            "type": "menu",
-            "settings": {
-              "title": "Heading",
-              "url": "",
-              "open_link": "_self",
-              "menu": ""
-            }
-          },
-          "e5e10080-3639-4ab1-9a3b-82f0bdd3a8e8-1666686616c3ee6d73-3": {
-            "type": "menu",
-            "settings": {
-              "title": "Heading",
-              "url": "",
-              "open_link": "_self",
-              "menu": ""
-            }
-          },
-          "e5e10080-3639-4ab1-9a3b-82f0bdd3a8e8-1666686616c3ee6d73-4": {
-            "type": "menu",
-            "settings": {
-              "title": "Heading",
-              "url": "",
-              "open_link": "_self",
-              "menu": ""
-            }
-          },
-          "e5e10080-3639-4ab1-9a3b-82f0bdd3a8e8-1666686616c3ee6d73-5": {
-            "type": "menu",
-            "settings": {
-              "title": "Heading",
-              "url": "",
-              "open_link": "_self",
-              "menu": ""
-            }
-          }
-        },
-        "block_order": [
-          "e5e10080-3639-4ab1-9a3b-82f0bdd3a8e8-1666686616c3ee6d73-0",
-          "e5e10080-3639-4ab1-9a3b-82f0bdd3a8e8-1666686616c3ee6d73-1",
-          "e5e10080-3639-4ab1-9a3b-82f0bdd3a8e8-1666686616c3ee6d73-2",
-          "e5e10080-3639-4ab1-9a3b-82f0bdd3a8e8-1666686616c3ee6d73-3",
-          "e5e10080-3639-4ab1-9a3b-82f0bdd3a8e8-1666686616c3ee6d73-4",
-          "e5e10080-3639-4ab1-9a3b-82f0bdd3a8e8-1666686616c3ee6d73-5"
-        ],
-        "settings": {
-          "title": "",
-          "sub_title": "",
-          "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
-          "layout": "container",
-          "cl_bg": "#fff",
-          "col_coll": "2",
-          "mg": "",
-          "pd": "",
-          "mg_mb": "",
-          "pd_mb": ""
-        }
       }
     },
     "content_for_index": [
@@ -3770,8 +3692,7 @@
       "d23b5c6e-abdb-4a01-8023-4b8211ee3de2",
       "6c7779f6-7955-4427-90b9-2f92ccc85f13",
       "c3d15403-67ce-4c11-aaad-ea4e6695ba0e",
-      "081e25bc-2c4a-4e06-8f47-c551f8128510",
-      "e5e10080-3639-4ab1-9a3b-82f0bdd3a8e8"
+      "081e25bc-2c4a-4e06-8f47-c551f8128510"
     ]
   },
   "presets": {
