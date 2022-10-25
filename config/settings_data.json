@@ -3679,6 +3679,36 @@
           "padding_top_mobile": 0,
           "margin_bottom_mobile": 0
         }
+      },
+      "845702cc-0ec4-4c74-a35e-70b97c675866": {
+        "type": "blog-style2",
+        "settings": {
+          "hidden": false,
+          "title": "Tips & tricks",
+          "sub_title": "",
+          "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
+          "blog": "",
+          "col_pr": "2",
+          "col_ipad_pro": "2",
+          "col_ipad": "2",
+          "col_mobile": "1",
+          "col_mobile_vertical": "1",
+          "limit": 1,
+          "show_au": true,
+          "show_cate": true,
+          "show_dt": true,
+          "loop": true,
+          "use_slideshow_autoplay": true,
+          "pause_slide_hover": false,
+          "nav_enable": false,
+          "nav_dots": false,
+          "layout": "container",
+          "cl_bg": "#fff",
+          "mg": "",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
@@ -3687,8 +3717,9 @@
       "c5a046fc-7d2d-43b1-b0e6-3f437e7c0d3d",
       "d23b5c6e-abdb-4a01-8023-4b8211ee3de2",
       "6c7779f6-7955-4427-90b9-2f92ccc85f13",
+      "c3d15403-67ce-4c11-aaad-ea4e6695ba0e",
       "081e25bc-2c4a-4e06-8f47-c551f8128510",
-      "c3d15403-67ce-4c11-aaad-ea4e6695ba0e"
+      "845702cc-0ec4-4c74-a35e-70b97c675866"
     ]
   },
   "presets": {
