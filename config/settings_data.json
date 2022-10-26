@@ -3058,7 +3058,7 @@
               "bg_button": "#ffd800",
               "cl_text_button_hv": "#ffffff",
               "bg_button_hv": "#000000",
-              "text_alignment_mobile": "center"
+              "text_alignment_mobile": "left"
             }
           }
         },
