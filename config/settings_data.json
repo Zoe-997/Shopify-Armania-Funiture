@@ -3469,6 +3469,7 @@
           },
           "9de4a281-a600-4dff-aaf8-9f924a1ca7b0": {
             "type": "shipping",
+            "disabled": true,
             "settings": {
               "icon": "fa fa-truck",
               "title": "Add a title",
