@@ -2993,6 +2993,7 @@
             "type": "slide",
             "settings": {
               "image": "shopify:\/\/shop_images\/1.png",
+              "image_sl_mobile": "shopify:\/\/shop_images\/1.png",
               "bg_color_content": "rgba(0,0,0,0)",
               "box_align": "middle-left",
               "text_alignment": "left",
@@ -3017,6 +3018,7 @@
             "type": "slide",
             "settings": {
               "image": "shopify:\/\/shop_images\/1.png",
+              "image_sl_mobile": "shopify:\/\/shop_images\/1.png",
               "bg_color_content": "rgba(0,0,0,0)",
               "box_align": "middle-left",
               "text_alignment": "left",
@@ -3041,6 +3043,7 @@
             "type": "slide",
             "settings": {
               "image": "shopify:\/\/shop_images\/3.png",
+              "image_sl_mobile": "shopify:\/\/shop_images\/3.png",
               "bg_color_content": "rgba(0,0,0,0)",
               "box_align": "middle-left",
               "text_alignment": "center",
