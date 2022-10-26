@@ -2025,6 +2025,7 @@
           },
           "mobile_menu-0": {
             "type": "menu_mb",
+            "disabled": true,
             "settings": {
               "title": "Home",
               "url": "shopify:\/\/collections",
