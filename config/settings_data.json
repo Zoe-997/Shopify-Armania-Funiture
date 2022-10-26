@@ -3010,7 +3010,7 @@
               "bg_button": "#ffd800",
               "cl_text_button_hv": "#ffffff",
               "bg_button_hv": "#222222",
-              "text_alignment_mobile": "center"
+              "text_alignment_mobile": "left"
             }
           },
           "5dbf5082-e052-45c8-b4ff-54e305525d86": {
@@ -3034,7 +3034,7 @@
               "bg_button": "#ffd800",
               "cl_text_button_hv": "#ffffff",
               "bg_button_hv": "#000000",
-              "text_alignment_mobile": "center"
+              "text_alignment_mobile": "left"
             }
           },
           "20c7c868-cf87-4cb9-84ad-bd1a62f2e4f5": {
