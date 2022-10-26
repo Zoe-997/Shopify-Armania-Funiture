@@ -14,7 +14,6 @@
     "terms_of_service_content": "terms-and-conditions",
     "logo": "shopify:\/\/shop_images\/logo.png",
     "logo_page": "shopify:\/\/shop_images\/logo.png",
-    "logo_page_mobile": "shopify:\/\/shop_images\/logo.png",
     "logo_max_width": 130,
     "show_all_categories": false,
     "show_key_word": false,
@@ -2149,8 +2148,9 @@
           "7d96da94-803e-4e3f-a753-11822a5887ef"
         ],
         "settings": {
-          "title": "",
+          "title": "menu",
           "show_logo": true,
+          "logo": "shopify:\/\/shop_images\/freeship.png",
           "logo_max_width": 80,
           "bg_menu": "#0a2748",
           "color_text": "#ffffff",
@@ -3573,6 +3573,7 @@
         "blocks": {
           "tell_me_custom-0": {
             "type": "logo",
+            "disabled": true,
             "settings": {
               "title": "Heading",
               "title_cl": "#c6452c",
@@ -3581,6 +3582,7 @@
           },
           "tell_me_custom-1": {
             "type": "instagram",
+            "disabled": true,
             "settings": {
               "name_instagram": "Name instagram",
               "url": "",
@@ -3589,6 +3591,7 @@
           },
           "tell_me_custom-2": {
             "type": "instagram",
+            "disabled": true,
             "settings": {
               "name_instagram": "Name instagram",
               "url": "",
@@ -3597,6 +3600,7 @@
           },
           "tell_me_custom-3": {
             "type": "instagram",
+            "disabled": true,
             "settings": {
               "name_instagram": "Name instagram",
               "url": "",
@@ -3605,6 +3609,7 @@
           },
           "tell_me_custom-4": {
             "type": "instagram",
+            "disabled": true,
             "settings": {
               "name_instagram": "Name instagram",
               "url": "",
@@ -3613,6 +3618,7 @@
           },
           "tell_me_custom-5": {
             "type": "instagram",
+            "disabled": true,
             "settings": {
               "name_instagram": "Name instagram",
               "url": "",
@@ -3621,6 +3627,7 @@
           },
           "tell_me_custom-6": {
             "type": "instagram",
+            "disabled": true,
             "settings": {
               "name_instagram": "Name instagram",
               "url": "",
@@ -3629,6 +3636,7 @@
           },
           "tell_me_custom-7": {
             "type": "contact",
+            "disabled": true,
             "settings": {
               "header_use_social": true,
               "type_social": "2"
