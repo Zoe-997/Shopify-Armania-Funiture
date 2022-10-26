@@ -3667,7 +3667,7 @@
           "widescreen": 2,
           "desktop": 2,
           "laptop": 2,
-          "notebook": 2,
+          "notebook": 1,
           "tablet": 1,
           "landscape": 1,
           "portrait": 1,
