@@ -3695,6 +3695,73 @@
           "padding_top_mobile": 0,
           "margin_bottom_mobile": 0
         }
+      },
+      "e479fd1d-6a93-4957-972b-eb6a3b28adb4": {
+        "type": "tab-product-style2",
+        "blocks": {
+          "e479fd1d-6a93-4957-972b-eb6a3b28adb4-1666845367bfbce6c6-0": {
+            "type": "col",
+            "settings": {
+              "title": "a",
+              "collection": "lighting"
+            }
+          },
+          "e479fd1d-6a93-4957-972b-eb6a3b28adb4-1666845367bfbce6c6-1": {
+            "type": "col",
+            "settings": {
+              "title": "c",
+              "collection": "our-products"
+            }
+          },
+          "e479fd1d-6a93-4957-972b-eb6a3b28adb4-1666845367bfbce6c6-2": {
+            "type": "col",
+            "settings": {
+              "title": "",
+              "collection": ""
+            }
+          }
+        },
+        "block_order": [
+          "e479fd1d-6a93-4957-972b-eb6a3b28adb4-1666845367bfbce6c6-0",
+          "e479fd1d-6a93-4957-972b-eb6a3b28adb4-1666845367bfbce6c6-1",
+          "e479fd1d-6a93-4957-972b-eb6a3b28adb4-1666845367bfbce6c6-2"
+        ],
+        "settings": {
+          "title": "New arrivals",
+          "sub_title": "",
+          "content": "Commodo sociosqu venenatis cras dolor sagittis integer luctus maecenas.",
+          "max_count": 8,
+          "use-slider": true,
+          "slides-To-Scroll": 1,
+          "visible": 5,
+          "widescreen": 4,
+          "desktop": 4,
+          "laptop": 4,
+          "notebook": 3,
+          "tablet": 3,
+          "landscape": 2,
+          "portrait": 2,
+          "mobile": 1,
+          "rows": 1,
+          "autoplay": true,
+          "speed": "300",
+          "autoplay-Speed": "3000",
+          "arrows": true,
+          "fade": false,
+          "center-Mode": false,
+          "adaptive-Height": false,
+          "dots": false,
+          "infinite": false,
+          "padding": 15,
+          "vertical": false,
+          "show_view_all": false,
+          "layout": "container",
+          "cl_bg": "#fff",
+          "mg": "",
+          "pd": "",
+          "mg_mb": "",
+          "pd_mb": ""
+        }
       }
     },
     "content_for_index": [
@@ -3704,7 +3771,8 @@
       "d23b5c6e-abdb-4a01-8023-4b8211ee3de2",
       "6c7779f6-7955-4427-90b9-2f92ccc85f13",
       "c3d15403-67ce-4c11-aaad-ea4e6695ba0e",
-      "081e25bc-2c4a-4e06-8f47-c551f8128510"
+      "081e25bc-2c4a-4e06-8f47-c551f8128510",
+      "e479fd1d-6a93-4957-972b-eb6a3b28adb4"
     ]
   },
   "presets": {
