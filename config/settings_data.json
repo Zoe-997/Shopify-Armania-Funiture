@@ -3473,6 +3473,7 @@
             "type": "shipping",
             "settings": {
               "icon": "fa fa-truck",
+              "icon_img": "shopify:\/\/shop_images\/4.png",
               "title": "Add a title",
               "text": "Use this text to describe."
             }
