@@ -306,7 +306,7 @@
   },
   "collections": {
     "general": {
-      "view_all": "View All Products",
+      "view_all": "LOAD MORE",
       "showing": "Showing",
       "results": "results",
       "no_matches": "Sorry, there are no products in this collection",
