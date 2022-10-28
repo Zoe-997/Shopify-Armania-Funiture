@@ -75,7 +75,7 @@
     },
     "newsletter_form": {
       "newsletter_email": "Join our mailing list",
-      "email_placeholder": "Your email address...",
+      "email_placeholder": "Email@example.com",
       "confirmation": "Thanks for subscribing",
       "submit": "Subscribe"
     },
