@@ -3312,7 +3312,7 @@
           "content": "",
           "num_p_qty": true,
           "sid_style": "style2",
-          "layout": "full-width",
+          "layout": "container",
           "cl_bg": "#ffffff",
           "use-slider": true,
           "slides-To-Scroll": 1,
