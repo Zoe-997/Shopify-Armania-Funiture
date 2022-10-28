@@ -3322,7 +3322,7 @@
           "desktop": 3,
           "laptop": 3,
           "notebook": 3,
-          "tablet": 3,
+          "tablet": 2,
           "landscape": 2,
           "portrait": 1,
           "mobile": 1,
@@ -3424,7 +3424,7 @@
           "padding": 15,
           "layout": "container",
           "cl_bg": "#ffffff",
-          "mg": "60px 0 60px 0",
+          "mg": "600",
           "pd": "",
           "mg_mb": "",
           "pd_mb": ""
