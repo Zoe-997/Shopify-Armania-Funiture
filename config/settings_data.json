@@ -3756,7 +3756,7 @@
           "infinite": true,
           "padding": 15,
           "vertical": false,
-          "show_view_all": false,
+          "show_view_all": true,
           "layout": "container",
           "cl_bg": "#ffffff",
           "mg": "80, 0, 80 ,0",
