@@ -3424,7 +3424,7 @@
           "padding": 15,
           "layout": "container",
           "cl_bg": "#ffffff",
-          "mg": "60 0 60 0",
+          "mg": "60px 0 60px 0",
           "pd": "",
           "mg_mb": "",
           "pd_mb": ""
