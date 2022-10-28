@@ -2971,7 +2971,7 @@
           "border_color": "#ffffff",
           "color_count": "#ffffff",
           "background_count": "#e52828",
-          "header_width": "container",
+          "header_width": "full-width",
           "header_width_distance": 60,
           "logo_position": "middle-left",
           "menu": "main-menu",
