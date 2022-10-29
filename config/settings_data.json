@@ -3758,7 +3758,7 @@
           "show_view_all": true,
           "layout": "container",
           "cl_bg": "#ffffff",
-          "mg": "80, 0, 80 ,0",
+          "mg": "0",
           "pd": "",
           "mg_mb": "",
           "pd_mb": ""
