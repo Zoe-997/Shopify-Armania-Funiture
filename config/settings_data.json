@@ -3766,9 +3766,10 @@
       },
       "b23a9646-fc89-4a5c-92a4-e3e6e9dbb26e": {
         "type": "line-section",
+        "disabled": true,
         "settings": {
           "layout": "container",
-          "height": 1,
+          "height": 0,
           "color": "#000000",
           "color_opacity": 10,
           "margin_top": 0,
