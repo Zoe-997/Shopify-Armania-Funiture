@@ -3763,6 +3763,21 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "b23a9646-fc89-4a5c-92a4-e3e6e9dbb26e": {
+        "type": "line-section",
+        "settings": {
+          "layout": "container",
+          "height": 1,
+          "color": "#000000",
+          "color_opacity": 10,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "margin_top_tablet": 0,
+          "margin_bottom_tablet": 0,
+          "margin_top_mobile": 0,
+          "margin_bottom_mobile": 0
+        }
       }
     },
     "content_for_index": [
@@ -3773,7 +3788,8 @@
       "d23b5c6e-abdb-4a01-8023-4b8211ee3de2",
       "c3d15403-67ce-4c11-aaad-ea4e6695ba0e",
       "6c7779f6-7955-4427-90b9-2f92ccc85f13",
-      "081e25bc-2c4a-4e06-8f47-c551f8128510"
+      "081e25bc-2c4a-4e06-8f47-c551f8128510",
+      "b23a9646-fc89-4a5c-92a4-e3e6e9dbb26e"
     ]
   },
   "presets": {
