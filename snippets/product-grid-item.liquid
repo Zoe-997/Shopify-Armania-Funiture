@@ -288,7 +288,7 @@
                	{% if show_button_add_to_cart%}
                     {% if product.available %}
                     <a href="javascript:void(0);" class="add-to-cart js_add_to_cart_button"  data-pid="{{ product.variants.first.id }}" data-js-product-button-add-to-cart>
-                      <span class="icon">
+                      <span class="icon22">
                         <i class="laber-icon icon-shopping-bag" aria-hidden="true"></i>
                         <i aria-hidden="true" class="laber-loading fa fa-spinner fa-spin fa-3x fa-fw"></i>
                       </span>
@@ -296,7 +296,7 @@
                     </a>
                     {% else %}
                     <a  class="add-to-cart js-btn-sold-out" onclick="location.href='{{ product.url | within: collection }}'">
-                      <span class="icon">
+                      <span class="icon22">
                         <i class="icon-alert-circle" aria-hidden="true"></i>
                       </span>
                       <span class="text">{{'products.product.sold_out' | t  }}</span></a>
