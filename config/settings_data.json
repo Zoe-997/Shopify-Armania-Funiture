@@ -3746,7 +3746,7 @@
           "portrait": 1,
           "mobile": 1,
           "rows": 2,
-          "autoplay": true,
+          "autoplay": false,
           "speed": "300",
           "autoplay-Speed": "3000",
           "arrows": false,
