@@ -69,7 +69,6 @@
                     {% if show_button_add_to_wishlist %}
                     {% include 'product-get-button-wishlist' %}
                     {% endif %}   
-
                   </div>
                 </div>
               </div>
@@ -181,7 +180,7 @@
         {% if show_button_add_to_cart%}
         {% if product.available %}
         <a href="javascript:void(0);" class="add-to-cart js_add_to_cart_button"  data-pid="{{ product.variants.first.id }}" data-js-product-button-add-to-cart>
-          <span class="icon"></span>
+          <span class="icon">hhhhh</span>
           <span class="main-icon-heart"></span>
           <span class="icon-loading circle-loadding"><span></span></span>	
           <span class="text">{{'products.product.add_to_cart' | t  }}</span>
