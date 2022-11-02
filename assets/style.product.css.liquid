@@ -63,8 +63,8 @@
 
 .product-collection .product-image__overlay-top-left {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: -16px;
+  left: -6px;
 }
 
 .product-collection .product-image__overlay-top-left .label{
@@ -91,6 +91,14 @@
 
 .product-collection .product-image__overlay-top-left .label.label--sale{
   background-color: var(--color-label-sale);
+  border-radius: 50%;
+  min-width: 50px;
+  height: 50px;
+  line-height: 57px;
+}
+
+.product-collection .product-image__overlay-top-left .label.label--sale .price__percent {
+  display:none;
 }
 
 .product-collection .product-image__overlay-top-left .label.label--new{
