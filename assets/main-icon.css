@@ -11,7 +11,7 @@
   }
 
 [class^="main-icon-"] {
-  font-family: "main-icon" !important;
+  font-family: main-icon !important;
   speak: never;
   font-style: normal;
   font-weight: 400;
