@@ -41,7 +41,7 @@
     "border_btn_product_hover": "rgba(0,0,0,0)",
     "color_label_hot": "#cc1414",
     "color_label_new": "#5aab19",
-    "color_label_sale": "#5aab19",
+    "color_label_sale": "#ffd800",
     "select_body_font": "shopify_font",
     "type_body_font": "catamaran_n4",
     "type_body_font_files": "",
