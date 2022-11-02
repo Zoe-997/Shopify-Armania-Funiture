@@ -11,7 +11,7 @@
 <!--------------------------------------------------->
 {%- if compare_at_price > price -%}
   {%- assign sale_percent = price | times: 100 | divided_by: compare_at_price | minus: 100 | times: -1 -%}
-  <div class="label label--sale" data-js-product-label-sale>Sale {{ 'products.product.label.sale' | t: percent: sale_percent }}
+  <div class="label label--sale" data-js-product-label-sale>{{ 'products.product.label.sale' | t: percent: sale_percent }}
   </div>                        
 {%- else -%}
   <div class="label label--sale d-none-important" data-js-product-label-sale></div>
