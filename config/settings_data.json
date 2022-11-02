@@ -3720,7 +3720,7 @@
             "type": "col",
             "settings": {
               "title": "Featured",
-              "collection": "ok"
+              "collection": "our-products"
             }
           }
         },
@@ -3733,7 +3733,7 @@
           "title": "Our Products",
           "sub_title": "",
           "content": "",
-          "max_count": 8,
+          "max_count": 10,
           "use-slider": true,
           "slides-To-Scroll": 1,
           "visible": 4,
