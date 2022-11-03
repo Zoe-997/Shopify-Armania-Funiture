@@ -192,13 +192,13 @@
             {% if show_button_add_to_cart%}
               {% if product.available %}
                 <a href="javascript:void(0);" class="add-to-cart js_add_to_cart_button"  data-pid="{{ product.variants.first.id }}" data-js-product-button-add-to-cart>
-                  <span class="icon"></span>
+                  <span class="main-icon-cart"></span>
                   <span class="icon-loading circle-loadding"><span></span></span>	
                   <span class="text">{{ 'products.product.add_to_cart' | t }}</span>
                 </a>
               {% else %}
                 <a  class="add-to-cart js-btn-sold-out" onclick="location.href='{{ product.url | within: collection }}'">
-                  <span class="icon"><i class="icon-alert-circle" aria-hidden="true"></i></span>
+                  <span class="main-icon-cart"><i class="icon-alert-circle" aria-hidden="true"></i></span>
                   <span class="text">{{ 'products.product.sold_out' | t }}</span>
                 </a>
               {% endif %}
