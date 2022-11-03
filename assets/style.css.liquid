@@ -3366,6 +3366,14 @@ td {
   position: relative;
 }
 
+.tab-product .tab-products ul li:not(.active) a :before {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+}
+
 .tab-product .tab-products ul li a ::before{
     position: absolute;
     content: '';
@@ -3380,14 +3388,6 @@ td {
     -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
     z-index: -1;
-}
-
-.tab-product .tab-products ul li:not(.active) a :before {
-    -webkit-transform: scale(0);
-    -moz-transform: scale(0);
-    -ms-transform: scale(0);
-    -o-transform: scale(0);
-    transform: scale(0);
 }
 
 .tab-product .tab-products ul li a:hover, 
