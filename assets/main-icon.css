@@ -1,6 +1,5 @@
 @font-face {
   font-family: "main-icon";
-  {{ 'main-icon.eot' | asset_url | stylesheet_tag }}
   src: url({{ 'main-icon.eot' | asset_url | stylesheet_tag }});
   src: url({{ 'main-icon.eot' | asset_url | stylesheet_tag | append: "#iefix" }}) format("embedded-opentype"),
     url({{ 'main-icon.ttf' | asset_url | stylesheet_tag }}) format("truetype"),
