@@ -3017,12 +3017,26 @@ td {
     color:#666;
     text-align:center;
   }
+
+  
   .title1 {
     font-size :40px;
     color:#000;
     font-weight:700;
     padding: 10px 0;
     text-align:center;
+  }
+  .title1::before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    bottom: 0;
+    width: 100%;
+    max-width: 23rem;
+    height: 3rem;
+    background: #ffd800;
+    right: -1rem;
+    z-index: -1;
   }
 
   .cms-countdown.init {
@@ -3070,9 +3084,9 @@ td {
     background-color : #f5b301 !important;  
   } */
 
-  .content-countdown a i{
+/*   .content-countdown a i{
     display:none;
-  }
+  } */
 
 /* tell_me_custom */
 .tell_me_2 {
