@@ -2,7 +2,6 @@
   font-family: "main-icon";
   src: url("main-icon.eot");
   src: url("main-icon.eot#iefix") format("embedded-opentype"),
-    url("main-icon.ttf") format("truetype"),
     url("main-icon.woff") format("woff"),
     url("main-icon.svg") format("svg");
     font-weight: 400;
