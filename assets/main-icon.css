@@ -1,16 +1,16 @@
 @font-face {
-  font-family: main-icon;
-  src: url(main-icon.eot);
-  src: url(main-icon.eot#iefix) format("embedded-opentype"),
-    url(main-icon.woff) format("woff"),
-    url(main-icon.svg) format("svg");
+  font-family: 'main-icon';
+  src: url('main-icon.eot');
+  src: url('main-icon.eot#iefix') format("embedded-opentype"),
+    url('main-icon.woff') format("woff"),
+    url('main-icon.svg') format("svg");
     font-weight: 400;
     font-style: normal;
     font-display: block;
 }
 
 [class^="main-icon-"] {
-  font-family: main-icon !important;
+  font-family: 'main-icon' !important;
   speak: never;
   font-style: normal;
   font-weight: 400;
