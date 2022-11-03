@@ -1,10 +1,11 @@
 @font-face {
   font-family: "main-icon";
-  src: url("main-icon.eot");
-  src: url("main-icon.eot#iefix") format("embedded-opentype"),
-    url("main-icon.ttf") format("truetype"),
-    url("main-icon.woff") format("woff"),
-    url("main-icon.svg") format("svg");
+  {{ 'main-icon.eot' | asset_url | stylesheet_tag }}
+  src: url({{ 'main-icon.eot' | asset_url | stylesheet_tag }});
+  src: url({{ 'main-icon.eot' | asset_url | stylesheet_tag | append: "#iefix" }}) format("embedded-opentype"),
+    url({{ 'main-icon.ttf' | asset_url | stylesheet_tag }}) format("truetype"),
+    url({{ 'main-icon.woff' | asset_url | stylesheet_tag }}) format("woff"),
+    url({{ 'main-icon.svg' | asset_url | stylesheet_tag }}) format("svg");
     font-weight: 400;
     font-style: normal;
     font-display: block;
