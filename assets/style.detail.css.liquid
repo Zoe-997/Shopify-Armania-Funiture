@@ -452,8 +452,25 @@
     color:#000 !important;
     background-color : #f5b301 !important;  
   }
-
-
+.viewall a:not(:hover):before {
+    top: 2.3rem;
+    bottom: 1rem;
+  }
+  
+.viewall a::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    z-index: -1;
+    background: #ffd800;
+  }
 .viewall a i{
   display: none;
 }
