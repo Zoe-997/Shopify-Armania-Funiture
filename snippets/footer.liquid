@@ -96,7 +96,7 @@
                         </div>
 
                         {%- when 'menu' -%}
-                        <div class="col-md-2 col-12 col-item" {{ block.shopify_attributes }}>
+                        <div class="col-xl-2 col-md-6 col-12 col-item" {{ block.shopify_attributes }}>
                             <aside id="block_{{ block.id }}" class="widget widget_nav_menu{% if block.settings.show_border %} show-border{% endif %}">
                             {%- if block.settings.title != blank -%}
                                 <h3 class="widget-title">
@@ -125,7 +125,7 @@
                         </div>
 
                         {%- when 'mail' -%}
-                            <div class="block-subscribe col-md-4 col-12 col-item" {{ block.shopify_attributes }}>
+                            <div class="block-subscribe col-xl-4 col-md-6 col-12 col-item" {{ block.shopify_attributes }}>
                             <aside id="block_{{ block.id }}" class="widget widget_text widget_subscribe{% if block.settings.show_border %} show-border{% endif %}">
                                 {% if block.settings.newsletter_heading != blank or block.settings.newsletter_content != blank %}
                                     <div class="section-title-group">
