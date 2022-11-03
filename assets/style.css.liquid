@@ -3363,7 +3363,25 @@ td {
   font-size: 18px;
   color: #666 !important;
   margin-left: 20px;
+  position: relative;
 }
+.tab-product .tab-products ul li a ::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 1.5rem;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #ffd800;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    z-index: -1;
+}
+}
+
 .tab-product .tab-products ul li a:hover, 
 .tab-product .tab-products ul li a:active, 
 .tab-product .tab-products ul li a:focus {
