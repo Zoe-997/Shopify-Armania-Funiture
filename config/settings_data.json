@@ -3670,7 +3670,7 @@
           "show_categories": true,
           "show_date": true,
           "show_content": false,
-          "show_action_btn": false,
+          "show_action_btn": true,
           "use_equal_image_height": false,
           "image_ratio": "2",
           "use-slider": true,
