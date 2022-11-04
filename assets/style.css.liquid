@@ -3280,7 +3280,13 @@ td {
     }
 
 .section-blog .post-item:not(:hover) .section-blog .post-item .actions {
-  transform: translate(-60px, 60px);
+    -webkit-transform: translate(-60px,60px);
+    -moz-transform: translate(-60px,60px);
+    -ms-transform: translate(-60px,60px);
+    -o-transform: translate(-60px,60px);
+    transform: translate(-60px,60px);
+    opacity: 0;
+}
 }
       
   .section-blog .post-item .actions {
