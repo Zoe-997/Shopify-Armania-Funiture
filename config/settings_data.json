@@ -96,7 +96,7 @@
     "product_collection_enable_hover_image": true,
     "product_collection_show_button_add_to_cart": true,
     "product_collection_show_button_add_to_compare": false,
-    "product_image_equal_height": true,
+    "product_image_equal_height": false,
     "product_image_ratio": "0.6667",
     "product_collection_show_description": false,
     "product_collection_show_sku": false,
