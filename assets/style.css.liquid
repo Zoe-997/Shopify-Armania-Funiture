@@ -3284,7 +3284,7 @@ td {
     border: 1px solid #ccc;
     }
 
-.section-blog .post-item:not(:hover) .actions {
+.section-blog .post-item:not(:hover) .actions a{
     -webkit-transform: translate(-60px,60px);
     -moz-transform: translate(-60px,60px);
     -ms-transform: translate(-60px,60px);
@@ -3294,7 +3294,7 @@ td {
 }
 
       
-  .section-blog .post-item .actions {
+  .section-blog .post-item .actions a{
     position: absolute;
     bottom: -70px;
     left: -70px;
@@ -3310,8 +3310,8 @@ td {
     -o-transition: all .3s ease;
   }
 
-  .section-blog .post-item .actions::after,
-  .section-blog .post-item .actions::before {
+  .section-blog .post-item .actions a::after,
+  .section-blog .post-item .actions a::before {
     position: absolute;
     content: "";
     top: 0;
@@ -3323,7 +3323,7 @@ td {
     margin: auto;
     background: #000;
   }
-  .section-blog .post-item .actions::before {
+  .section-blog .post-item .actions a::before {
     width: 30px;
     height: 3px;
   }
