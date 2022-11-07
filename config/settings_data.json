@@ -3391,7 +3391,7 @@
               "title": "Author's name",
               "address": "New York",
               "show_rating": true,
-              "rating": 3
+              "rating": 0
             }
           }
         },
