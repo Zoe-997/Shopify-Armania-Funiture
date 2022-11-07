@@ -15,3 +15,5 @@
       font-weight: 500;
     
 }
+
+.header__inline-menu .list-menu li.level-0>a {font-family: 'Caros' !important;}
