@@ -1,28 +1,17 @@
 @font-face {
   font-family: "Caros";
-  src: url(../../frontend/bluesky/bluesky_armania_funiture_2/en_US/fonts/CarosBold.eot);
   src: url(../../frontend/bluesky/bluesky_armania_funiture_2/en_US/fonts/CarosBold.eot?#iefix)
       format("embedded-opentype"),
-    url(../../frontend/bluesky/bluesky_armania_funiture_2/en_US/fonts/CarosBold.woff)
+    url('CarosBold.woff')
       format("woff"),
-    url(../../frontend/bluesky/bluesky_armania_funiture_2/en_US/fonts/CarosBold.ttf)
-      format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Caros";
-  src: url(../../frontend/bluesky/bluesky_armania_funiture_2/en_US/fonts/CarosMedium.eot);
-  src: url(../../frontend/bluesky/bluesky_armania_funiture_2/en_US/fonts/CarosMedium.eot)
-      format("embedded-opentype"),
-    url(../../frontend/bluesky/bluesky_armania_funiture_2/en_US/fonts/CarosMedium.woff2)
-      format("woff2"),
-    url(../../frontend/bluesky/bluesky_armania_funiture_2/en_US/fonts/CarosMedium.woff)
-      format("woff"),
-    url(../../frontend/bluesky/bluesky_armania_funiture_2/en_US/fonts/CarosMedium.ttf)
-      format("truetype"),
-    url(../../frontend/bluesky/bluesky_armania_funiture_2/en_US/fonts/CarosMedium.svg#CarosMedium)
-      format("svg");
-  font-weight: 500;
+  
+  src: url('CarosMedium.woff2') format("woff2"),
+      font-weight: 500;
+    
 }
