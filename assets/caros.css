@@ -1,19 +1,26 @@
 @font-face {
-  font-family: "Caros";
-  src: url(../../frontend/bluesky/bluesky_armania_funiture_2/en_US/fonts/CarosBold.eot?#iefix)
-      format("embedded-opentype"),
-    url('CarosBold.woff')
-      format("woff"),
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'Caros';
+    src: url('CarosBold.eot');
+    src: url('CarosBold.eot?#iefix') format('embedded-opentype'),
+        url('CarosBold.woff2') format('woff2'),
+        url('CarosBold.woff') format('woff'),
+        url('CarosBold.svg#CarosBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
+
 @font-face {
-  font-family: "Caros";
-  
-  src: url('CarosMedium.woff2') format("woff2"),
-      font-weight: 500;
-    
+    font-family: 'CarosMedium';
+    src: url('CarosMedium.eot');
+    src: url('CarosMedium.eot?#iefix') format('embedded-opentype'),
+        url('CarosMedium.woff2') format('woff2'),
+        url('CarosMedium.woff') format('woff'),
+        url('CarosMedium.svg#CarosMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
+
 
 .header__inline-menu .list-menu li.level-0>a {font-family: 'Caros' !important;}
