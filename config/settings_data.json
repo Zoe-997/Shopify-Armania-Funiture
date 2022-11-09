@@ -2151,9 +2151,9 @@
           "7d96da94-803e-4e3f-a753-11822a5887ef"
         ],
         "settings": {
-          "title": "",
-          "show_logo": false,
-          "logo": "shopify:\/\/shop_images\/freeship.png",
+          "title": "jkjkjkjk",
+          "show_logo": true,
+          "logo": "shopify:\/\/shop_images\/4.png",
           "logo_max_width": 80,
           "bg_menu": "#0a2748",
           "color_text": "#ffffff",
@@ -3585,7 +3585,6 @@
           },
           "tell_me_custom-1": {
             "type": "instagram",
-            "disabled": true,
             "settings": {
               "name_instagram": "Name instagram",
               "url": "",
