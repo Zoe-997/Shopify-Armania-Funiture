@@ -2027,6 +2027,7 @@
           },
           "mobile_menu-0": {
             "type": "menu_mb",
+            "disabled": true,
             "settings": {
               "title": "Home",
               "url": "shopify:\/\/collections",
@@ -2040,6 +2041,7 @@
           },
           "mobile_menu-1": {
             "type": "menu_mb",
+            "disabled": true,
             "settings": {
               "title": "Shop",
               "url": "shopify:\/\/collections\/laptop-computer",
@@ -2053,6 +2055,7 @@
           },
           "mobile_menu-2": {
             "type": "menu_mb",
+            "disabled": true,
             "settings": {
               "title": "page",
               "url": "",
@@ -2135,6 +2138,7 @@
           },
           "73ae6801-2756-4b51-b04f-1793ebef8617": {
             "type": "menu_mb",
+            "disabled": true,
             "settings": {
               "title": "Heading",
               "url": "",
