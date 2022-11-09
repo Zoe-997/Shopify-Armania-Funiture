@@ -2152,7 +2152,7 @@
         ],
         "settings": {
           "title": "",
-          "show_logo": true,
+          "show_logo": false,
           "logo": "shopify:\/\/shop_images\/freeship.png",
           "logo_max_width": 80,
           "bg_menu": "#0a2748",
@@ -3577,7 +3577,6 @@
         "blocks": {
           "tell_me_custom-0": {
             "type": "logo",
-            "disabled": true,
             "settings": {
               "title": "Heading",
               "title_cl": "#c6452c",
@@ -3640,7 +3639,6 @@
           },
           "tell_me_custom-7": {
             "type": "contact",
-            "disabled": true,
             "settings": {
               "header_use_social": true,
               "type_social": "2"
