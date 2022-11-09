@@ -2027,7 +2027,6 @@
           },
           "mobile_menu-0": {
             "type": "menu_mb",
-            "disabled": true,
             "settings": {
               "title": "Home",
               "url": "shopify:\/\/collections",
@@ -2041,7 +2040,6 @@
           },
           "mobile_menu-1": {
             "type": "menu_mb",
-            "disabled": true,
             "settings": {
               "title": "Shop",
               "url": "shopify:\/\/collections\/laptop-computer",
@@ -2055,7 +2053,6 @@
           },
           "mobile_menu-2": {
             "type": "menu_mb",
-            "disabled": true,
             "settings": {
               "title": "page",
               "url": "",
@@ -2135,6 +2132,19 @@
               "show_icon": true,
               "icon": "<i class=\"icon-heart\"><\/i>"
             }
+          },
+          "73ae6801-2756-4b51-b04f-1793ebef8617": {
+            "type": "menu_mb",
+            "settings": {
+              "title": "Heading",
+              "url": "",
+              "open_link": "_self",
+              "menu": "main-menu",
+              "show_icon": true,
+              "icon": "<i class=\"las la-campground\"><\/i>",
+              "lb": "ok",
+              "lb_cl": ""
+            }
           }
         },
         "block_order": [
@@ -2148,7 +2158,8 @@
           "mobile_menu-7",
           "mobile_menu-8",
           "89bef4c4-843e-4294-b143-b6c915f66301",
-          "7d96da94-803e-4e3f-a753-11822a5887ef"
+          "7d96da94-803e-4e3f-a753-11822a5887ef",
+          "73ae6801-2756-4b51-b04f-1793ebef8617"
         ],
         "settings": {
           "title": "jkjkjkjk",
