@@ -92,7 +92,7 @@
     "product_collection_show_availability": false,
     "product_collection_show_reviews": true,
     "product_collection_hide_reviews_counter": true,
-    "product_collection_hide_empty_reviews": false,
+    "product_collection_hide_empty_reviews": true,
     "product_collection_show_options": false,
     "product_collection_enable_hover_image": false,
     "product_collection_show_button_add_to_cart": true,
