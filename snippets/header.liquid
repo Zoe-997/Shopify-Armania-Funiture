@@ -481,7 +481,7 @@
           {% render 'header-cart'%}
 
           {% unless customer %}
-            <div class="signin display-mobile  hidden--">
+            <div class="signin display-mobile">
               <a href="{{routes.root_url | append: '/' | replace_first  : '//', '/' }}account/login" data-id="#login_pupop" class="push_side header-icon" title="{{'customer.login.sign_in' | t}}" >
                 {% render 'icon-user' %}
                 <span>{{'customer.login.sign_in' | t}}</span>
