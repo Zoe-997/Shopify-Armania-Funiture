@@ -3,8 +3,8 @@
   			{% assign type_social = block.settings.type_social | plus: 0 %}
          <div class="tell_me_2">
             <div class="tell_me_2_item login-signup">
-                <a href="" class="login__link">Login</a>
-                <a href="" class="login__link">Register</a>
+                <a href="{{routes.root_url | append: '/' | replace_first  : '//', '/' }}account/login" class="login__link">Login</a>
+                <a href="{{routes.root_url | append: '/' | replace_first  : '//', '/' }}account/login" class="login__link">Register</a>
                 <a href="" class="login__link">Check out</a>
             </div>
             
