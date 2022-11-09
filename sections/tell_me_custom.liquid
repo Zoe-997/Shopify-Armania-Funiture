@@ -14,7 +14,7 @@
                             {% assign showRoundFlag = settings.show_round_flag %}
                             <li class="item-list shop-language language-shop {% if showFlag %}show-flag{% endif %}{% if showRoundFlag %} show-round-flag{% endif %}" data-title="{{'general.multi_shop.language_label' | t}}"
                                 data-language-flag-map='{"en" : "gb"}'>
-                              <span>Language</span>
+                              <span class="parent-list-name" >Language</span>
                               <a data-code="{{shop.locale}}" href="javascript:void(0);" class="item-active toggle-tab-body">
                                 {% if showFlag %}<img class="flag" src="" data-src="{{shop.locale | prepend: 'flag_' | append: '.png' | asset_url }}" />{% endif %}
                                 <span class="current">{{shop.locale | upcase}}</span></span>
@@ -34,7 +34,7 @@
                             </li>
                           {% endif %}
                          <li class="language item-list currency-shop" data-title="{{ 'general.multi_shop.currency_label' | t }}">
-                             <span>Currencies</span>
+                             <span class="parent-list-name" >Currencies</span>
                             {% render 'currency-picker' %}
                             <a href="javascript:void(0);" class="toggle-submenu">                
                               <span class="lang-currency">{% if settings.default_currency != blank %}{{ settings.default_currency }}{% else %}{{ shop.currency }}{% endif %}</span><span class="icon"><i class="organey-icon-dropdown"></i></span>
