@@ -37,7 +37,7 @@
                              <span class="parent-list-name" >Currencies</span>
                             {% render 'currency-picker' %}
                             <a href="javascript:void(0);" class="toggle-submenu">                
-                              <span class="lang-currency">{% if settings.default_currency != blank %}{{ settings.default_currency }}{% else %}{{ shop.currency }}{% endif %}</span><span class="icon"><i class="organey-icon-dropdown"></i></span>
+                              <span class="lang-currency">{% if settings.default_currency != blank %}{{ settings.default_currency }}{% else %}{{ shop.currency }}{% endif %}</span><span class="icon"><i class="fa fa-angle-down"></i></span>
                             </a>  
                             <ul class="{{ shop.currency }} list-currencies currency-lists child-list list-unstyled">         
                               {% assign codes = 'USD,EUR,GBP,CAD,ARS,AUD,BBD,BDT,BSD,BHD,BRL,BOB,BND,BGN,ILS,MMK,KYD,CLP,CNY,COP,CRC,HRK,CZK,DKK,DOP,XCD,EGP,XPF,FJD,GHS,GTQ,GYD,GEL,HKD,HUF,ISK,INR,IDR,NIS,JMD,JPY,JOD,KZT,KES,KWD,LVL,LTL,MXN,MYR,MUR,MDL,MAD,MNT,MZN,ANG,NZD,NGN,NOK,OMR,PKR,PYG,PEN,PHP,PLN,QAR,RON,RUB,SAR,RSD,SCR,SGD,SYP,ZAR,KRW,LKR,SEK,CHF,TWD,THB,TZS,TTD,TRY,UAH,AED,UYU,VEB,VND,ZMK' | split: ',' %}
