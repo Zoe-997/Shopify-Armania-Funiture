@@ -3184,7 +3184,7 @@
           "bc40aab0-98a6-45a1-b6f2-f09d133d0eaf": {
             "type": "menu",
             "settings": {
-              "title": "",
+              "title": "Support",
               "menu": "footer-c3",
               "show_border": false
             }
@@ -3192,7 +3192,7 @@
           "1ac388c4-ae99-449a-80ac-e3386a74f207": {
             "type": "menu",
             "settings": {
-              "title": "",
+              "title": "My acount",
               "menu": "footer-c2",
               "show_border": false
             }
