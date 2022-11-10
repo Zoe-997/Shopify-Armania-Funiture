@@ -3335,7 +3335,7 @@
           "cl_bg": "#ffffff",
           "use-slider": true,
           "slides-To-Scroll": 1,
-          "visible": 5,
+          "visible": 4,
           "widescreen": 4,
           "desktop": 4,
           "laptop": 3,
