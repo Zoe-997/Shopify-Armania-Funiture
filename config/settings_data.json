@@ -36,7 +36,7 @@
     "color_price": "#000000",
     "color_label_out": "#636363",
     "color_btn_product": "#000000",
-    "background_btn_product": "rgba(0,0,0,0)",
+    "background_btn_product": "#ffd800",
     "border_btn_product": "rgba(0,0,0,0)",
     "color_btn_product_hover": "#000000",
     "background_btn_product_hover": "#ffd800",
