@@ -2028,7 +2028,7 @@
           "mobile_menu-0": {
             "type": "menu_mb",
             "settings": {
-              "title": "Home",
+              "title": "",
               "url": "shopify:\/\/collections",
               "open_link": "_self",
               "menu": "main-menu",
