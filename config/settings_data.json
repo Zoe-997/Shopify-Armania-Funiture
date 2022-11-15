@@ -3108,7 +3108,7 @@
           "arrows": false,
           "fade": false,
           "adaptive-Height": false,
-          "dots": false,
+          "dots": true,
           "infinite": true,
           "padding": 0,
           "vertical": false,
