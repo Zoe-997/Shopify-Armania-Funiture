@@ -2052,7 +2052,6 @@
           },
           "mobile_menu-2": {
             "type": "menu_mb",
-            "disabled": true,
             "settings": {
               "title": "page",
               "url": "",
@@ -2066,7 +2065,6 @@
           },
           "mobile_menu-3": {
             "type": "menu_mb",
-            "disabled": true,
             "settings": {
               "title": "Blog",
               "url": "shopify:\/\/blogs\/cameras",
