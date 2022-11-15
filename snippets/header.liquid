@@ -512,14 +512,12 @@
   .header__heading-logo {
     max-width: {{ settings.logo_max_width }}px;
   }
-
- @media(min-width: {{ settings.container_width }}){
-    .header .inner-header> .full-width,
+.header .inner-header> .full-width,
     .header .inner-header> .container{
       padding-left: {{ section.settings.header_width_distance }}px;
       padding-right: {{ section.settings.header_width_distance }}px;
     }
-  }
+
 
   {% if section.settings.menu_mega_style_desktop == 'style2' %}
     .header>.container {
