@@ -2031,7 +2031,7 @@
               "title": "Home",
               "url": "shopify:\/\/collections",
               "open_link": "_self",
-              "menu": "",
+              "menu": "main-menu",
               "show_icon": false,
               "icon": "<i class=\"las la-campground\"><\/i>",
               "lb": "",
