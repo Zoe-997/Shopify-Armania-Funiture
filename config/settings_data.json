@@ -2018,7 +2018,6 @@
         "blocks": {
           "f325d060-17e0-48d9-9ffd-d011701dedc8": {
             "type": "search",
-            "disabled": true,
             "settings": {
               "title": "Search",
               "show_icon": true,
