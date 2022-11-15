@@ -297,7 +297,7 @@
               <nav class="main-menu">
                 <ul class="list-menu list-menu--inline" role="list">
                   {%- for link in section.settings.menu.links -%}
-                    <li id="Details-HeaderMenu-{{ forloop.index }}" class="nav-{{ forloop.index }} level-0 dropdown">
+                    <li id="Details-HeaderMenu-{{ forloop.index }}" class="nav-{{ forloop.index }} level-0 dropdown{%- if link.child_active %} _active{% endif %}">
                       <a href="{{ link.url }}" class="header__menu-item header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
                         <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                         {%- if link.links != blank -%}{% render 'icon-caret' %}{%- endif -%}
