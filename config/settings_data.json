@@ -2018,6 +2018,7 @@
         "blocks": {
           "f325d060-17e0-48d9-9ffd-d011701dedc8": {
             "type": "search",
+            "disabled": true,
             "settings": {
               "title": "Search",
               "show_icon": true,
@@ -2144,6 +2145,20 @@
               "lb": "ok",
               "lb_cl": ""
             }
+          },
+          "26206ee6-fb22-4cf9-b19f-f09af19319dc": {
+            "type": "menu_mb",
+            "disabled": true,
+            "settings": {
+              "title": "Heading",
+              "url": "",
+              "open_link": "_self",
+              "menu": "",
+              "show_icon": false,
+              "icon": "<i class=\"las la-campground\"><\/i>",
+              "lb": "",
+              "lb_cl": ""
+            }
           }
         },
         "block_order": [
@@ -2158,7 +2173,8 @@
           "mobile_menu-8",
           "89bef4c4-843e-4294-b143-b6c915f66301",
           "7d96da94-803e-4e3f-a753-11822a5887ef",
-          "73ae6801-2756-4b51-b04f-1793ebef8617"
+          "73ae6801-2756-4b51-b04f-1793ebef8617",
+          "26206ee6-fb22-4cf9-b19f-f09af19319dc"
         ],
         "settings": {
           "title": "jkjkjkjk",
