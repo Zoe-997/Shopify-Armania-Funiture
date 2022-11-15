@@ -297,7 +297,7 @@
               <nav class="main-menu">
                 <ul class="list-menu list-menu--inline" role="list">
                   {%- for link in section.settings.menu.links -%}
-                    <li id="Details-HeaderMenu-{{ forloop.index }}" class="nav-{{ forloop.index }} level-0 dropdown{%- if link.child_active %} _active{% endif %}">
+                    <li id="Details-HeaderMenu-{{ forloop.index }}" class="nav-{{ forloop.index }} level-0 dropdown">
                       <a href="{{ link.url }}" class="header__menu-item header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
                         <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                         {%- if link.links != blank -%}{% render 'icon-caret' %}{%- endif -%}
@@ -336,7 +336,7 @@
                 <ul class="list-menu list-menu--inline" role="list">
                   {%- for link in section.settings.menu.links -%}
                     {% assign item_dropdown = section.settings.item_dropdown %} 
-                    <li id="Details-HeaderMenu-{{ forloop.index }}" class="nav-{{ forloop.index }} level-0{% if item_dropdown contains forloop.index %} dropdown{% endif %}{%- if link.child_active %} _active{% endif %}">
+                    <li id="Details-HeaderMenu-{{ forloop.index }}" class="nav-{{ forloop.index }} level-0{% if item_dropdown contains forloop.index %} dropdown{% endif %}">
                       <a href="{{ link.url }}" class="header__menu-item header__menu-item list-menu__item link link--text focus-inset"{% if link.current %} aria-current="page"{% endif %}>
                         <span {%- if link.child_active %} class="header__active-menu-item"{% endif %}>{{ link.title | escape }}</span>
                         {%- if link.links != blank -%}{% render 'icon-caret' %}{%- endif -%}
@@ -369,7 +369,7 @@
                             <div class="inner-megamenu{% if section.settings.menu_mega_style_desktop == 'style1' %} container{% endif %}">
                               <ul class="list-menu--disclosure caption-large motion-reduce">
                                 {%- for childlink in link.links -%}
-                                  <li id="Details-HeaderSubMenu-{{ forloop.index }}" class="nav-{{ forloop.index }} level-1 {%- if link.child_active %} _active{% endif %}">
+                                  <li id="Details-HeaderSubMenu-{{ forloop.index }}" class="nav-{{ forloop.index }} level-1">
                                       <div class="header__menu-heading">
                                         <a href="{{ childlink.url }}" class="header__menu-item list-menu__item link link--text{% if childlink.current %} list-menu__item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                                           {{ childlink.title | escape }}
