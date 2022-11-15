@@ -2018,7 +2018,6 @@
         "blocks": {
           "f325d060-17e0-48d9-9ffd-d011701dedc8": {
             "type": "search",
-            "disabled": true,
             "settings": {
               "title": "Search",
               "show_icon": true,
@@ -2027,7 +2026,6 @@
           },
           "mobile_menu-0": {
             "type": "menu_mb",
-            "disabled": true,
             "settings": {
               "title": "Home",
               "url": "shopify:\/\/collections",
@@ -2041,7 +2039,6 @@
           },
           "mobile_menu-1": {
             "type": "menu_mb",
-            "disabled": true,
             "settings": {
               "title": "Shop",
               "url": "shopify:\/\/collections\/laptop-computer",
@@ -2167,7 +2164,7 @@
         ],
         "settings": {
           "title": "jkjkjkjk",
-          "show_logo": true,
+          "show_logo": false,
           "logo": "shopify:\/\/shop_images\/4.png",
           "logo_max_width": 80,
           "bg_menu": "#0a2748",
