@@ -514,7 +514,7 @@
     max-width: {{ settings.logo_max_width }}px;
   }
 
-  @media(min-width: 1480px){
+ @media(min-width: {{ settings.container_width }}){
     .header .inner-header> .full-width,
     .header .inner-header> .container{
       padding-left: {{ section.settings.header_width_distance }}px;
