@@ -15,7 +15,7 @@
                             <li class="item-list shop-language language-shop {% if showFlag %}show-flag{% endif %}{% if showRoundFlag %} show-round-flag{% endif %}" data-title="{{'general.multi_shop.language_label' | t}}"
                                 data-language-flag-map='{"en" : "gb"}'>
                               <span class="parent-list-name" >Language</span>
-                              <a data-code="{{shop.locale}}" href="javascript:void(0);" class="item-active toggle-tab-body">
+                              <a data-code="{{shop.locale}}" href="javascript:void(0);" class="item-active toggle-submenu toggle-tab-body">
                                 {% if showFlag %}<img class="flag" src="" data-src="{{shop.locale | prepend: 'flag_' | append: '.png' | asset_url }}" />{% endif %}
                                 <span class="current">{{shop.locale | upcase}}</span></span>
                                 <span class="icon"><i class="fa fa-angle-down"></i></span>
