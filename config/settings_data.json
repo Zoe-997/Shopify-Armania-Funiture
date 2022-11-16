@@ -3541,7 +3541,7 @@
           "padding": 15,
           "cl_bg": "#ffffff",
           "cl_ic": "#daf260",
-          "cl_hd": "#111111",
+          "cl_hd": "#000000",
           "cl_cot": "#888888",
           "margin_bottom": 0,
           "padding_top_tablet": 20,
