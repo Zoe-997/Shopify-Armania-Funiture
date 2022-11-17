@@ -2586,7 +2586,7 @@ $(function ($) {
                     closeMenu();
                     if (!_this.hasClass(classActive)) { openMenu(_this, _id, $id) }
                 });
-                $(document).on("click touchstart", ".mask-overlay, .act_opened, .close_popup_ajax", function (e) {
+                $(document).on("click touchstart", ".mask-overlay, .act_opened .close_popup_ajax", function (e) {
                     closeMenu();
                     $('html').trigger('maskOverlayOff');
                 });
