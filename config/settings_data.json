@@ -2180,7 +2180,7 @@
           "show_logo": false,
           "logo": "shopify:\/\/shop_images\/4.png",
           "logo_max_width": 80,
-          "bg_menu": "#0a2748",
+          "bg_menu": "#52e8ec",
           "color_text": "#ffffff",
           "color_text_hover": "#fcbe00",
           "bd_color": "#113762"
