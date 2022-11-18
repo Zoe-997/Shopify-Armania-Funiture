@@ -2096,6 +2096,7 @@
           },
           "mobile_menu-7": {
             "type": "account",
+            "disabled": true,
             "settings": {
               "title": "Login \/ Register",
               "show_icon": false,
