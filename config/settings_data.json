@@ -2376,8 +2376,8 @@
           "no_show_popup_again": "I would like to receive news and special offers.",
           "max_width": "600",
           "max_height": "600",
-          "timeout": 10,
-          "day_next": 1
+          "timeout": 0,
+          "day_next": 0
         }
       },
       "collection-sidebar2": {
