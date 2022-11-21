@@ -2366,7 +2366,7 @@
       "promotion-newsletter-popup": {
         "type": "promotion-newsletter-popup",
         "settings": {
-          "use_newsletter_popup": true,
+          "use_newsletter_popup": false,
           "bg_color": "#08223c",
           "sub_title_newslette": "SIGN UP FOR OUR NEWSLETTER & PROMOTIONS !",
           "title_newslette": "Sale 20% OFF",
